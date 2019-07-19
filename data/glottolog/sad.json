@@ -1,0 +1,25 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [],
+    "description": null,
+    "family_pk": null,
+    "father_pk": null,
+    "hid": "sad",
+    "id": "sand1273",
+    "iso639-3": "sad",
+    "jsondata": {},
+    "latitude": -5.26918,
+    "level": "language",
+    "longitude": 35.4808,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Sandawe",
+    "newick": "'Sandawe [sand1273][sad]-l-':1",
+    "pk": 24,
+    "status": "vulnerable"
+}

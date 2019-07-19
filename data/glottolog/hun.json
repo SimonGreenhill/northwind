@@ -1,0 +1,31 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 10,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "ural1272",
+            "name": "Uralic",
+            "url": "http://glottolog.org/resource/languoid/id/ural1272"
+        }
+    ],
+    "description": null,
+    "family_pk": 383,
+    "father_pk": 383,
+    "hid": "hun",
+    "id": "hung1274",
+    "iso639-3": "hun",
+    "jsondata": {},
+    "latitude": 46.9068585714,
+    "level": "language",
+    "longitude": 19.6555271429,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Hungarian",
+    "newick": "('Alfold [alfo1240]':1,'Csango [csan1238]':1,'Danube-Tisza [danu1247]':1,'King''s Pass Hungarian [king1257]':1,'Northeast Hungarian [nort2669]':1,'Northwest Hungarian [nort2670]':1,'Oberwart [ober1242]':1,'Sz\u00e9kely [szek1241]':1,'West Danube [west2389]':1,'West Hungarian [west2388]':1)'Hungarian [hung1274][hun]-l-':1",
+    "pk": 1736,
+    "status": "severely endangered"
+}

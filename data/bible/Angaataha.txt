@@ -1,0 +1,66 @@
+﻿# Reference:
+
+# Online Bible:
+http://paralleltext.info/data/agm-x-bible/
+
+# Language:
+Angaataha
+
+# ISO Code:
+ISO 639-3: agm
+
+# Consonant Inventory:
+p, t, č, k, ʔ, ř, m, n, ŋ, w, j
+
+# Orthorgraphy consonant phoneme correspondences:
+<p> = /p/, <t> = /t/, <k> = /k/, <h> = /ʔ/, <r> = /ř/, <m> = /m/,
+<n> = /n/, <ng> = /ŋ/ <w> = /w/, <y> = /j/ 
+
+# Vowel Inventory:
+i, e, a, aː, u, o, ɨ
+
+# Orthography vowel phoneme correspondences:
+ <i> = /i/, <e> = /e/, <a> = /a/, <aa> = /aː/, <u> = /u/, <o> = /o/, <ɨ> = /ɨ/
+
+# Minimal pairs:
+Not found in any of the resources.
+ 
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~č/ /p~k/ /p~ʔ/ /p~m/ /p~w/ /t~č/ /t~k/ /t~ʔ/ /t~n/ /č~k/ /č~ʔ/ /k~ʔ/ /k~ŋ/ /m~n/ /m~ŋ/
+ /n~ŋ/ /m~w/ /j~w/
+ /i~e/ /i~ɨ/ /a~aː/ /u~o/ /ɨ~a/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /i~u/ /e~a/ /u~a/ /e~o/ 
+
+# Transcript:
+
+# Notes:
+Tones: High <́> Low <̀> High-low glide <̂>
+Minimal pairs taken from Lloyd 1973.
+
+# Orthography Notes:
+Tone is not marked in bible orthography.
+
+# Resources: 
+
+https://www.ethnologue.com/language/agm
+
+http://phoible.org/inventories/view/203
+
+Phoible data based on:
+Huisman, Ronald. 1973. Angaataha Verb Morphology. Linguistics 110. 43–54.
+Huisman, Ronald D. and Huisman, Roberta D. and Lloyd, Joyce. 1981. Angaatiha Syllable Patterns. In Healey, Phyllis (ed.), Angan Languages are Different, 51–62. Ukarumpa: Summer Institute of Linguistics.
+Huisman, Ronald and Joyce Lloyd. 1981. Angaatiha Tone, Stress, and Length. In Healey, Phyllis (ed.), Angan Languages are Different, 63–82. Ukarumpa: Summer Institute of Linguistics.
+
+http://transnewguinea.org/language/angaataha
+
+Transnewguinea.org data based on:
+Lloyd, RG. 1973. The Angan Language Family. Pp. 31-107. In Franklin, KJ. (Ed). The Linguistic Situation in the Gulf District and Adjacent Area, Papua New Guinea. Canberra: Pacific Linguistics
+
+http://www-01.sil.org/pacific/png/pubs/928474556074/Angaataha_Tentative_Grammar_Description_final.pdf
+Eko, Robert & Mack Graham. 2013. Tentative Description for the Angaataha language spoken in Morobe Province. SIL Language and Culture Archives.
+
+http://www-01.sil.org/pacific/png/pubs/928474542317/Angaataha.pdf
+Organised Phonology Data Angaatiha, Ronald Huisman.
+

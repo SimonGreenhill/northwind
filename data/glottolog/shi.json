@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "berb1260",
+            "name": "Berber",
+            "url": "http://glottolog.org/resource/languoid/id/berb1260"
+        },
+        {
+            "id": "kaby1244",
+            "name": "Kabyle-Atlas Berber",
+            "url": "http://glottolog.org/resource/languoid/id/kaby1244"
+        },
+        {
+            "id": "atla1275",
+            "name": "Atlas Berber",
+            "url": "http://glottolog.org/resource/languoid/id/atla1275"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 5015,
+    "hid": "shi",
+    "id": "tach1250",
+    "iso639-3": "shi",
+    "jsondata": {},
+    "latitude": 29.7854,
+    "level": "language",
+    "longitude": -7.77879,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Tachelhit",
+    "newick": "('Susiua [susi1238]':1)'Tachelhit [tach1250][shi]-l-':1",
+    "pk": 7278,
+    "status": "safe"
+}

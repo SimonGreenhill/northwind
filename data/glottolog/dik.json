@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 11,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "nilo1247",
+            "name": "Nilotic",
+            "url": "http://glottolog.org/resource/languoid/id/nilo1247"
+        },
+        {
+            "id": "west2493",
+            "name": "Western Nilotic",
+            "url": "http://glottolog.org/resource/languoid/id/west2493"
+        },
+        {
+            "id": "dink1261",
+            "name": "Dinka-Nuer",
+            "url": "http://glottolog.org/resource/languoid/id/dink1261"
+        },
+        {
+            "id": "dink1262",
+            "name": "Dinka",
+            "url": "http://glottolog.org/resource/languoid/id/dink1262"
+        }
+    ],
+    "description": null,
+    "family_pk": 428,
+    "father_pk": 5206,
+    "hid": "dik",
+    "id": "sout2832",
+    "iso639-3": "dik",
+    "jsondata": {},
+    "latitude": 8.81115,
+    "level": "language",
+    "longitude": 28.0613,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Southwestern Dinka",
+    "newick": "('Abiem [abie1238]':1,'Aguok [aguo1238]':1,'Apuk [apuk1238]':1,'Awan [awan1239]':1,'Lau {Nilotic} [lauu1246]':1,'Luac {Southwestern Dinka} [luac1242]':1,'Malual [malu1244]':1,'Paliet [pali1277]':1,'Palioupiny [pali1276]':1,'Rek [rekk1238]':1,'Tuic {Southwestern Dinka} [tuic1246]':1)'Southwestern Dinka [sout2832][dik]-l-':1",
+    "pk": 7527,
+    "status": "safe"
+}

@@ -1,0 +1,56 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/haw-x-bible/41/001/
+
+# Language:
+Hawaiian
+
+#ISO Code:
+639-3: haw
+
+# Consonant Inventory:
+ p, k(k, t), ʔ, h, l, m, n, w(w, v)  
+
+# Orthography consonant phoneme correspondences:
+<h>=/h/ <k>=/k/ <l>=/l/ <m>=/m/ <n>=/n/ <p>=/p/ <w>=/w/ <'>=/ʔ/    
+
+# Vowel Inventory:
+a, e, i, o, u, aː, eː, iː, oː, uː
+
+
+# Orthography vowel phoneme correspondences:
+<a>=/a/ <e>=/e/ <i>=/i/ <o>=/o/ <u>=/u/ <aa>=/aː/ <ee>=/e:/ <ii>=/iː/ <oo>=/o:/ <uu>=/uː/
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/h~ʔ/ /k~ʔ/ /l~n/ /m~n/ /k~p/ /p~ʔ/
+ /i~e/ /u~o/ /a~aː/ /e~eː/ /i~iː/ /o~oː/ /u~uː/ /eː~iː/ /oː~uː/
+
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/h~k/ /p~m/ /k~n/ /p~w/
+/a~e/ /a~i/ /a~u/ /i~u/ /aː~eː/ /aː~iː/ /aː~uː/ /iː~uː/
+
+# Transcript:
+
+
+
+# Notes:
+
+A different, common, version of the orthography uses macrons over vowels to indicate length.
+In the bible translation a double letter symbol is used instead. 
+
+# References:
+
+Elbert, Samuel H. & Mary Kawena Pukui. 1979.Hawaiian Grammar. The University Press of Hawaii: Honolulu.
+
+Pukui, Mary Kawena & Samuel H. Elbert. 1986. Hawaiian Dictionary: Hawaiian-English, English-Hawaiian. University of Hawaii Press: Honolulu.
+
+Hopkins, Alberta Pualani. 1992. Ka Lei Ha 'Aheo: Beinning Hawaiian. University of Hawaii Press: Honolulu.
+
+https://en.wikipedia.org/wiki/Hawaiian_language#Orthography
+
+ 	

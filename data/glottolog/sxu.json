@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "fran1268",
+            "name": "Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/fran1268"
+        },
+        {
+            "id": "high1287",
+            "name": "High Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/high1287"
+        },
+        {
+            "id": "rhin1244",
+            "name": "Rhine Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/rhin1244"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11430,
+    "hid": "sxu",
+    "id": "uppe1400",
+    "iso639-3": "sxu",
+    "jsondata": {},
+    "latitude": 51.152,
+    "level": "language",
+    "longitude": 12.692,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Upper Saxon",
+    "newick": "('Hessian [hess1238]':1,'Thuringian [thur1252]':1)'Upper Saxon [uppe1400][sxu]-l-':1",
+    "pk": 14168,
+    "status": "safe"
+}

@@ -1,0 +1,36 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "tsim1258",
+            "name": "Tsimshian",
+            "url": "http://glottolog.org/resource/languoid/id/tsim1258"
+        },
+        {
+            "id": "nish1242",
+            "name": "Nishga-Gitxsan",
+            "url": "http://glottolog.org/resource/languoid/id/nish1242"
+        }
+    ],
+    "description": null,
+    "family_pk": 278,
+    "father_pk": 1502,
+    "hid": "git",
+    "id": "gitx1241",
+    "iso639-3": "git",
+    "jsondata": {},
+    "latitude": 55.09,
+    "level": "language",
+    "longitude": -128.08,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Gitxsan",
+    "newick": "('Gitsken [gits1238]':1,'Nuclear Gitxsan [nucl1650]':1)'Gitxsan [gitx1241][git]-l-':1",
+    "pk": 2887,
+    "status": "severely endangered"
+}

@@ -1,0 +1,31 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "arau1255",
+            "name": "Araucanian",
+            "url": "http://glottolog.org/resource/languoid/id/arau1255"
+        }
+    ],
+    "description": null,
+    "family_pk": 346,
+    "father_pk": 346,
+    "hid": "arn",
+    "id": "mapu1245",
+    "iso639-3": "arn",
+    "jsondata": {},
+    "latitude": -38.7392,
+    "level": "language",
+    "longitude": -71.277,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Mapudungun",
+    "newick": "('Moluche [molu1245]':1,'Pehuenche [pehu1241]':1,'Picunche [picu1247]':1)'Mapudungun [mapu1245][arn]-l-':1",
+    "pk": 1604,
+    "status": "definitely endangered"
+}

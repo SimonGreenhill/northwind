@@ -1,0 +1,25 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 11,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [],
+    "description": null,
+    "family_pk": null,
+    "father_pk": null,
+    "hid": "eus",
+    "id": "basq1248",
+    "iso639-3": "eus",
+    "jsondata": {},
+    "latitude": 43.2787,
+    "level": "language",
+    "longitude": -1.31622,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Basque",
+    "newick": "('Alavan [aval1237]':1,'Alto Navarro Meridional [alto1237]':1,'Alto Navarro Septentrional [alto1238]':1,'Basque/ Souletin [basq1250]':1,'Biscayan [bisc1236]':1,'Guipuzcoan [guip1235]':1,('Eastern Low Navarrese [east1470]':1,'Labourdin [labo1236]':1,'Western Low Navarrese [west1508]':1)'Navarro-Labourdin Basque [basq1249][bqe]':1,'Roncalese [ronc1236]':1)'Basque [basq1248][eus]-l-':1",
+    "pk": 354,
+    "status": "vulnerable"
+}

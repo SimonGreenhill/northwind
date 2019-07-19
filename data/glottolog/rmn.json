@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 10,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1322",
+            "name": "Indo-Aryan Central zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1322"
+        },
+        {
+            "id": "roma1329",
+            "name": "Romani",
+            "url": "http://glottolog.org/resource/languoid/id/roma1329"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6143,
+    "hid": "rmn",
+    "id": "balk1252",
+    "iso639-3": "rmn",
+    "jsondata": {},
+    "latitude": 42.67,
+    "level": "language",
+    "longitude": 21.17,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Balkan Romani",
+    "newick": "('Arlija [arli1238]':1,'Dzambazi [dzam1241]':1,'East Bulgarian Romani [east2313]':1,'Greek Romani [gree1277]':1,'Ironworker Romani [iron1243]':1,'Paspatian [pasp1238]':1,'Tinners Romani [tinn1238]':1,'Tinsmiths [tins1238]':1,'Urs\u00e1ri [ursa1238]':1,'Zargari [zarg1238]':1)'Balkan Romani [balk1252][rmn]-l-':1",
+    "pk": 8719,
+    "status": "safe"
+}

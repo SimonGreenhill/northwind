@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "nort3175",
+            "name": "North Sea Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3175"
+        },
+        {
+            "id": "alts1234",
+            "name": "Alts\u00e4chsisch",
+            "url": "http://glottolog.org/resource/languoid/id/alts1234"
+        },
+        {
+            "id": "midd1345",
+            "name": "Middle-Modern Low German",
+            "url": "http://glottolog.org/resource/languoid/id/midd1345"
+        },
+        {
+            "id": "lowg1239",
+            "name": "Low German",
+            "url": "http://glottolog.org/resource/languoid/id/lowg1239"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 14160,
+    "hid": "pdt",
+    "id": "plau1238",
+    "iso639-3": "pdt",
+    "jsondata": {},
+    "latitude": 49.578028,
+    "level": "language",
+    "longitude": -109.353868,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Plautdietsch",
+    "newick": "'Plautdietsch [plau1238][pdt]-l-':1",
+    "pk": 16670,
+    "status": "definitely endangered"
+}

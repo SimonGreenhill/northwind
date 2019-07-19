@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "ijoi1239",
+            "name": "Ijoid",
+            "url": "http://glottolog.org/resource/languoid/id/ijoi1239"
+        },
+        {
+            "id": "ijoo1239",
+            "name": "Ijo",
+            "url": "http://glottolog.org/resource/languoid/id/ijoo1239"
+        },
+        {
+            "id": "east2383",
+            "name": "Eastern Ijo",
+            "url": "http://glottolog.org/resource/languoid/id/east2383"
+        },
+        {
+            "id": "kaki1245",
+            "name": "KaKiBa-Nkoroo",
+            "url": "http://glottolog.org/resource/languoid/id/kaki1245"
+        },
+        {
+            "id": "kaki1246",
+            "name": "KaKiBa",
+            "url": "http://glottolog.org/resource/languoid/id/kaki1246"
+        }
+    ],
+    "description": null,
+    "family_pk": 324,
+    "father_pk": 7029,
+    "hid": "ijn",
+    "id": "kala1381",
+    "iso639-3": "ijn",
+    "jsondata": {},
+    "latitude": 4.53194,
+    "level": "language",
+    "longitude": 6.69539,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Kalabari",
+    "newick": "'Kalabari [kala1381][ijn]-l-':1",
+    "pk": 9622,
+    "status": "safe"
+}

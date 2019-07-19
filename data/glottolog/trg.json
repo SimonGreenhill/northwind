@@ -1,0 +1,76 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 7,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "semi1276",
+            "name": "Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/semi1276"
+        },
+        {
+            "id": "west2786",
+            "name": "West Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/west2786"
+        },
+        {
+            "id": "cent2236",
+            "name": "Central Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2236"
+        },
+        {
+            "id": "nort3165",
+            "name": "Northwest Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3165"
+        },
+        {
+            "id": "aram1259",
+            "name": "Aramaic",
+            "url": "http://glottolog.org/resource/languoid/id/aram1259"
+        },
+        {
+            "id": "east2680",
+            "name": "Eastern Aramaic",
+            "url": "http://glottolog.org/resource/languoid/id/east2680"
+        },
+        {
+            "id": "cent2217",
+            "name": "Central Eastern Aramaic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2217"
+        },
+        {
+            "id": "nort3241",
+            "name": "North-Eastern Neo-Aramaic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3241"
+        },
+        {
+            "id": "tran1290",
+            "name": "Trans-Zab",
+            "url": "http://glottolog.org/resource/languoid/id/tran1290"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 19211,
+    "hid": "trg",
+    "id": "lish1246",
+    "iso639-3": "trg",
+    "jsondata": {},
+    "latitude": 38.0,
+    "level": "language",
+    "longitude": 47.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Lish\u00e1n Did\u00e1n",
+    "newick": "(('Anatolia [anat1252]':1,'Salmas [salm1240]':1)'Northern Cluster Lish\u00e1n Did\u00e1n [nort3098]':1,('Mahabad [maha1304]':1,'Naghada [nagh1238]':1,'Ushno [ushn1238]':1)'Southern Cluster Lish\u00e1n Did\u00e1n [sout3077]':1)'Lish\u00e1n Did\u00e1n [lish1246][trg]-l-':1",
+    "pk": 20581,
+    "status": "definitely endangered"
+}

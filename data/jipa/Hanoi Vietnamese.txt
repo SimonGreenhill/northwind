@@ -1,0 +1,48 @@
+﻿# Reference:
+10.1017/S0025100311000181
+
+# Language:
+Hanoi Vietnamese
+
+#ISO Code:
+vie
+
+# Consonant Inventory:
+p(p, b, ɓ), ɓ, t(t, t̪, t̻), tʰ(tʰ, t̪ʰ, t̻ʰ), ɗ, tɕ, k(k, kp, kʷ), ʔ, 
+m, n, ɲ, ŋ(ŋ, ŋm, ŋ̟), f, v, s, z, x(x, xʷ), ɣ, h, w, j, l, r (r, z)
+
+# Vowel Inventory:
+i, e, ɛ, a(a, ă), ɔ, ɤ(ɤ, ɤ̆), o, ɯ(ɯ, ɯ̽), u, iə, ɯə, uə
+
+# Toneme Inventory:
+˧, ˨, ˦, ˩, ˥
+
+# Phoneme inventory size:
+40
+
+# Length of NWS audio file:
+34sec
+28sec
+
+# Audio:
+31
+
+# Transcript:
+zɔ˨˦ ɓɤ̆k˦˥ va˧˨ măt˨˩ tɕɤj˧˨ kaj˧˨˩˥ ɲaw˦ sɛm˦ aj˦ mɛŋ̟˨ hɤn˦ || tɕɔŋm˦ lukp ˦˥ ɗɔ˧˦
+| mot ˨˩ zu˦ xɛk˦˥ măk˨˩ mot˨˩ aw˧˦ xʷak˦˥ ɤm˨˦ ɗi˦ kʷa˦ || hɔ˨ zaw˦ kɛw˧˨ vɤj˨˦
+ɲaw˦ zăŋ˦˨ | ʔaj˦ la˦˨ ŋɯəj˧˨ ɗɤ̆w˧˨ tiən˦ ma˧˨ kɔ˨˦ tʰe˧˩˨ ɓăt˦˥ ŋɯəj˧˨ zu˦ xɛk˦˥ kiə˦
+| kɤj˧˩˨ ʔaw˨˦ | tʰi˧˨ sɛ˧˨˥ | ɗɯək˨˩ kɔj˦ la˧˨ mɛŋ̟˨ hɤn˦ || săw˦ ɗɔ˧˦ zɔ˧˦ ɓɤ̆k˦˥ ɓăt˦˥
+ɗɤ̆w˧˨ tʰoj˧˩˨ mɛŋ̟˨ het˦˥ sɯk˦˥ kɔ˨˦ tʰe˧˩˨ | ɲɯŋ˦ kaŋ˧˨ tʰoj˧˩˨ | tʰi˧˨ ŋɯəj˧˨ zu˦ xɛk˦˥
+kaŋ˧˨ zɯ˧˨˥ tɕăt˨˩ ʔaw˨˦ xʷak˦˥ | va˧˨ kuj˨˦ kuŋm˧˨ | zɔ˨˦ ɓɤ̆k˦˥ ɗa˧˨˥ faj˧˩˨ tɯ˧˨ ɓɔ˧˩˨ ||
+săw˦ ɗɔ˨˦ | măt˨˩ tɕɤj˧˨ sɯej˧˩˨ ʔɤ̆m˨˦ | va˧˨ ŋɯəj˧˨ zu˦ xɛk˦˥ liən˧˨ kɤj˧˩˨ ʔaw˨˦ xʷak˦˥
+‖ket˦˥ kukp˨˩ la˧˨ | zɔ˨˦ ɓɤ̆k˦˥ faj˧˩˨ tʰɯə˧˨ ɲɤ̆n˨ zăŋ˧˨ | măt˨˩ tɕɤj˧˨ la˧˨ ŋɯəj˧˨ mɛŋ̟˨
+hɤn˦ tɕɔŋm˦ haj˦ ŋɯəj˧˨
+
+
+# Notes:
+There are 8 tones.  In the transcription they are expressed word finally by the phonetic
+tone level markers. 
+˦ (level) ˧˨ (mid falling)  ˨˦ (rising) ˦˥ (rising checked) ˨ (low glottalized) ˨˩ (low checked) ˥˩˨ (low falling) ˨˩˥ (broken)
+
+# Errors:
+/ə/ not in phoneme inventory, but in transcript.

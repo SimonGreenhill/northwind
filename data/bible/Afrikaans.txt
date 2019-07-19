@@ -1,0 +1,64 @@
+﻿# Reference:
+
+
+# Online Bible:
+Gospel of Mark
+http://paralleltext.info/data/afr-x-bible-1953/41/
+http://paralleltext.info/data/afr-x-bible-1983/41/
+http://paralleltext.info/data/afr-x-bible-1983/41/
+http://paralleltext.info/data/afr-x-bible-boodskap/41/
+http://paralleltext.info/data/afr-x-bible-lewende/41/
+http://paralleltext.info/data/afr-x-bible-viralmal/41/
+
+# Language:
+Afrikaans
+
+#ISO Code:
+639-3: afr
+
+# Consonant Inventory:
+p, t, k, b, d, f, s, x, v, ɦ, m, n, ŋ, l, r 
+
+
+# Orthography consonant phoneme correspondences:
+<b>=/b/, <d>=/d/, <f>=/f/, <g>=/x/, <h>=/ɦ/, <j>=/j/, <k>=/k/, <l>=/l/, <m>=/m/, 
+<n>=/n/, <p>=/p/, <r>=/r/, <s>=/s/, <t>=/t/, <v>=/f/, <w>=/v/
+     
+
+# Vowel Inventory:
+i, y, u, ɪ̈, ɛ, œ, ɔ, a, iː, yː, uː, ɛː, œː, ɔː, aː, əi, 
+œi, œu, oə, øə, eə, ai, iu, ui, oːi, aːi
+
+
+# Orthography vowel phoneme correspondences:
+<a>=/a/, <e>=/ɛ/, <i>=/ɪ̈/, <ie>=/i/, <o>=/ɔ/, <oe>-<œ>=/u/, <u>=/œ/, <uu>-<u>=/y/, 
+<aa>-<a>=/aː/, <ê>=/ɛː/, <î>=/ɪ̈ː/, <ô>=/ɔː/, <û>=/œː/, <ee>-<e>=/eə/, <eu>-/øə/, 
+<oo>-<o>=/oə/, <ei>-<y>=/əi/, <ou>=/œu/, <ui>=/œi/, <ɑi>=/ai/, <oi>=/ɔi/,
+<ɑɑi>=/aːi/, <ooi>=/oːi/, <oei>=/ui/, <eeu>=/iu/, <ieu>=/iu/
+
+# Minimal pairs differing in a single phonetic feature:
+/p~t/ /p~k/ /p~b/ /t~k/ /t~d/ /t~s/ /k~x/ /b~d/ /b~m/ /d~n/ /d~l/ /d~r/ /f~s/ /f~x/ 
+/s~x/ /v~ɦ/ /m~n/ /m~ŋ/ /n~ŋ/ /n~l/ /n~r/ /l~r/
+/i~y/ /i~ɪ̈/ /i~ɛ/ /i~iː/ /i~əi/ /i~œi/ /i~ai/ /i~iu/ /i~ui/ /i~oːi/ /i~aːi/ /y~u/ /y~œ/ 
+/y~yː/ /u~ɔ/ /u~uː/ /u~œu/ /u~iu/ /u~ui/ /ɪ̈~œ/ /ɪ̈~ɛ/ /ɛ~œ/ /ɛ~ɛː/ /œ~ɔ/ /œ~œː/ /œ~œi/ 
+/œ~œu/ /ɔ~ɔː/ /a~aː/ /a~ai/ /iː~yː/ /yː~œː/ /uː~ɔː/ /ɛː~œː/ /œː~ɔː/ /aː~aːi/ /əi~œi/ /əi~ai/ 
+/əi~ui/ /əi~oːi/ /əi~aːi/ /œi~ai/ /œi~ui/ /œi~oːi/ /œi~aːi/ /œu~iu/ /oə~øə/ /oə~eə/ 
+/øə~eə/ /ai~ui/ /ai~oːi/ /ai~aːi/ /iu~ui/ /ui~oːi/ /ui~aːi/ /oːi~aːi/
+
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/p~f/ /b~v/   
+/i~u/ /i~a/ /u~a/ /ɔ~a/ /ɛ~a/ /ɛː~aː/  
+
+# Orthographic marking of tone:
+
+
+
+
+# Transcript:
+
+
+
+# Notes:
+A grammar of Afrikaans  Donaldson, B. C. (Bruce C.), 1948-  Berlin ; New York : Mouton de Gruyter, 1993
+CHIFLEY 	 PF861.D58 1993 	 	

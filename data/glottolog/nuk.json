@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "waka1280",
+            "name": "Wakashan",
+            "url": "http://glottolog.org/resource/languoid/id/waka1280"
+        },
+        {
+            "id": "sout2981",
+            "name": "Southern Wakashan",
+            "url": "http://glottolog.org/resource/languoid/id/sout2981"
+        },
+        {
+            "id": "noot1238",
+            "name": "Nootkan",
+            "url": "http://glottolog.org/resource/languoid/id/noot1238"
+        }
+    ],
+    "description": null,
+    "family_pk": 343,
+    "father_pk": 3027,
+    "hid": "nuk",
+    "id": "nuuc1236",
+    "iso639-3": "nuk",
+    "jsondata": {},
+    "latitude": 49.67,
+    "level": "language",
+    "longitude": -126.67,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Nuu-chah-nulth",
+    "newick": "'Nuu-chah-nulth [nuuc1236][nuk]-l-':1",
+    "pk": 4800,
+    "status": "critically endangered"
+}

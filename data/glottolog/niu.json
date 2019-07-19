@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "cent2237",
+            "name": "Central-Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2237"
+        },
+        {
+            "id": "east2712",
+            "name": "Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/east2712"
+        },
+        {
+            "id": "ocea1241",
+            "name": "Oceanic",
+            "url": "http://glottolog.org/resource/languoid/id/ocea1241"
+        },
+        {
+            "id": "cent2060",
+            "name": "Central Pacific linkage",
+            "url": "http://glottolog.org/resource/languoid/id/cent2060"
+        },
+        {
+            "id": "east2445",
+            "name": "Tokelau-Fijian",
+            "url": "http://glottolog.org/resource/languoid/id/east2445"
+        },
+        {
+            "id": "poly1242",
+            "name": "Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/poly1242"
+        },
+        {
+            "id": "tong1324",
+            "name": "Tongic",
+            "url": "http://glottolog.org/resource/languoid/id/tong1324"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 16119,
+    "hid": "niu",
+    "id": "niue1239",
+    "iso639-3": "niu",
+    "jsondata": {},
+    "latitude": -19.06,
+    "level": "language",
+    "longitude": -169.86,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Niuean",
+    "newick": "'Niuean [niue1239][niu]-l-':1",
+    "pk": 18289,
+    "status": "definitely endangered"
+}

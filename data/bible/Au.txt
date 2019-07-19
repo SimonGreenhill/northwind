@@ -1,0 +1,51 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/avt-x-bible/41/001/
+
+# Language:
+Au
+
+#ISO Code:
+639-3: avt
+
+# Consonant Inventory:
+p, t, k, s, x, m, n, r, w, j
+
+# Orthography consonant phoneme correspondences:
+<p>=/p/ <t>=/t/ <k>=/k/ <s>=/s/ <g>=/x/ <m>=/m/ <n>=/n/ <r>=/r/ <y>=/j/
+ <w>=/w/
+   
+
+# Vowel Inventory:
+i, ɨ, u, ə, o, a, aː, au, iu, ei, ai 
+
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <u>=/u/ <ɨ>=/ɨ/ <a>=/a/ <aa>=/aː/ <ə>=/e/ <o>=/o/
+<au>=/au/ <iu>=/iu/ <ei>=/ei/ <ai>=/ai/ 
+
+# Orthographic marking of tone:
+
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~k/ /t~k/ /t~s/ /k~x/ /s~x/ /m~n/ /w~j/ 
+/i~ɨ/ /a~aː/ /ɨ~ə/ /o~u/ /au~iu/ /ei~ai/ /u~au/ /u~iu/ /i~ei/ /i~ai/ /a~ai/ /a~au/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/r~w/ /r~j/ /p~m/ /t~n/ /t~r/
+/i~u/ /ɨ~u/ /ə~o/ 
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+Scorza, David. 2008 [1971]. Phonemes of the Au language.
+http://www-01.sil.org/pacific/png/pubs/928474531021/Au_Phonemes.pdf
+
+
+ 	

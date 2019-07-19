@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 8,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "sout3147",
+            "name": "South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3147"
+        },
+        {
+            "id": "west2804",
+            "name": "Western South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2804"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6114,
+    "hid": "slv",
+    "id": "slov1268",
+    "iso639-3": "slv",
+    "jsondata": {},
+    "latitude": 46.2543,
+    "level": "language",
+    "longitude": 14.7766,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Slovenian",
+    "newick": "('Cividale [civi1238]':1,'Lower Carniola [lowe1384]':1,'Prekmurski [prek1239]':1,'Primorski [prim1242]':1,'Resia [resi1246]':1,'Stajerski [staj1239]':1,'Upper Carniola [uppe1393]':1,'Windisch [wind1243]':1)'Slovenian [slov1268][slv]-l-':1",
+    "pk": 8643,
+    "status": "definitely endangered"
+}

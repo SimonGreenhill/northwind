@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 20,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "turk1311",
+            "name": "Turkic",
+            "url": "http://glottolog.org/resource/languoid/id/turk1311"
+        },
+        {
+            "id": "comm1245",
+            "name": "Common Turkic",
+            "url": "http://glottolog.org/resource/languoid/id/comm1245"
+        },
+        {
+            "id": "oghu1243",
+            "name": "Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/oghu1243"
+        },
+        {
+            "id": "nucl1769",
+            "name": "Nuclear Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1769"
+        },
+        {
+            "id": "west2406",
+            "name": "West Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/west2406"
+        },
+        {
+            "id": "azer1255",
+            "name": "Central Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/azer1255"
+        },
+        {
+            "id": "mode1262",
+            "name": "Modern Azeric",
+            "url": "http://glottolog.org/resource/languoid/id/mode1262"
+        }
+    ],
+    "description": null,
+    "family_pk": 116,
+    "father_pk": 11769,
+    "hid": "azj",
+    "id": "nort2697",
+    "iso639-3": "azj",
+    "jsondata": {},
+    "latitude": 40.9777,
+    "level": "language",
+    "longitude": 46.4737,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "North Azerbaijani",
+    "newick": "('Airym [airy1239]':1,'Baku [baku1259]':1,'Borcala [borc1242]':1,'Derbend Azerbaijani [derb1245]':1,'Ganja [ganj1240]':1,'Karapapak [kara1470]':1,'Lenkaran [lenk1246]':1,'Nakhchivan [nakh1244]':1,'Nukha [nukh1239]':1,'Ordubad [ordu1239]':1,'Qabala [qaba1238]':1,'Qazakh [qaza1238]':1,'Quba {Turkic} [quba1245]':1,'Qyzylbash [qyzy1236]':1,'Salyan [saly1245]':1,'Shamakhi [sham1275]':1,'Shusha [shus1247]':1,'Terekeme [tere1273]':1,'Yerevan [yere1242]':1,'Zaqatala {Turkic} [zaqa1241]':1)'North Azerbaijani [nort2697][azj]-l-':1",
+    "pk": 14623,
+    "status": "safe"
+}

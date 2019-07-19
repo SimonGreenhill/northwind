@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "atla1278",
+            "name": "Atlantic-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/atla1278"
+        },
+        {
+            "id": "volt1241",
+            "name": "Volta-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/volt1241"
+        },
+        {
+            "id": "benu1247",
+            "name": "Benue-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/benu1247"
+        },
+        {
+            "id": "delt1251",
+            "name": "Delta Cross",
+            "url": "http://glottolog.org/resource/languoid/id/delt1251"
+        },
+        {
+            "id": "obol1242",
+            "name": "Lower Cross",
+            "url": "http://glottolog.org/resource/languoid/id/obol1242"
+        },
+        {
+            "id": "cent2253",
+            "name": "Central Lower Cross",
+            "url": "http://glottolog.org/resource/languoid/id/cent2253"
+        },
+        {
+            "id": "efik1244",
+            "name": "Efik-Ibibio",
+            "url": "http://glottolog.org/resource/languoid/id/efik1244"
+        }
+    ],
+    "description": null,
+    "family_pk": 10,
+    "father_pk": 10356,
+    "hid": "ibb",
+    "id": "ibib1240",
+    "iso639-3": "ibb",
+    "jsondata": {},
+    "latitude": 5.15279,
+    "level": "language",
+    "longitude": 7.86688,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Ibibio",
+    "newick": "('Central Ibibio [cent2030]':1,'Enyong [enyo1238]':1,'Itak [itak1238]':1,'Nsit [nsit1238]':1)'Ibibio [ibib1240][ibb]-l-':1",
+    "pk": 13193,
+    "status": "safe"
+}

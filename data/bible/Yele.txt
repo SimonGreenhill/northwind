@@ -1,0 +1,89 @@
+﻿# Reference:
+Henderson 1995
+
+# Online Bible:
+Gospel of Mark
+http://paralleltext.info/data/yle-x-bible/41/
+
+# Language:
+Yele
+
+#ISO Code:
+ISO 639-3: yle
+
+
+# Consonant Inventory:
+p, m, βʲ, w, t̪, n̪, t(t, ɾ), n, l, j, k, ŋ, ɣ, mb, n̪d̪, nd, ŋg, tnʲ, kŋ, n̪͡m, n͡m, ŋ͡m, t̪͡p, t͡p, k͡p, l͡β,
+n̪͡md̪͡b, n͡md͡b, ŋ͡mg͡b, t͡pn͡m, k͡pŋ͡m, pʲ, pʷ, pʲʷ, tʃ, t̪͡pʲ, tʲ, t͡pʲ, kʲ, k͡pʲ, kʷ, mbʲ, mbʷ, mbʲʷ, ndʒ, n̪͡md̪͡bʲ, ndʲ, 
+ŋgʷ, tn, kŋ, tnʲ, t͡pn͡mʲ, mʲ, nʲ, mʷ, ŋʷ, mʲʷ, lʲ
+
+
+# Orthography consonant phoneme correspondences:
+/p/=<p>, /m/=<m>, /βʲ/=<vy>, /w/=<w>, /t̪/=<t>, /n̪/~<ń>, /t/=<d>, /n/=<n>, /l/=<l>, /j/=<y>, /k/=<k>, /ŋ/=<ng>,
+ /ɣ/=<gh>, /mb/=<mb>, /n̪d̪/=<nt>, /nd/=<nd>, /ŋg/=<nk>, /tnʲ/=<dn>, /kŋ/=<kn>,
+/t̪͡p/=<tp>, /t͡p/=<dp>, /k͡p/=<kp>, /n̪͡m/=<ńm>, /n͡m/=<nm>, /ŋ͡m/=<ngm>, /l͡β/=<lv>,
+/n̪͡md̪͡b/=<mt>, /n͡md͡b/=<md>, /ŋ͡mg͡b/=<mg>, /t͡pn͡m/=<dm>, /k͡pŋ͡m/=<km>, /pʲ/=<py>, /pʷ/=<pw>, /pʲʷ/=<pyw>, /tʃ/=<ch>, 
+/t̪͡pʲ/=<tpy>, /tʲ/=<ty>, /t͡pʲ/=<dpy>, /kʲ/=<ky>, /k͡pʲ/=<kpy>, /kʷ/=<kw>, /mbʲ/=<mby>, /mbʷ/=<mby>, /mbʲʷ/=<mbyw>, 
+/ndʒ/=<nj>, /n̪͡md̪͡bʲ/=<mty>, /ndʲ/=<ndy>, /mbʷ/=<mbw>, /mbʲʷ/=<mbyw>, /ŋgʷ/=<nkw>, /tn/=<dn>, /kŋ/=<kn>, 
+/tnʲ/=<dny>, /t͡pn͡mʲ/=<dmy>, /mʲ/=<my>, /nʲ/=<ny>, /mʷ/=<mw>, /ŋʷ/=<ngw>, /mʲʷ/=<myw>, /lʲ/=<ly> 
+     
+
+# Vowel Inventory:
+i, e, ɛ, æ, a, ɨ, ə, ɑ, u(u, ʉ), o, ɔ,
+iː, eː, ɛː, æː, aː, ɨː, əː, ɑː, uː, oː, ɔː, 
+ĩ, ɛ̃, ã, ɨ̃, ə̃, ɑ̃, ũ, ɔ̃,
+ĩː, ɛ̃ː, ãː, ɨ̃ː, ə̃ː, ɑ̃ː, ũː, ɔ̃ː
+
+
+# Orthography vowel phoneme correspondences:
+/i/ = <i>, /e/ = <é>, /ɛ/ = <e/, /æ/ = <á>, /a/ = <a>, /ɨ/ = <î>, /ə/ = <ê>, /ɑ/ = <â>, /u/ = <u>, /o/ = <ó>, 
+/ɔ/ = <o>, /ĩ/ = <:i>, /ɛ̃/=<ːe>, /ã/=<:a>, /ɨ̃/=<:î>, /ə̃/=<:ê>, /ã/=<:â>, /ũ/=<:u>, 
+/ɔ̃/=<:o>, /ɑ̃/=<:â>, /iː/=<ii>, /eː/=<éé>, /ɛː/=<ee>, /æː/=<áá>, /aː/=<aa>, /ɨː/=<îî>, /əː/=<êê>, /ɑː/=<ââ>, /uː/=<uu>, 
+/oː/=<óó>, /ɔː/=<oo>,/ĩː/=<:ii>, /ɛ̃ː/=<:ee>, /ãː/=<:aa>, /ɨ̃:/=<:îî>, /ə̃ː/=<:êê>, /ɑ̃ː/=<:ââ>, /ũː/=<:uu>, /ɔ̃ː/=<:oo>
+
+# Size of phoneme inventory:
+94 phonemes
+     
+
+# Orthographic marking of tone:
+
+
+# Minimal pairs differing in only a single phonetic feature:
+/i~e/ /i~ɨ/ /i~ɛ/ /i~æ/ /i~a/ /ɨ~ə/ /ɛ~ə/ /e~ɛ/ /e~æ/ /e~a/ /ɛ~æ/ /ɛ~a/ /æ~a/ /a~ɑ/ /u~o/ /u~ɔ/ /o~ɔ/ /ə~ɔ/ /ɨ~u/
+/i~iː/ /i~ĩ/ /iː~ĩ/ /e~eː/ /e~ẽ/ /eː~ẽ/ /ɛ~ɛː/ /ɛ~ɛ̃/ /ɛː~ɛ̃/ /æ~æː/ /æ~æ̃/
+/p~t̪/ /p~t/ /p~k/ /m~n̪/ /m~n/ /m~ŋ/ /m~mʷ/ /m~mʲʷ/ /m~mʲ/ /n̪~n/ /n̪~ŋ/ /n̪~n̪͡m/
+/t~k/ /t~tnʲ/ /t~t͡p/ /t~tʲ/ /t~t͡pʲ/ /t~tn/ /n~ŋ/ /n~nʲ/ /n~l/ /l~lβ/ /l~ʲ/
+/k~kŋ/ /k~k͡p/ /k~kʲ/ /k~kʷ/ /ŋ~ŋ͡m/ /ŋ~ŋʷ/ /mb~n̪d̪/ /mb~nd/ /mb~ŋg/
+/n̪d̪~nd/ /n̪d̪~ŋg/ /n̪d̪~n̪͡md̪͡b/ /nd~ndʲ/ /mb~mbʷ/
+
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~u/ /i~ɑ/ /e~o/ /æ~ɑ/ /u~ɑ/ /ɔ~ɑ/ /ɛ~ɔ/ 
+/p~m/ /p~βʲ/ /p~t̪p/ /p~tp/ /p~kp/ /p~t͡pn͡m/ /p~k͡pŋ͡m/ /p~pʲ/ /p~pʷ/ /p~pʲʷ/
+/p~t̪pʲ/ /p~tʲ/ /p~tpʲ/ /p~kʲ/ /p~kpʲ/ /p~kʷ/ /p~tn/ /p~kŋ/ /p~tnʲ/ /p~tpnmʲ/
+/m~n̪͡m/ /n͡m/ /m~ŋm/ /m~nʲ/ /m~ŋʷ/ /m~w/ /βʲ~w/ /βʲ~ɣ/  /w~j/ /t̪~t/ /t̪~k/ /t̪~t̪p/ /t̪͡pʲ/ /t̪~n̪/ /t̪~n̪d̪/
+/n̪~n̪d/ /n̪~n̪͡md̪͡b/ /n̪~n̪͡md̪͡bʲ/ /t~nd/ /t~tʃ/ /t~tnʲ/ /t~t͡pnmʲ/ /n~nd/ 
+/k~ŋg/ /k~k͡pŋ͡m/ /k~k͡pʲ/ /ŋ~ŋg/  /ŋ~ŋ͡mg͡b/ /mb~mbʲʷ/ /n̪d̪~n̪͡md̪bʲ/
+
+
+# Transcript:
+
+
+
+# Notes:
+Phonology and grammar of Yele, Papua New Guinea  Henderson, James  Canberra : Dept. of Linguistics, Research School of Pacific and Asian Studies, the Australian National University, 1995
+		MENZIES 	 PL6621.Y36H46 1995
+Vowel inventory p1
+Consonant inventory p6
+
+"There is a gap in the distribution of the close vowels, in that non-nasalised [ɛ] and [a]
+rarely occur preceding [i] in the next syllable of the same morpheme, and non-nasalised [ɔ]
+rarely occurs preceding [u] in the next syllable of the same morpheme. The close
+counterparts [e], [æ] and [o] occur in these environments instead. The high vowel [ɨ] does
+not affect the quality of the vowel in the syllable before it." (Henderson 1995:3)
+
+"Simultaneous bilabial closure is marked in the practical orthography with a bilabial symbol of the same type...For example,
+stops have p added, nasals have m added and l has v added." (Henderson 1995:8)
+
+The superscript symbol [y] is used to indicate phonemic palatalisation in Henderson 1995, I was unable to reproduce this,
+and to be consistent with other languages I used a superscript [ʲ] instead.

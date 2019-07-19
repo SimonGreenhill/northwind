@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "basa1291",
+            "name": "Basap-Greater Barito",
+            "url": "http://glottolog.org/resource/languoid/id/basa1291"
+        },
+        {
+            "id": "grea1283",
+            "name": "Greater Barito linkage",
+            "url": "http://glottolog.org/resource/languoid/id/grea1283"
+        },
+        {
+            "id": "sama1302",
+            "name": "Sama-Bajaw",
+            "url": "http://glottolog.org/resource/languoid/id/sama1302"
+        },
+        {
+            "id": "sulu1242",
+            "name": "Sulu-Borneo",
+            "url": "http://glottolog.org/resource/languoid/id/sulu1242"
+        },
+        {
+            "id": "inne1244",
+            "name": "Inner Sulu Sama",
+            "url": "http://glottolog.org/resource/languoid/id/inne1244"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 10889,
+    "hid": "sml",
+    "id": "cent2092",
+    "iso639-3": "sml",
+    "jsondata": {},
+    "latitude": 7.004574,
+    "level": "language",
+    "longitude": 118.455978,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Central Sama",
+    "newick": "('Dilaut-Badjao [dila1238]':1)'Central Sama [cent2092][sml]-l-':1",
+    "pk": 13770,
+    "status": "safe"
+}

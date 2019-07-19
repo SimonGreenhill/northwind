@@ -1,0 +1,81 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "west2813",
+            "name": "Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2813"
+        },
+        {
+            "id": "shif1234",
+            "name": "Shifted Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/shif1234"
+        },
+        {
+            "id": "nort3208",
+            "name": "Northwestern Shifted Romance",
+            "url": "http://glottolog.org/resource/languoid/id/nort3208"
+        },
+        {
+            "id": "gall1280",
+            "name": "Gallo-Rhaetian",
+            "url": "http://glottolog.org/resource/languoid/id/gall1280"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 20443,
+    "hid": "fur",
+    "id": "friu1240",
+    "iso639-3": "fur",
+    "jsondata": {},
+    "latitude": 46.1473,
+    "level": "language",
+    "longitude": 13.0493,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Friulian",
+    "newick": "('Carnico [carn1239]':1,'East Central Friulian [east2271]':1,'Western Friulian [west2338]':1)'Friulian [friu1240][fur]-l-':1",
+    "pk": 21510,
+    "status": "vulnerable"
+}

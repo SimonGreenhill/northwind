@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "pama1250",
+            "name": "Pama-Nyungan",
+            "url": "http://glottolog.org/resource/languoid/id/pama1250"
+        },
+        {
+            "id": "aran1266",
+            "name": "Arandic-Thura-Yura",
+            "url": "http://glottolog.org/resource/languoid/id/aran1266"
+        },
+        {
+            "id": "aran1267",
+            "name": "Arandic",
+            "url": "http://glottolog.org/resource/languoid/id/aran1267"
+        },
+        {
+            "id": "aran1263",
+            "name": "Aranda",
+            "url": "http://glottolog.org/resource/languoid/id/aran1263"
+        }
+    ],
+    "description": null,
+    "family_pk": 66,
+    "father_pk": 3919,
+    "hid": "aer",
+    "id": "east2379",
+    "iso639-3": "aer",
+    "jsondata": {},
+    "latitude": -23.3583,
+    "level": "language",
+    "longitude": 135.046,
+    "macroareas": {
+        "australia": "Australia"
+    },
+    "markup_description": null,
+    "name": "Eastern Arrernte",
+    "newick": "('Akarre [akar1244]':1,'Antekerrepenh [ante1238]':1,'Ikngerripenhe [ikng1238]':1,'Mparntwe Arrernte [mpar1238]':1)'Eastern Arrernte [east2379][aer]-l-':1",
+    "pk": 5928,
+    "status": "definitely endangered"
+}

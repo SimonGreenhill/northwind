@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 11,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "atla1278",
+            "name": "Atlantic-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/atla1278"
+        },
+        {
+            "id": "mela1257",
+            "name": "Mel",
+            "url": "http://glottolog.org/resource/languoid/id/mela1257"
+        },
+        {
+            "id": "temn1245",
+            "name": "Northern Mel",
+            "url": "http://glottolog.org/resource/languoid/id/temn1245"
+        }
+    ],
+    "description": null,
+    "family_pk": 10,
+    "father_pk": 1908,
+    "hid": "tem",
+    "id": "timn1235",
+    "iso639-3": "tem",
+    "jsondata": {},
+    "latitude": 8.90294,
+    "level": "language",
+    "longitude": -12.3331,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Timne",
+    "newick": "('Banta [bant1282]':1,'Bombali [bomb1258]':1,'Kholifa [khol1238]':1,'Konike [koni1257]':1,'Koya {Sierra Leone} [koya1252]':1,'Malal [mala1470]':1,'Masingbi [masi1263]':1,'Ribia [ribi1242]':1,'Sanda {Loko} [sand1271]':1,'Western Temne [west2452]':1,'Yoni [yoni1238]':1)'Timne [timn1235][tem]-l-':1",
+    "pk": 3516,
+    "status": "safe"
+}

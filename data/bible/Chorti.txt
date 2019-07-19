@@ -1,0 +1,54 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/caa-x-bible/41/001/
+
+# Language:
+Chorti
+
+#ISO Code:
+639-3: caa
+
+# Consonant Inventory:
+ɓ, tʃ, tʃʼ, h, k, kʼ, l, m, n, ŋ, p, pʼ, q, qʼ, ɾ, s, t, tʼ, ts, tsʼ, w, ʃ, j, ʔ
+
+# Orthography consonant phoneme correspondences:
+ /ɓ/=<b'> /tʃ/=<ch> /tʃʼ/=<ch'> /h/-/x/=<j> /k/=<k>-<c>-<qu> /kʼ/=<k'>-<c'> /l/=<l>
+ /m/=<m> /n/=<n> /ŋ/=<ng> /p/=<p> /pʼ/=<p'> /q/=<q>-<k> /qʼ/=<q'> /ɾ/=<r> /s/=<s> 
+/t/=<t> /tʼ/=<t'> /ts/=<tz> /tsʼ/=<tz'> /w/=<w> /ʃ/=<x> /j/=<y> /ʔ/=<'>    
+
+# Vowel Inventory:
+a, e, i, o, u, aː, eː, iː, oː, uː, ai, ei, oi, ui      
+
+
+# Orthography vowel phoneme correspondences:
+/aː/=<aa> /a/=<a> /e/=<e> /eː/=<ee> /i/=<i> /iː/=<ii> /o/=<o> /oː/=<oo> /u/=<u> 
+/uː/=<uu> /ai/=<ay> /ei/=<ey> /oi/=<oy> /ui/=<uy>      
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/tʃ~tʃʼ/ /tʃ~ts/ /tʃʼ~tsʼ/ /h~s/ /h~ʃ/ /h~ʔ/ /k~kʼ/ /k~p/ /k~q/ /k~t/ k~ʔ/ /kʼ~pʼ/ /kʼ~qʼ/
+ /kʼ~tʼ/ /l~ɾ/ /l~n/ /m~n/ /m~ŋ/ /n~ŋ/ /p~pʼ/ /p~t/ /p~q/ /p~ʔ/ /pʼ~tʼ/ /pʼ~qʼ/ /q~qʼ/ 
+/q~t/ /q~ʔ/ /qʼ~tʼ/ /tʃ~t/ /tʃʼ~tʼ/ /ts~t/ /tsʼ~tʼ/ /s~ts/ /s~ʃ/ /t~tʼ/ /ts~tsʼ/ /w~j/
+/a~aː/ /e~eː/ /e~i/ /e~ei/ /i~iː/ /i~ai/ /i~ei/ /i~oi/ /i~ui/ /o~u/ /o~oː/ /u~uː/ 
+/u~ui/ /eː~iː/ /oː~uː/ /ai~ei/ /oi~ui/
+ 
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/ɓ~pʼ/ /ɓ~m/ /ɓ~p/ /k~ŋ/ /m~p/ /n~t/ /ɾ~t/
+/a~i/ /a~u/ /i~u/ /aː~iː/ /aː~uː/ /iː~uː/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+https://en.wikipedia.org/wiki/Ch%E2%80%99orti%E2%80%99_language 
+
+Oakley, Helen. 1966. Chorti. In Marvin K. Mayers (ed.), Languages of Guatemala, 235-250. 23: The Hague: Mouton. pp235-250
+
+http://www.native-languages.org/chorti_guide.htm	

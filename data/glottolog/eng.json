@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "nort3175",
+            "name": "North Sea Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3175"
+        },
+        {
+            "id": "angl1264",
+            "name": "Anglo-Frisian",
+            "url": "http://glottolog.org/resource/languoid/id/angl1264"
+        },
+        {
+            "id": "angl1265",
+            "name": "Anglian",
+            "url": "http://glottolog.org/resource/languoid/id/angl1265"
+        },
+        {
+            "id": "merc1242",
+            "name": "Mercian",
+            "url": "http://glottolog.org/resource/languoid/id/merc1242"
+        },
+        {
+            "id": "macr1271",
+            "name": "Macro-English",
+            "url": "http://glottolog.org/resource/languoid/id/macr1271"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 16660,
+    "hid": "eng",
+    "id": "stan1293",
+    "iso639-3": "eng",
+    "jsondata": {},
+    "latitude": 53.0,
+    "level": "language",
+    "longitude": -1.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "English",
+    "newick": "('Indian English [indi1255]':1,'Maltese English [malt1247]':1,'New Zealand English [newz1240]':1,'Pakistani English [paki1244]':1,'Sri Lankan English [sril1243]':1)'English [stan1293][eng]-l-':1",
+    "pk": 18765,
+    "status": "critically endangered"
+}

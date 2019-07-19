@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "mala1536",
+            "name": "Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/mala1536"
+        },
+        {
+            "id": "nort3170",
+            "name": "North and East Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/nort3170"
+        },
+        {
+            "id": "mala1538",
+            "name": "Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/mala1538"
+        },
+        {
+            "id": "nucl1733",
+            "name": "Nuclear Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1733"
+        },
+        {
+            "id": "beta1260",
+            "name": "Betawic",
+            "url": "http://glottolog.org/resource/languoid/id/beta1260"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 11011,
+    "hid": "coa",
+    "id": "coco1260",
+    "iso639-3": "coa",
+    "jsondata": {},
+    "latitude": -12.193342,
+    "level": "language",
+    "longitude": 96.833679,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Cocos Islands Malay",
+    "newick": "'Cocos Islands Malay [coco1260][coa]-l-':1",
+    "pk": 13899,
+    "status": "definitely endangered"
+}

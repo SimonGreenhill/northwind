@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "utoa1244",
+            "name": "Uto-Aztecan",
+            "url": "http://glottolog.org/resource/languoid/id/utoa1244"
+        },
+        {
+            "id": "sout3136",
+            "name": "Southern Uto-Aztecan",
+            "url": "http://glottolog.org/resource/languoid/id/sout3136"
+        },
+        {
+            "id": "tepi1240",
+            "name": "Tepiman",
+            "url": "http://glottolog.org/resource/languoid/id/tepi1240"
+        },
+        {
+            "id": "tepe1281",
+            "name": "Tepehuan",
+            "url": "http://glottolog.org/resource/languoid/id/tepe1281"
+        },
+        {
+            "id": "sout2975",
+            "name": "Southern Tepehuan",
+            "url": "http://glottolog.org/resource/languoid/id/sout2975"
+        }
+    ],
+    "description": null,
+    "family_pk": 378,
+    "father_pk": 7351,
+    "hid": "tep",
+    "id": "tepe1278",
+    "iso639-3": "tep",
+    "jsondata": {},
+    "latitude": 19.2343,
+    "level": "language",
+    "longitude": -101.729,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Tepecano",
+    "newick": "'Tepecano [tepe1278][tep]-l-':1",
+    "pk": 9924,
+    "status": "extinct"
+}

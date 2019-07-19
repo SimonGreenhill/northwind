@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "quec1387",
+            "name": "Quechuan",
+            "url": "http://glottolog.org/resource/languoid/id/quec1387"
+        },
+        {
+            "id": "quec1388",
+            "name": "Quechua II",
+            "url": "http://glottolog.org/resource/languoid/id/quec1388"
+        },
+        {
+            "id": "quec1384",
+            "name": "Quechua IIB",
+            "url": "http://glottolog.org/resource/languoid/id/quec1384"
+        },
+        {
+            "id": "colo1257",
+            "name": "Colombia-Ecuador Quechua IIB",
+            "url": "http://glottolog.org/resource/languoid/id/colo1257"
+        }
+    ],
+    "description": null,
+    "family_pk": 212,
+    "father_pk": 4546,
+    "hid": "quw",
+    "id": "tena1240",
+    "iso639-3": "quw",
+    "jsondata": {},
+    "latitude": -0.76271,
+    "level": "language",
+    "longitude": -77.5404,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Tena Lowland Quichua",
+    "newick": "'Tena Lowland Quichua [tena1240][quw]-l-':1",
+    "pk": 6782,
+    "status": "vulnerable"
+}

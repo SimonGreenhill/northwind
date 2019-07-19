@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 8,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "high1286",
+            "name": "High German",
+            "url": "http://glottolog.org/resource/languoid/id/high1286"
+        },
+        {
+            "id": "midd1349",
+            "name": "Middle-Modern High German",
+            "url": "http://glottolog.org/resource/languoid/id/midd1349"
+        },
+        {
+            "id": "mode1258",
+            "name": "Modern High German",
+            "url": "http://glottolog.org/resource/languoid/id/mode1258"
+        },
+        {
+            "id": "yidd1255",
+            "name": "Yiddish",
+            "url": "http://glottolog.org/resource/languoid/id/yidd1255"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 14179,
+    "hid": "ydd",
+    "id": "east2295",
+    "iso639-3": "ydd",
+    "jsondata": {},
+    "latitude": 51.75,
+    "level": "language",
+    "longitude": 19.42,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Eastern Yiddish",
+    "newick": "('Litvish [litv1235]':1,'Mideastern Yiddish [mide1238]':1,'Northeastern Yiddish [nort2632]':1,('Lodz Yiddish [lodz1235]':1)'Poylish [poyl1235]':1,'Southeastern Yiddish [sout2630]':1,('Bessarabian Yiddish [bess1237]':1)'Ukrainish [ukra1254]':1)'Eastern Yiddish [east2295][ydd]-l-':1",
+    "pk": 16689,
+    "status": "safe"
+}

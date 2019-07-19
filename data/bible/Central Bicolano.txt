@@ -1,0 +1,53 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/bcl-x-bible/41/001/
+
+# Language:
+Central Bicolano
+
+
+#ISO Code:
+639-3: bcl
+
+# Consonant Inventory:
+m, n, ɲ, ŋ, p, b, t, d, k, g, s, h, l, r, w, j, ʔ 
+
+# Loan phonemes:
+ts, ɟ, f, ç, v, z, ʎ  
+
+# Orthography consonant phoneme correspondences:
+<m>=/m/ <n>=/n/ <ɲ>=/ny <ng>=/ŋ/ <p>=/p/ <t>=/t/ <d>=/d/ <k>=/k/ 
+<g>=/g/ <s>=/s/ <h>=/h/ <l>=/l/ <r>=/r/ <w>=/w/ <y>=/j/ <'>=/ʔ/
+<ts>=/ts/ <j>=/ɟ/ <f>=/f/ <c>=/ç/ <v>=/v/ <z>=/z/ <ly>=/ʎ/    
+
+# Vowel Inventory:
+a, e, i, o, u
+
+# Orthography vowel phoneme correspondences:
+<a>=/a/ <e>=/e/ <i>=/i/ <o>=/o/ <u>=/u/   
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/m~n/ /m~ɲ/ /m~ŋ/ /m~b/ /n~ɲ/ /n~ŋ/ /n~d/ /n~l/ /n~r/ /ɲ~ŋ/ /ɲ~j/ /ŋ~g/
+/p~b/ /p~t/ /p~k/ /p~ʔ/ /b~d/ /b~g/ /t~d/ /t~k/ /t~ʔ/ /d~g/ /d~l/ /d~r/ 
+/k~g/ /s~h/ /l~r/ /w~j/ 
+/e~i/ /o~u/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/a~i/ /a~u/ /i~u/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+https://vagabonddrifter.wordpress.com/2008/04/19/new-bikol-orthography-part-1/
+
+http://www.adnu.edu.ph/blog/2014/11/14/off-the-press-guide-to-bikol-orthography/ 	
+
+Mintz, Malcolm W. 2001. Bikol. In Garry, Jane and Carl Rubino (eds.), Facts About the World's Languages, An Encyclopedia of the World's Languages: Past and Present, 90-95. New York/Dublin: HW Wilson.

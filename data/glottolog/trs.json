@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "otom1299",
+            "name": "Otomanguean",
+            "url": "http://glottolog.org/resource/languoid/id/otom1299"
+        },
+        {
+            "id": "east2557",
+            "name": "Eastern Otomanguean",
+            "url": "http://glottolog.org/resource/languoid/id/east2557"
+        },
+        {
+            "id": "amuz1253",
+            "name": "Amuzgo-Mixtecan",
+            "url": "http://glottolog.org/resource/languoid/id/amuz1253"
+        },
+        {
+            "id": "mixt1422",
+            "name": "Mixtecan",
+            "url": "http://glottolog.org/resource/languoid/id/mixt1422"
+        },
+        {
+            "id": "triq1251",
+            "name": "Trique",
+            "url": "http://glottolog.org/resource/languoid/id/triq1251"
+        }
+    ],
+    "description": null,
+    "family_pk": 381,
+    "father_pk": 7365,
+    "hid": "trs",
+    "id": "chic1273",
+    "iso639-3": "trs",
+    "jsondata": {},
+    "latitude": 17.1628,
+    "level": "language",
+    "longitude": -97.8547,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Chicahuaxtla Triqui",
+    "newick": "('Laguna [lagu1250]':1)'Chicahuaxtla Triqui [chic1273][trs]-l-':1",
+    "pk": 9959,
+    "status": "vulnerable"
+}

@@ -1,0 +1,31 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "cahu1265",
+            "name": "Cahuapanan",
+            "url": "http://glottolog.org/resource/languoid/id/cahu1265"
+        }
+    ],
+    "description": null,
+    "family_pk": 259,
+    "father_pk": 259,
+    "hid": "jeb",
+    "id": "jebe1250",
+    "iso639-3": "jeb",
+    "jsondata": {},
+    "latitude": -5.40317,
+    "level": "language",
+    "longitude": -76.4103,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Jebero",
+    "newick": "'Jebero [jebe1250][jeb]-l-':1",
+    "pk": 1472,
+    "status": "critically endangered"
+}

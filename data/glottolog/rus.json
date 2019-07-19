@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "east1426",
+            "name": "East Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/east1426"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 4048,
+    "hid": "rus",
+    "id": "russ1263",
+    "iso639-3": "rus",
+    "jsondata": {},
+    "latitude": 59.0,
+    "level": "language",
+    "longitude": 50.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Russian",
+    "newick": "('North Russian [nort2597]':1,'South Russian [sout2602]':1)'Russian [russ1263][rus]-l-':1",
+    "pk": 6109,
+    "status": "critically endangered"
+}

@@ -1,0 +1,50 @@
+﻿# Reference:
+
+
+# Online Bible:
+Gospel of Mark
+http://paralleltext.info/data/tpi-x-bible/41/
+
+# Language:
+Tok Pisin
+
+#ISO Code:
+
+
+# Consonant Inventory:
+p, b, t, d, k, g, v, s, h, m, n, ŋ, l, j, w, r
+
+
+# Orthography consonant phoneme correspondences:
+/p/=<p> /b/=<b> /t/=<t> /d/=<d> /k/=<k> /g/=<g> /v/=<v>
+/s/=<s> /h/=<h> /m/=<m> /n/=<n> /ŋ/=<ng> /l/=<l> /j/=<j>
+/w/=<w> /r/=<r>     
+
+# Vowel Inventory:
+i, e, a, o, u
+
+
+# Orthography vowel phoneme correspondences:
+/i/=<i> /e/=<e> /a/=<a> /o/=<o> /u/=<u>
+
+# Minimal pairs differing in single phonetic feature:
+/i~e/ /i~a/ /e~a/ /o~u/
+/p~b/ /p~t/ /p~k/ /b~d/ /b~g/ /b~m/ /t~d/ /t~k/ /t~s/ /d~g/ /d~n/ /d~r/ /d~l/ /k~g/ 
+/g~ŋ/ /s~h/ /m~n/ /m~ŋ/ /n~ŋ/ /l~r/ /j~w/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~u/ /e~o/ /u~a/     
+/v~s/ /v~h/ /b~v/
+
+# Orthographic marking of tone:
+
+
+# Transcript:
+
+
+
+# Notes:
+ 	Toward a reference grammar of Tok Pisin : an experiment in corpus linguistics  Verhaar, John W. M  Honolulu : University of Hawaii Press, 1995
+	MENZIES 	 PL5001.O25
+
+https://en.wikipedia.org/wiki/Tok_Pisin accessed 28/6/2016

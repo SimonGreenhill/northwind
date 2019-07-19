@@ -1,0 +1,61 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/cax-x-bible-1980/41/001/
+
+# Language:
+Chiquitano
+
+#ISO Code:
+639-3: cax
+
+# Consonant Inventory:
+p, t, c, k, ʔ, b, s, ʃ, ʂ, x, tʃ, m, n, ɲ, r, j 
+
+# Orthography consonant phoneme correspondences:
+/p/=<p> /t/=<t> /k/=<k>-<c>-<qu> /b/=<b> /s/=<s> /m/=<m> /n/=<n>  /r/=<r> /j/=<y>
+/ʔ/=<h> /tʃ/=<ch> /ʃ/=<rr> /ɲ/=<ñ>     
+
+# Vowel Inventory:
+i, e, ɨ, a, u, o, iː, ĩ, aː, ã, ɨː, ɨ̃, oː, õ, uː, ũ
+
+# Orthography vowel phoneme correspondences:
+/ɨ/=<ü> /i/=<i> /e/=<e> /a/=<a> /o/=<o> /u/=<u>  
+/aː/=<aa> /ã/=<an> /iː/=<ii> /ĩ/=<in> /eː/=<ee> 
+/ẽ/=<en> /ɨː/=<üü> /ɨ̃/=<ün> /oː/=<oo> /õ/=<on> /uː/=<uu> /ũ/=<un>   
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~c/ /p~k/ /p~ʔ/ /p~b/ /t~c/ /t~k/ /t~ʔ/ /t~s/ /c~k/ /c~ʔ/ /k~ʔ/ /k~x/ 
+/b~m/ /s~ʃ/ /s~ʂ/ /s~x/ /ʃ~ʂ/ /ʃ~x/ /ʃ~tʃ/ /ʂ~x/ /m~n/ /m~ɲ/ /n~ɲ/ /n~r/ /ɲ~j/
+/i~ĩ/ /i~ɨ/ /i~e/ /i~iː/ /ɨ~ɨ̃/ /ɨ~ɨː/  /a~aː/ /a~ã/ /u~o/ /u~ũ/ u~uː/ /o~oː/ /o~õ/ 
+/iː~ɨː/ /ĩ~ɨ̃/ /oː~uː/ /õ~ũ/
+
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/c~j/ /c~ɲ/
+/i~a/ /i~u/ /iː~aː/ iː~uː/ /ĩ~ã/ /ĩ~ũ/ /ɨ~u/ /ɨ̃~ũ/ /ɨː~uː/ 
+
+# Transcript:
+
+
+
+# Notes:
+Standard IPA symbols used here for the consonant sounds. In sources other symbols
+frequently used.
+
+/k/: <c> before <a, o, u, ü>, <qu> before <i, e>.
+
+
+
+
+# References:
+p480  Adelaar, Willem F.H., Muysken, Pieter C., Anderson, S.R. 2004. Cambridge Language Surveys: 
+The Languages of the Andes. 
+http://site.ebrary.com/lib/anuau/reader.action?docID=10131661#	
+
+https://ia600306.us.archive.org/7/items/rosettaproject_cax_ortho-2/rosettaproject_cax_ortho-2.pdf
+Krüsi, Martin, and Dorothee Krüsi. 1978. "Phonology of Chiquitano" In Ursula Wiesemann (ed.) Work Papers 
+of the Summer Institute of Linguistics Riberalta, Beni, Bolivia. 1972-1976. 53-93. Riberalta: SIL.

@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "kuki1245",
+            "name": "Kuki-Chin-Naga",
+            "url": "http://glottolog.org/resource/languoid/id/kuki1245"
+        },
+        {
+            "id": "naga1409",
+            "name": "Naga",
+            "url": "http://glottolog.org/resource/languoid/id/naga1409"
+        },
+        {
+            "id": "anga1312",
+            "name": "Angami-Ao",
+            "url": "http://glottolog.org/resource/languoid/id/anga1312"
+        },
+        {
+            "id": "anga1286",
+            "name": "Angami-Pochuri",
+            "url": "http://glottolog.org/resource/languoid/id/anga1286"
+        },
+        {
+            "id": "reng1253",
+            "name": "Rengma-Simi",
+            "url": "http://glottolog.org/resource/languoid/id/reng1253"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 9075,
+    "hid": "nsm",
+    "id": "sumi1235",
+    "iso639-3": "nsm",
+    "jsondata": {},
+    "latitude": 25.9996,
+    "level": "language",
+    "longitude": 94.4235,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Sumi Naga",
+    "newick": "('Dayang [daya1244]':1,'Lazemi [laze1239]':1,'Zhimomi [zhim1238]':1,'Zumomi [zumo1240]':1)'Sumi Naga [sumi1235][nsm]-l-':1",
+    "pk": 11999,
+    "status": "safe"
+}

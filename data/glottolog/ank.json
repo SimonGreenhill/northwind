@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "chad1250",
+            "name": "Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/chad1250"
+        },
+        {
+            "id": "west2785",
+            "name": "West Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/west2785"
+        },
+        {
+            "id": "west2714",
+            "name": "West Chadic A",
+            "url": "http://glottolog.org/resource/languoid/id/west2714"
+        },
+        {
+            "id": "west2799",
+            "name": "West Chadic A.2-3",
+            "url": "http://glottolog.org/resource/languoid/id/west2799"
+        },
+        {
+            "id": "west2717",
+            "name": "West Chadic A.3",
+            "url": "http://glottolog.org/resource/languoid/id/west2717"
+        },
+        {
+            "id": "anga1311",
+            "name": "Goemaic",
+            "url": "http://glottolog.org/resource/languoid/id/anga1311"
+        },
+        {
+            "id": "goem1241",
+            "name": "Goemai-Chakato",
+            "url": "http://glottolog.org/resource/languoid/id/goem1241"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 15389,
+    "hid": "ank",
+    "id": "goem1240",
+    "iso639-3": "ank",
+    "jsondata": {},
+    "latitude": 8.74455,
+    "level": "language",
+    "longitude": 9.72453,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Goemai",
+    "newick": "'Goemai [goem1240][ank]-l-':1",
+    "pk": 17487,
+    "status": "vulnerable"
+}

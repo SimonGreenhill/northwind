@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "chad1250",
+            "name": "Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/chad1250"
+        },
+        {
+            "id": "bium1280",
+            "name": "Biu-Mandara",
+            "url": "http://glottolog.org/resource/languoid/id/bium1280"
+        },
+        {
+            "id": "sout3145",
+            "name": "South Biu-Mandara",
+            "url": "http://glottolog.org/resource/languoid/id/sout3145"
+        },
+        {
+            "id": "bium1275",
+            "name": "Teraic",
+            "url": "http://glottolog.org/resource/languoid/id/bium1275"
+        },
+        {
+            "id": "west2707",
+            "name": "Western Tera",
+            "url": "http://glottolog.org/resource/languoid/id/west2707"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 9851,
+    "hid": "ttr",
+    "id": "tera1251",
+    "iso639-3": "ttr",
+    "jsondata": {},
+    "latitude": 11.0376,
+    "level": "language",
+    "longitude": 11.80953,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Tera",
+    "newick": "('Bura Kokura [bura1293]':1,'Nyimatli [nyim1251]':1,'Pidlimndi [pidl1239]':1)'Tera [tera1251][ttr]-l-':1",
+    "pk": 12744,
+    "status": "safe"
+}

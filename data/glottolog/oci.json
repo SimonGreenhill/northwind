@@ -1,0 +1,81 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 30,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "west2813",
+            "name": "Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2813"
+        },
+        {
+            "id": "shif1234",
+            "name": "Shifted Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/shif1234"
+        },
+        {
+            "id": "sout3183",
+            "name": "Southwestern Shifted Romance",
+            "url": "http://glottolog.org/resource/languoid/id/sout3183"
+        },
+        {
+            "id": "occi1240",
+            "name": "Occitanic",
+            "url": "http://glottolog.org/resource/languoid/id/occi1240"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 20440,
+    "hid": "oci",
+    "id": "occi1239",
+    "iso639-3": "oci",
+    "jsondata": {},
+    "latitude": 44.1415,
+    "level": "language",
+    "longitude": 6.82979,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Occitan",
+    "newick": "(('Aranese [aran1260]':1,('Ari\u00e9geois [arie1239]':1,'Baish Aran\u00e9s [bais1241]':1,'B\u00e9arnais [bear1240]':1,'Landais [land1254]':1,'Mijaran\u00e9s Aran\u00e9s [mija1240]':1,'Naut Aran\u00e9s [naut1238]':1)'Nuclear Gascon [nucl1269]':1)'Gascon [gasc1240]':1,(('Bas-Auvergnat [basa1276]':1,'Haut-Auvergnat [haut1245]':1)'Auvergnat Occitan [auve1239]':1,('Bas-Limousin [basl1242]':1,'Haut-Limousin [haut1246]':1)'Limousin Occitan [limo1246]':1,'Vivaro-Alpine Occitan [viva1235]':1)'Northen Occitan [nort2608]':1,(('Bas-Languedocien [basl1241]':1,'Guyennais [guye1238]':1,'Haut-Languedocien [haut1244]':1,'Languedocien Moyen [lang1310]':1)'Languedocian Occitan [lang1309]':1,('Dauphinois [daup1248]':1,'Gavot [gavo1238]':1,'Maritime Proven\u00e7al [mari1412]':1,'Ni\u00e7ard [nica1249]':1,'Rhodanien [rhod1240]':1,'Transalpin [tran1278]':1)'Proven\u00e7al [prov1235]':1)'Southern Occitan [sout2612]':1)'Occitan [occi1239][oci]-l-':1",
+    "pk": 21496,
+    "status": "safe"
+}

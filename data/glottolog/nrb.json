@@ -1,0 +1,25 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 6,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [],
+    "description": null,
+    "family_pk": null,
+    "father_pk": null,
+    "hid": "nrb",
+    "id": "nara1262",
+    "iso639-3": "nrb",
+    "jsondata": {},
+    "latitude": 15.3251,
+    "level": "language",
+    "longitude": 37.499,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Nara",
+    "newick": "(('Higir [higi1240]':1,'Mogareb [moga1248]':1)'Eastern Nara [east2795]':1,('Koyta [koyt1238]':1,'Santora [sant1412]':1)'Western Nara [west2879]':1)'Nara [nara1262][nrb]-l-':1",
+    "pk": 331,
+    "status": "safe"
+}

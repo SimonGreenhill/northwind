@@ -1,0 +1,36 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "mata1289",
+            "name": "Matacoan",
+            "url": "http://glottolog.org/resource/languoid/id/mata1289"
+        },
+        {
+            "id": "mata1290",
+            "name": "Mataguayo I",
+            "url": "http://glottolog.org/resource/languoid/id/mata1290"
+        }
+    ],
+    "description": null,
+    "family_pk": 271,
+    "father_pk": 1491,
+    "hid": "cag",
+    "id": "niva1238",
+    "iso639-3": "cag",
+    "jsondata": {},
+    "latitude": -22.8557,
+    "level": "language",
+    "longitude": -61.7606,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Nivacl\u00e9",
+    "newick": "('Forest Nivacl\u00e9 [fore1271]':1,'River Nivacl\u00e9 [rive1261]':1)'Nivacl\u00e9 [niva1238][cag]-l-':1",
+    "pk": 2875,
+    "status": "definitely endangered"
+}

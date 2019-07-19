@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 30,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "grae1234",
+            "name": "Graeco-Phrygian",
+            "url": "http://glottolog.org/resource/languoid/id/grae1234"
+        },
+        {
+            "id": "gree1276",
+            "name": "Greek",
+            "url": "http://glottolog.org/resource/languoid/id/gree1276"
+        },
+        {
+            "id": "east2798",
+            "name": "East Greek",
+            "url": "http://glottolog.org/resource/languoid/id/east2798"
+        },
+        {
+            "id": "koin1234",
+            "name": "Koineic Greek",
+            "url": "http://glottolog.org/resource/languoid/id/koin1234"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6042,
+    "hid": "ell",
+    "id": "mode1248",
+    "iso639-3": "ell",
+    "jsondata": {},
+    "latitude": 42.3224,
+    "level": "language",
+    "longitude": 24.8699,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Modern Greek",
+    "newick": "('Aspromonte [aspr1238]':1,'Cargese [carg1238]':1,'Dimotiki [dimo1238]':1,'Katharevousa [kath1248]':1,'Mariupol Greek [mari1411]':1,('Epirote [epir1238]':1,'Macedonian Greek [mace1251]':1,'Rumelian [rume1240]':1,'Thracian Modern Greek [thra1248]':1)'Northern Greek [nort2600]':1,'Salento [sale1242]':1,'Saracatsan [sara1308]':1,((('Aegina [aegi1237]':1,'Athens [athe1238]':1,'Megara [mega1242]':1)'Group 1 [grou1256]':1,('Constantinople Greek [cons1240]':1,('Cretan [cret1244]':1,'Cycladian [cycl1238]':1)'Cretan-Cycladian [cret1243]':1,'Ionian Islands [ioni1243]':1,'Northern Epirus [nort2601]':1,'Peloponnese [pelo1238]':1,'Smyrna Greek [smyr1240]':1)'Group 2 [grou1255]':1)'Ionian-Peleponnesian [ioni1242]':1,('Cyprus [cypr1245]':1,'Dodecanese [dode1238]':1)'Southeastern Greek [sout2606]':1)'Southern Greek [sout2605]':1)'Modern Greek [mode1248][ell]-l-':1",
+    "pk": 8612,
+    "status": "severely endangered"
+}

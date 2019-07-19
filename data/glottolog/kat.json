@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 16,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "kart1248",
+            "name": "Kartvelian",
+            "url": "http://glottolog.org/resource/languoid/id/kart1248"
+        },
+        {
+            "id": "geor1252",
+            "name": "Georgian-Zan",
+            "url": "http://glottolog.org/resource/languoid/id/geor1252"
+        },
+        {
+            "id": "geor1253",
+            "name": "Georgic",
+            "url": "http://glottolog.org/resource/languoid/id/geor1253"
+        }
+    ],
+    "description": null,
+    "family_pk": 63,
+    "father_pk": 2126,
+    "hid": "kat",
+    "id": "nucl1302",
+    "iso639-3": "kat",
+    "jsondata": {},
+    "latitude": 41.850397,
+    "level": "language",
+    "longitude": 43.78613,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Georgian",
+    "newick": "('Adzhar [adzh1238]':1,'Ferejdan [fere1245]':1,'Fereydan [fere1244]':1,'Gurian [guri1246]':1,'Imeretian [imer1248]':1,'Imerxev [imer1249]':1,'Imerxev Kartlian [imer1247]':1,'Ingilo [ingi1240]':1,'Kaxetian [kaxe1238]':1,'Meskhur-Javakhuri [mesk1241]':1,'Moxev [moxe1238]':1,'Mtiul [mtiu1238]':1,'Pshav [psha1238]':1,'Racha-Lexchxum [rach1238]':1,'Tush [tush1241]':1,'Xevsur [xevs1238]':1)'Georgian [nucl1302][kat]-l-':1",
+    "pk": 3851,
+    "status": "safe"
+}

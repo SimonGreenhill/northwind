@@ -1,0 +1,76 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "iran1269",
+            "name": "Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/iran1269"
+        },
+        {
+            "id": "sout3157",
+            "name": "Southwestern Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/sout3157"
+        },
+        {
+            "id": "midd1352",
+            "name": "Middle-Modern Persian",
+            "url": "http://glottolog.org/resource/languoid/id/midd1352"
+        },
+        {
+            "id": "mode1259",
+            "name": "Modern Southwestern Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/mode1259"
+        },
+        {
+            "id": "fars1254",
+            "name": "Farsic-Caucasian Tat",
+            "url": "http://glottolog.org/resource/languoid/id/fars1254"
+        },
+        {
+            "id": "fars1255",
+            "name": "Farsic",
+            "url": "http://glottolog.org/resource/languoid/id/fars1255"
+        },
+        {
+            "id": "east2745",
+            "name": "Eastern Farsic",
+            "url": "http://glottolog.org/resource/languoid/id/east2745"
+        },
+        {
+            "id": "taji1250",
+            "name": "Tajikic",
+            "url": "http://glottolog.org/resource/languoid/id/taji1250"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 18887,
+    "hid": "tgk",
+    "id": "taji1245",
+    "iso639-3": "tgk",
+    "jsondata": {},
+    "latitude": 38.8213,
+    "level": "language",
+    "longitude": 68.5549,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Tajik",
+    "newick": "'Tajik [taji1245][tgk]-l-':1",
+    "pk": 20406,
+    "status": "safe"
+}

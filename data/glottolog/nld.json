@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "fran1268",
+            "name": "Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/fran1268"
+        },
+        {
+            "id": "wese1235",
+            "name": "Low Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/wese1235"
+        },
+        {
+            "id": "macr1270",
+            "name": "Macro-Dutch",
+            "url": "http://glottolog.org/resource/languoid/id/macr1270"
+        },
+        {
+            "id": "midd1347",
+            "name": "Middle-Modern Dutch",
+            "url": "http://glottolog.org/resource/languoid/id/midd1347"
+        },
+        {
+            "id": "mode1257",
+            "name": "Modern Dutch",
+            "url": "http://glottolog.org/resource/languoid/id/mode1257"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 16678,
+    "hid": "nld",
+    "id": "dutc1256",
+    "iso639-3": "nld",
+    "jsondata": {},
+    "latitude": 52.0,
+    "level": "language",
+    "longitude": 5.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Dutch",
+    "newick": "('Brabants [brab1243]':1,'Brabants {Dutch} [brab1242]':1,'Northern North Hollandish [nort2636]':1,'Oost-Vlaams [oost1241]':1,'South Guelderish [sout2637]':1)'Dutch [dutc1256][nld]-l-':1",
+    "pk": 18785,
+    "status": "safe"
+}

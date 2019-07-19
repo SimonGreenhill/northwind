@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "nort3160",
+            "name": "North Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3160"
+        },
+        {
+            "id": "sout3248",
+            "name": "South Scandinavian",
+            "url": "http://glottolog.org/resource/languoid/id/sout3248"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6038,
+    "hid": "dan",
+    "id": "dani1285",
+    "iso639-3": "dan",
+    "jsondata": {},
+    "latitude": 54.8655,
+    "level": "language",
+    "longitude": 9.36284,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Danish",
+    "newick": "'Danish [dani1285][dan]-l-':1",
+    "pk": 8599,
+    "status": "safe"
+}

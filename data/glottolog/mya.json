@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "burm1265",
+            "name": "Burmo-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/burm1265"
+        },
+        {
+            "id": "lolo1265",
+            "name": "Lolo-Burmese",
+            "url": "http://glottolog.org/resource/languoid/id/lolo1265"
+        },
+        {
+            "id": "burm1266",
+            "name": "Burmish",
+            "url": "http://glottolog.org/resource/languoid/id/burm1266"
+        },
+        {
+            "id": "sout3159",
+            "name": "Southern Burmish",
+            "url": "http://glottolog.org/resource/languoid/id/sout3159"
+        },
+        {
+            "id": "nucl1730",
+            "name": "Nuclear Southern Burmish",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1730"
+        },
+        {
+            "id": "oldm1246",
+            "name": "Old-Modern Burmese",
+            "url": "http://glottolog.org/resource/languoid/id/oldm1246"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 12090,
+    "hid": "mya",
+    "id": "nucl1310",
+    "iso639-3": "mya",
+    "jsondata": {},
+    "latitude": 20.7926,
+    "level": "language",
+    "longitude": 93.9665,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Burmese",
+    "newick": "('Bomang [boma1245]':1,'Merguese [merg1238]':1,'Palaw [pala1339]':1,'Yaw [yaww1238]':1)'Burmese [nucl1310][mya]-l-':1",
+    "pk": 14866,
+    "status": "definitely endangered"
+}

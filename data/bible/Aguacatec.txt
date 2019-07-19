@@ -1,0 +1,58 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/agu-x-bible/41/001/
+
+# Language:
+Aguacatec / Awakatek
+
+#ISO Code:
+639-3: agu
+
+# Consonant Inventory:
+pʰ, pɸ, tʰ, kʰ, kʲʰ, qʰ, ʔ, pʼ, tʼ, kʼ, kʲʼ, ɓ, ʛ, m, n, ŋ, f, s, ʃ, ʂ, 
+χ, h, ts, tʃ, ʈʂ, tsʼ, tʃʼ, ʈʂʼ, ɾ, l, j, ʍ
+
+# Orthography consonant phoneme correspondences:
+/pʰ/-/pɸʰ/=<p> /tʰ/=<t> /kʰ/=<k> /kʰʲ/=<ky> /qʰ/=<q> /ʔ/=<'> /pʼ/=<p'> /tʼ/=<t'> 
+/kʼ/=<k'> /kʲʼ/=<ky'> /ɓ/=<b'> /ʛ/=<g'> /m/=<m> /n/=<n> /ŋ/=<nh> /f/=<w> /s/=<s> 
+/ʃ/=<xh> /ʂ/=<x> /χ/=<j> /h/=<h> /ts/=<tz> /tʃ/=<ch> /ʈʂʰ/=<tx> /tsʼ/=<tz'> 
+/tʃʼ/=<ch'> /ʈʂʼ/=<tx'> /ɾ/=<r> /l/=<l>  /j/=<y> /ʍ/=<w>     
+
+# Vowel Inventory:
+a, e, i, o, u, aː, eː, iː, oː, uː
+
+# Orthography vowel phoneme correspondences:
+/a/-/aː/=<a> /e/-/eː/=<e> /i/-/iː/=<i> /o/-/oː/=<o> /u/-/uː/=<u>     
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/pʰ~pɸ/ /pʰ~tʰ/ /pʰ~tʰ/ /pʰ~kʰ/ /pʰ~pʼ/ /pʰ~qʰ/ /pʰ~ʔ/ /pɸ~ts/ /pɸ~tʃ/ /pɸ~ʈʂ/ /tʰ~kʰ/ 
+/tʰ~qʰ/ /tʰ~ʔ/ /tʰ~s/ /tʰ~ts/ /kʰ~kʲʰ/ /kʰ~qʰ/ /kʰ~kʼ/ /kʲʰ~qʰ/ /kʲʰ~kʲʼ/ /qʰ~ʔ/ /kʲʰ~ʔ/ 
+/qʰ~χ/ /pʼ~tʼ/ /pʼ~kʼ/ /pʼ~kʲʼ/ /tʼ~kʼ/ /tʼ~kʲʼ/ /tʼ~tsʼ/ /kʼ~kʲʼ/ /ɓ~ʛ/ /ɓ~pˈ/ /m~n/ /m~ŋ/ 
+/n~ŋ/ /f~s/ /f~ʃ/ /f~ʂ/ /f~χ/ /f~h/ /s~ʃ/ /s~ʂ/ /s~χ/ /s~h/ /s~ts/ /ʃ~ʂ/ /ʃ~χ/ 
+/ʃ~h/ /ʃ~tʃ/ /ʂ~χ/ /ʂ~h/ /ʂ~ʈʂ/ /χ~h/ /ts~tʃ/ /ts~ʈʂ/ /ts~tsʼ/ /tʃ~ʈʂ/ /tʃ~tʃʼ/ /ʈʂ~ʈʂʼ/ 
+/tsʼ~tʃʼ/ /tsʼ~ʈʂʼ/ /tʃʼ~ʈʂʼ/ /ɾ~l/ /j~ʍ/
+/a~aː/ /e~eː/ /e~i/ /eː~iː/ /i~iː/ /o~u/ /o~oː/ /u~uː/ /oː~uː/
+
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/pʰ~f/ /pʰ~kʲʰ/ /tʰ~kʲʰ/ /pʰ~ɓ/ 
+/a~i/ /i~u/ /a~u/ /aː~iː/ /iː~uː/ /aː~uː/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+https://en.wikipedia.org/wiki/Awakatek_language
+
+http://www.native-languages.org/aguacateco_guide.htm
+
+McArthur, Harry and Lucille. 1966. Aguacatec. In Mayers, Marvin K. (ed) Languages
+of Guatemala. The Hague: Mouton & Co. pp140-165
+ 	

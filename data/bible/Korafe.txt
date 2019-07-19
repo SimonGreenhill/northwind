@@ -1,0 +1,59 @@
+﻿# Reference:
+
+# Online Bible:
+
+http://paralleltext.info/data/kpr-x-bible/41/001/
+
+# Language:
+
+Korafe
+
+# ISO Code:
+
+ISO 639-3: kpr
+
+# Consonant Inventory:
+b(b, mb), t(t, tʰ), d(d, nd), k(k, kʰ), g(g, ŋg), m, n, ɸ, β(β, w), s, dʒ(dʒ, ndʒ), 
+ɣ(ɣ, ⁿɣ), ɾ(ɾ, l), j 
+
+# Orthorgraphy consonant phoneme correspondences:
+<b> = /b/, <t> = /t/, <d> = /d/, <k> = /k/, <g> = /g/, <m> = /m/, <n> = /n/, <f> =  /ɸ/,
+<v> = /β/, <s> = /s/, <j> = /dʒ/, <gh> = /ɣ/, <r> = /ɾ/, <y> = /j/
+
+# Vowel Inventory:
+i(i, iə), e(e, ɛ, eə), a(a, ɑ, ai), o(o, ɔ), u, iː, eː, aː, oː, uː, ĩ, ẽ(ẽ, ɛ̃), ã(ã, ɑ̃), 
+õ(õ, ɔ̃), ũ 
+
+# Orthography vowel phoneme correspondences:
+<i> = /i/, <e> = /e/, <a> = /a/, <o> = /o/, <u> = /u/,
+<in>-<im> = /ĩ/, <en>-<em> = /ẽ/, <an> - <am> - <ã> = /ã/, <on> - <om> = /õ/, <un> - <um> = /ũ/,
+<ii> = /iː/, <ee> = /eː/, <aa> = /aː/, <oo> = /oː/, <uu> = /uː/ 
+
+# Minimal pairs:
+
+
+# Minimal pairs differing in a single phonetic feature:
+/b~d/ /b~g/ /b~m/ /b~β/ /t~d/ /t~k/ /t~s/ /d~g/ /d~n/ /d~ɾ/ /k~g/ /g~ɣ/, /m~n/ /n~ɾ/ /ɸ~β/ 
+/ɸ~s/ /β~ɣ/ 
+/i~e/ /i~iː/ /i~ĩ/ /oː~õ/ /e~eː/ /e~ẽ/ /eː~ẽ/ /a~aː/ /a~ã/ /aː~ã/ /o~oː/ /o~õ/ /o~u/ /oː~õ/ 
+/u~uː/ /u~ũ/ /uː~ũ/ /iː~eː/ /ĩ~ẽ/ /uː~oː/ /ũ~õ/
+
+# Minimal pairs differing in more than a single phonetic feature:
+/ɸ~b/ /dʒ~d/ /dʒ~j/
+/i~a/ /i~u/ /iː~uː/ /iː~aː/ /ĩ~ũ/ /ĩ~ã/ /e~a/ /e~o/ /eː~aː/ /ẽ~õ/ /o~a/ /oː~aː/ /õ~ã/
+
+# Transcript:
+
+# Notes:
+
+
+# Orthography Notes:
+Farr orthographically represents a difference in vowel length, but vowel length is not 
+represented in the online bible. 
+
+# Resources: 
+
+glottolog.org/resource/languoid/id/kora1294
+
+Farr, Cynthia. 1999. The interfce between syntax and discourse in Korafe, 
+A Papuan language of Papua New Guinea. C-148. Canberra: Pacific inguistics. pp12-14

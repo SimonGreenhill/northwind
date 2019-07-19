@@ -1,0 +1,51 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/acf-x-bible/41/001/
+
+# Language:
+Saint Lucian Creole French
+
+#ISO Code:
+639-3: acf
+
+# Consonant Inventory:
+p, t, k, b, d, g, f, s, ʃ, v, z, ʒ, tʃ, dʒ, l, m, n, ŋ, w, ɹ, j, h
+
+# Orthography consonant phoneme correspondences:
+<p>=/p/ <t>=/t/ <k>=/k/ <b>=/b/ <d>=/d/ <g>=/g/ <f>=/f/ <s>=/s/ 
+<ch>=/ʃ/ <v>=/v/ <z>=/z/ <j>=/ʒ/ <tj>=/tʃ/ <dj>=/dʒ/ <l>=/l/ <m>=/m/ 
+<n>=/n/ <ng>=/ŋ/ <w>=/w/ <r>=/ɹ/ <y>=/j/ <h>=/h/   
+
+# Vowel Inventory:
+i, e, ɛ, a, u, o, ɔ, ẽ, õ, ã
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <é>=/e/ <è>=/ɛ/ <a>=/a/ <ou>=/u/ <o>=/o/ <ò>=/ɔ/ <en>=/ẽ/ 
+<on>=/õ/ <an>=/ã/
+  
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~k/ /p~b/ /t~k/ /t~d/ /t~s/ /t~tʃ/ /k~g/ /b~d/ /b~g/ /b~m/ /d~g/ 
+/d~z/ /d~dʒ/ /d~l/ /d~n/ /d~ɹ/ /g~ŋ/ /f~s/ /f~ʃ/ /f~v/ /s~ʃ/ /s~z/ /ʃ~ʒ/ 
+/ʃ~tʃ/ /v~z/ /v~ʒ/ /z~ʒ/ /ʒ~dʒ/ /l~n/ /l~ɹ/ /m~n/ /m~ŋ/ /n~ŋ/ /w~j/
+/i~e/ /i~ɛ/ /e~ɛ/ /u~o/ /o~ɔ/  /e~ẽ/ /o~õ/ /a~ã/ 
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/p~f/ /ɹ~h/ /j~h/ /w~h/
+/i~u/ /i~a/ /a~u/ 
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+David Frank (ed), Paul Crosbie, David Frank, Emanual Leon, Peter Samuel (compilers).
+2001. Kwéyòl dictionary SIL International & Ministry of Education, Government of Saint Lucia: Castries, Saint Lucia
+http://www.saintluciancreole.dbfrank.net/dictionary/KweyolDictionary.pdf
+ 	

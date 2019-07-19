@@ -1,0 +1,45 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/aia-x-bible/41/001/
+
+# Language:
+Arosi
+
+#ISO Code:
+639-3: aia
+
+# Consonant Inventory:
+p, t, k, ʔ, b, d, g, m, n, ŋ, s, ɾ, w, j
+
+# Orthography consonant phoneme correspondences:
+/p/=<p> /t/=<t> /k/=<k> /b/=<b> /d/=<d> /g/=<g> /m/=<m> /n/=<n> /s/=<s> 
+/ɾ/=<r> /ŋ/=<ng> /ʔ/=<'>  
+
+# Vowel Inventory:
+i, e, a, o, u
+
+# Orthography vowel phoneme correspondences:
+/i/=<i> /e/=<e> /a/=<a> /o/=<o> /u/=<u>  
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~k/ /p~ʔ/ /p~b/ /t~k/ /t~ʔ/ /t~d/ /t~s/ /k~ʔ/ /k~g/ /b~d/ /b~g/ /b~m/ 
+/d~g/ /d~n/ /d~ɾ/ /g~ŋ/ /m~n/ /m~ŋ/ /n~ŋ/ /w~j/
+/i~e/ /o~u/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /i~u/ /a~u/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+Arthur Capell. 1971. Arosi Grammar. (Pacific Linguistics: Series B, 20.) Canberra: Research School of Pacific and Asian Studies, Australian National University. iv+90pp.
+
+ 	

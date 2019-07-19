@@ -1,0 +1,51 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/nuy-x-bible/41/001/
+
+# Language:
+Nunggubuyu
+
+#ISO Code:
+639-3: nuy
+
+# Consonant Inventory:
+b, m, w, d̟, n̟, l̟, d, n, l, r, ɖ, ɳ, ɭ, ɽ, ɟ, ɲ, g, ŋ, j
+
+# Orthography consonant phoneme correspondences:
+<b>=/b/ <m>=/m/ <dh>=/d̟/ <nh>=/n̟/ <lh>=/l̟/ <d>=/d/ <n>=/n/ <l>=/l/ <r>=/r/ 
+<j>=/ɟ/ <ny>=/ɲ/ <y>=/j/ <g>=/g/ <ng>=/ŋ/ <d>=/ɖ/ <n>=/ɳ/ <l>=/ɭ/ <r>=/ɽ/
+
+# Vowel Inventory:
+i, a, u, iː, uː, aː  
+
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <a>=/a/ <u>=/u/ <ii>=/iː/ <aa>=/aː/ <uu>=/uː/  
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/i~iː/ /a~aː/ /u~uː/
+/b~m/ /b~w/ /b~m/ /b~d̟/ /b~d/ /b~ɖ/ /b~ɟ/ /b~g/ /m~w/ /m~n̟/ /m~n/ /m~ɲ/ /m~ɳ/
+ /m~ŋ/ /d̟~n̟/ /d̟~l̟/ /d̟~d/ /d̟~ɖ/ /d̟~ɟ/ /d̟~g/ /n̟~l̟/ /n̟~n/ /n̟~ɳ/ /n̟~ɲ/ /n̟~ŋ/ /l̟~l/ /l̟~ɭ/ 
+/l̟~l/ /d~n/ /d~l/ /d~r/ /d~ɖ/ /d~ɟ/ /d~g/ /n~l/ /n~r/ /n~ɳ/ /n~ɲ/ /n~ŋ/ /l~r/ 
+/l~ɭ/ /r~ɽ/ /ɖ~ɳ/ /ɖ~ɭ/ /ɖ~ɽ/ /ɖ~ɟ/ /ɖ~g/ /ɳ~ɭ/ /ɳ~ɽ/ /ɳ~ɲ/ /ɳ~ŋ/ /ɭ~ɽ/ /ɟ~ŋ/ /ɟ~g/ 
+/ɟ~j/ /ɲ~j/ /ɲ~ŋ/ /g~ŋ/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /i~u/ /a~u/ /iː~aː/ /iː~uː/ /aː~uː/
+
+# Transcript:
+
+
+
+# Notes:
+I cannot get underlining to work in Notepad. The orthographic symbols for the retroflex consonants
+should each be underlined.
+
+# References:
+Heath, Jeffrey. 1984. Functional grammar of Nunggubuyu. Australian Institute of Aboriginal Studies: Canberra.
+Heath, Jeffrey. 1982. Nunggubuyu dictionary. Australian Institute of Aboriginal Studies: Canberra.
+ 	

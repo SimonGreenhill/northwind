@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 20,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "sini1245",
+            "name": "Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/sini1245"
+        },
+        {
+            "id": "clas1255",
+            "name": "Classical-Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/clas1255"
+        },
+        {
+            "id": "midd1354",
+            "name": "Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/midd1354"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 4365,
+    "hid": "hak",
+    "id": "hakk1236",
+    "iso639-3": "hak",
+    "jsondata": {},
+    "latitude": 25.0,
+    "level": "language",
+    "longitude": 116.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Hakka Chinese",
+    "newick": "('Hailu [hail1247]':1,'Huizhou [huiz1243]':1,'Meixian [yuet1238]':1,'Ning-Long [ning1269]':1,('Liudui-Pingtung [liud1234]':1,'Taoyuan-Miaoli [taoy1234]':1)'Sixian [sanh1239]':1,('Changting [chan1325]':1,'Liancheng [lian1259]':1,'Mingxi [ming1255]':1,'Ninghua [ning1278]':1,'Qingliu [qing1239]':1,'Shanghang [shan1292]':1,'Wuping [wupi1239]':1,'Yongding [yong1284]':1)'Tingzhou [ting1250]':1,'Tonggu [tong1314]':1,'Yuebei [yueb1238]':1,'Yuezhong [yuez1238]':1,'Yugui [yugu1248]':1)'Hakka Chinese [hakk1236][hak]-l-':1",
+    "pk": 6554,
+    "status": "safe"
+}

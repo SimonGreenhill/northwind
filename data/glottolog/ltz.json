@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "fran1268",
+            "name": "Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/fran1268"
+        },
+        {
+            "id": "high1287",
+            "name": "High Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/high1287"
+        },
+        {
+            "id": "midd1319",
+            "name": "Middle Franconian",
+            "url": "http://glottolog.org/resource/languoid/id/midd1319"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11433,
+    "hid": "ltz",
+    "id": "luxe1241",
+    "iso639-3": "ltz",
+    "jsondata": {},
+    "latitude": 49.6839,
+    "level": "language",
+    "longitude": 6.14931,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Luxembourgish",
+    "newick": "('Lorrain Franconian [lorr1243]':1)'Luxembourgish [luxe1241][ltz]-l-':1",
+    "pk": 14175,
+    "status": "vulnerable"
+}

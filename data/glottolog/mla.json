@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "cent2237",
+            "name": "Central-Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2237"
+        },
+        {
+            "id": "east2712",
+            "name": "Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/east2712"
+        },
+        {
+            "id": "ocea1241",
+            "name": "Oceanic",
+            "url": "http://glottolog.org/resource/languoid/id/ocea1241"
+        },
+        {
+            "id": "nort3195",
+            "name": "North and Central Vanuatu",
+            "url": "http://glottolog.org/resource/languoid/id/nort3195"
+        },
+        {
+            "id": "nort3205",
+            "name": "Northern Vanuatu",
+            "url": "http://glottolog.org/resource/languoid/id/nort3205"
+        },
+        {
+            "id": "espi1234",
+            "name": "Espiritu Santo",
+            "url": "http://glottolog.org/resource/languoid/id/espi1234"
+        },
+        {
+            "id": "east2754",
+            "name": "East Santo",
+            "url": "http://glottolog.org/resource/languoid/id/east2754"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 16226,
+    "hid": "mla",
+    "id": "malo1243",
+    "iso639-3": "mla",
+    "jsondata": {},
+    "latitude": -15.6835,
+    "level": "language",
+    "longitude": 167.16,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Tamambo",
+    "newick": "('Ataripoe [atar1237]':1,'Avunatari [avun1237]':1)'Tamambo [malo1243][mla]-l-':1",
+    "pk": 18506,
+    "status": "vulnerable"
+}

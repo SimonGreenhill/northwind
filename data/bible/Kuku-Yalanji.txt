@@ -1,0 +1,63 @@
+﻿# Reference:
+
+# Online Bible:
+http://paralleltext.info/data/gvn-x-bible/41/001/
+
+# Language:
+Kuku-Yalanji
+
+# ISO Code:
+ISO 639-3: gvn
+
+# Consonant Inventory:
+m, k, j, p, w, ŋ, ɲ, t̪, n̪, c, l̪, ɻ, r
+
+# Orthorgraphy consonant phoneme correspondences:
+<b> = /p/, <d> = /t̪/, <j> = /c/, <k> = /k/, <m> = /m/, <n> = /n̪/, 
+<ny> = /ɲ/, <ng> = /ŋ/, <l> = /l/, <rr> = /r/, <r> = /ɻ/, <w> = /w/, <y> = /j/
+
+# Vowel Inventory:
+i, a, u
+
+# Orthography vowel phoneme correspondences:
+<i> = /i/, <a> = /a/, <u> = /u/
+
+# Minimal pair examples:
+Stops: <bubu~dudu~juju~kuku>
+Nasals: <bama~bana, jalban~jalbany, nandal~nyandal~ngandal>
+Rhotics & lateral: <malal~maral~mararr~malar~marral, karrarr~karrar~kararr>
+
+# Minimal pairs differing in a single phonetic feature:
+/m~p/ /m~w/ /m~n̪/ /m~ŋ/ /m~ɲ/ /k~p/ /k~t̪/ /k~c/ /k~ŋ/ /j~w/ /j~c/ /p~w/ /p~t̪/ /p~c/ /ŋ~ɲ/ 
+/ŋ~n̪/ /ɲ~j/ /ɲ~c/ /t̪~n̪/ /t̪~l̪/ /n̪~l̪/ /ɻ~r/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /i~u/ /a~u/ 
+/l̪~ɻ/ /l̪~r/
+
+# Transcript:
+
+# Notes:
+
+Consonant inventory taken from Phoible and Patz 2002. 
+
+Minimal pairs taken form Patz 2002.
+
+# Orthography Notes:
+
+# Resources: 
+
+http://www.language-archives.org/language/gvn
+
+http://search.language-archives.org/search.html?fq=subject_language_facet%3A%22Kuku-Yalanji%22
+
+http://phoible.org/inventories/view/349
+
+Sources for Phoible data are:
+Oates, Lynette Francis. 1964. Distribution of Phonemes and Syllables in Gugu-Yalanji. Anthropological Linguistics 6. 23–6.
+Oates, William J. and Oates, Lynette F. 1964. Gugu-Yalanji Linguistic and Anthropological Data. In William Oates et al. (ed.), Gugu-Yalanji and Wik Munkan Language Studies, 1–17. Canberra: AIATSIS.
+Wurm, S. A. 1972. Languages of Australia and Tasmania. The Hague: Mouton.
+
+Patz, Elizabeth. 2002. 'A Grammar of the Kuku Yalanji language of North Queensland".
+PL 527. Canberra: Pacific Linguistics. p19, 22.
+

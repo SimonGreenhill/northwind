@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "nilo1247",
+            "name": "Nilotic",
+            "url": "http://glottolog.org/resource/languoid/id/nilo1247"
+        },
+        {
+            "id": "west2493",
+            "name": "Western Nilotic",
+            "url": "http://glottolog.org/resource/languoid/id/west2493"
+        },
+        {
+            "id": "luob1235",
+            "name": "Luo-Burun",
+            "url": "http://glottolog.org/resource/languoid/id/luob1235"
+        },
+        {
+            "id": "nort2814",
+            "name": "Northern Lwoo",
+            "url": "http://glottolog.org/resource/languoid/id/nort2814"
+        }
+    ],
+    "description": null,
+    "family_pk": 428,
+    "father_pk": 5211,
+    "hid": "shk",
+    "id": "shil1265",
+    "iso639-3": "shk",
+    "jsondata": {},
+    "latitude": 9.85472,
+    "level": "language",
+    "longitude": 31.7926,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Shilluk",
+    "newick": "'Shilluk [shil1265][shk]-l-':1",
+    "pk": 7543,
+    "status": "safe"
+}

@@ -1,0 +1,84 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/ium-x-bible-latin/41/
+http://paralleltext.info/data/ium-x-bible-latinnew/41/
+
+# Language:
+Iu-Mienh
+
+#ISO Code:
+639-3: ium 
+
+# Consonant Inventory:
+pʰ, tʰ, tsʰ, cʰ, kʰ, p, t, ts, c, k, ʔ, b, d, dz, ɟ, g, f, s, h, 
+m̥, n̥, ɲ̊, ŋ̊, m, n, ɲ, ŋ, l̥, l, w̥, j̥, w, j
+
+# Orthography consonant phoneme correspondences:
+   <p>=/pʰ/ <t>=/tʰ/ <c>=/tsʰ/ <q>=/cʰ/ <k>=/kʰ/ <b>=/p/ <d>=/t/ <z>=/ts/ 
+<j>=/c/ <g>=/k/ <q>=/ʔ/ <mb>=/b/ <nd>=/d/ <nz>=/dz/ <nj>=/ɟ/ <nq>=/g/ 
+<f>=/f/ <s>=/s/ <h>=/h/ <hm>=m̥/ <hn>=/n̥/ <hny>=/ɲ̊/ <hng>=/ŋ̊/ <m>=/m/ 
+<n>=/n/ <ny>=/ɲ/ <ng>=/ŋ/ <hl>=/l̥/ <l>=/l/ <hu>=/w̥/ <hi>=/j̥/ <w>=/w/ <y>=/j/
+
+# Vowel Inventory:
+i, e, æ, iə, ʉ, a, aː, ɔ, o, u, uə, ai, ei, ɔi, aːi, iu, ui, au, eu, əu, aːu
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <e>=/e/ <ae>=/æ/ <iə>=/ie/ <ir>=/ʉ/ <er>=/ə/ <a>=/a/ <aa>=/aː/ <u>=/u/ <o>=/o/ <or>=/ɔ/ 
+<uə>=/uo/ <ai>=/ai/ <ei>=/ei/ <oi>=/ɔi/ <aai>=/aːi/ <iu>=/iu/ <ui>=/ui/ <au>=/au/ <eu>=/eu/ 
+<ou>=/əu/ <aau>=/aːu/  
+
+# Orthographic marking of tone:
+< >=/˦/
+<c>=/˩/
+<h>=/˧˩/
+<v>=/˦˥˦/
+<x>=/˨˦/
+<z>=/˨˧˩/
+
+# Minimal pairs differing in only a single phonetic feature:
+<c~h> <c~v> <c~x> <c~z> <h~v> <h~x> <h~z> <v~x> <v~z> <x~z>
+/p~m̥/ /t~n̥/ /c~ɲ̥/ /k~ŋ̥/
+/pʰ~tʰ/ /pʰ~cʰ/ /pʰ~cʰ/ /pʰ~kʰ/ /pʰ~p/ /pʰ~b/ /tʰ~tsʰ/ /tʰ~cʰ/ /tʰ~kʰ/ /tʰ~t/ /tʰ~d/ 
+/tsʰ~ts/ /tsʰ~dz/ /cʰ~kʰ/ /cʰ~c/ /cʰ~ɟ/ /kʰ~k/ /p~t/ /p~c/ /p~c/ /p~k/ /p~ʔ/ 
+/p~b/ /p~w̥/ /t~ts/ /t~c/ /t~k/ /t~ʔ/ /t~d/ /t~s/ /t~l̥/ /ts~dz/ /c~k/ /c~ʔ/ 
+/c~ɟ/ /k~ʔ/  /k~g/ /ʔ~h/ /b~d/ /b~ɟ/ /b~g/ /b~m/ /b~w/ /d~dz/ /d~ɟ/ /d~g/ /d~n/
+ /d~l/ /ɟ~g/ /ɟ~ɲ/ /ɟ~j/ /g~ŋ/ /f~s/ /f~h/ /s~h/ /s~l̥/ /m̥~m/ /m̥~n̥/ /m̥~ɲ̊/ /m̥~ŋ̊/ 
+/m̥~m/ /m̥~w̥/ /n̥~ɲ̊/ /n̥~ŋ̊/ /n̥~n/ /n̥~l̥/ /ɲ̥~ŋ̥/ /ɲ̥~ɲ/ /ɲ̥~j̥/ /ŋ̥~ŋ/ /m~n/ /m~ɲ/ /m~ŋ/ 
+/m~w/ /n~ɲ/ /n~ŋ/ /n~l/ /ɲ~ŋ/ /ɲ~j/ /l̥~l/ /w̥~w/ /w̥~j̥/ /w~j/
+/i~e/ /i~æ/ /i~iə/ /e~æ/ /e~uə/ /æ~a/
+/iə~ʉ/ /ʉ~u/ /a~aː/ /ɔ~o/ /ɔ~u/ /o~u/ /u~uə/
+/ai~ei/ /ai~ɔi/ /ai~aːi/ /ei~ɔi/ /ei~aːi/ /ɔi~aːi/ /ai~ui/ /ei~ui/ /ɔi~ui/ 
+/iu~au/ /iu~eu/ /iu~əu/ /iu~aːu/ /au~eu/ /au~əu/ /au~aːu/ /eu~əu/ /eu~aːu/ 
+/əu~aːu/   
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/pʰ~f/ /p~f/ /f~m̥/ 
+/i~a/ /i~u/ /a~u/
+
+# Transcript:
+
+
+
+# Notes:
+The tone letters are placed at the end of words. Not sure how to put the high-mid level tone, that 
+is unmarked into minimal pairs. 
+
+Tone change:
+"Rule 1: If the first word ends in a stop consonant and has a high tone (-v)
+, a hyphen is inserted between the words, and the first tone changes in 
+pronunciation from high (-v) to low (-c). If the tone of the first word that
+ ends in a stop consonant already has a low tone (-c), its pronunciation 
+remains low (-c), and no hyphen is used.
+Rule 2: If the first word ends in a final vowel or any non-stop consonant, a
+ hyphen is inserted between the words, and the first tone changes in 
+pronunciation to the mid falling tone (-h). If the first tone is already the
+ mid falling tone (-h), its pronunciation does not change, and a hyphen is 
+not used." (Purnell 2012:xxv) 
+
+# References:
+Purnell, Herbert C. 2012. An Iu-Mienh-English Dictionary: with cultural notes. 
+Silkworm Books:Thailand.
+
+ 	

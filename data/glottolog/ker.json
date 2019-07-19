@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "chad1250",
+            "name": "Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/chad1250"
+        },
+        {
+            "id": "east2632",
+            "name": "East Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/east2632"
+        },
+        {
+            "id": "east2640",
+            "name": "East Chadic A",
+            "url": "http://glottolog.org/resource/languoid/id/east2640"
+        },
+        {
+            "id": "east2641",
+            "name": "East Chadic A.3",
+            "url": "http://glottolog.org/resource/languoid/id/east2641"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 7315,
+    "hid": "ker",
+    "id": "kera1255",
+    "iso639-3": "ker",
+    "jsondata": {},
+    "latitude": 9.88165,
+    "level": "language",
+    "longitude": 15.1419,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Kera",
+    "newick": "('Nyimathli [nyim1250]':1)'Kera [kera1255][ker]-l-':1",
+    "pk": 9863,
+    "status": "safe"
+}

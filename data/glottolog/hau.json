@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 19,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "chad1250",
+            "name": "Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/chad1250"
+        },
+        {
+            "id": "west2785",
+            "name": "West Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/west2785"
+        },
+        {
+            "id": "west2714",
+            "name": "West Chadic A",
+            "url": "http://glottolog.org/resource/languoid/id/west2714"
+        },
+        {
+            "id": "west2718",
+            "name": "West Chadic A.1",
+            "url": "http://glottolog.org/resource/languoid/id/west2718"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 7331,
+    "hid": "hau",
+    "id": "haus1257",
+    "iso639-3": "hau",
+    "jsondata": {},
+    "latitude": 11.1513,
+    "level": "language",
+    "longitude": 8.7804,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Hausa",
+    "newick": "('Aderawa [ader1239]':1,'Damagaram [dama1277]':1,'Dawra [dawr1243]':1,('Hadejiya [hade1247]':1,'Kano [kano1249]':1,'Katagum [kata1274]':1)'Eastern Hausa [east2650]':1,'Gaya [gaya1252]':1,'Kurfey [kurf1238]':1,('Arawa [araw1280]':1,'Arewa [arew1238]':1)'North Hausa [nort3050]':1,('Adarawa [adar1242]':1,'Gobirawa [gobi1238]':1,'Katsina [kats1239]':1,'Kebbawa [kebb1238]':1,'Sokoto {Hausa} [soko1264]':1,'Zamfarawa [zamf1238]':1)'Western Hausa [west2719]':1)'Hausa [haus1257][hau]-l-':1",
+    "pk": 9908,
+    "status": "safe"
+}

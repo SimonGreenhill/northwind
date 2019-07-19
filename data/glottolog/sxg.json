@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "burm1265",
+            "name": "Burmo-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/burm1265"
+        },
+        {
+            "id": "naqi1236",
+            "name": "Na-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/naqi1236"
+        },
+        {
+            "id": "naic1235",
+            "name": "Naic",
+            "url": "http://glottolog.org/resource/languoid/id/naic1235"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 4319,
+    "hid": "sxg",
+    "id": "shix1238",
+    "iso639-3": "sxg",
+    "jsondata": {},
+    "latitude": 28.3895,
+    "level": "language",
+    "longitude": 100.4,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Shixing",
+    "newick": "'Shixing [shix1238][sxg]-l-':1",
+    "pk": 6474,
+    "status": "definitely endangered"
+}

@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 31,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "sini1245",
+            "name": "Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/sini1245"
+        },
+        {
+            "id": "clas1255",
+            "name": "Classical-Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/clas1255"
+        },
+        {
+            "id": "midd1354",
+            "name": "Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/midd1354"
+        },
+        {
+            "id": "nort3155",
+            "name": "Northern Chinese",
+            "url": "http://glottolog.org/resource/languoid/id/nort3155"
+        },
+        {
+            "id": "mand1471",
+            "name": "Mandarinic",
+            "url": "http://glottolog.org/resource/languoid/id/mand1471"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 9265,
+    "hid": "cmn",
+    "id": "mand1415",
+    "iso639-3": "cmn",
+    "jsondata": {},
+    "latitude": 40.0209,
+    "level": "language",
+    "longitude": 116.228,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Mandarin Chinese",
+    "newick": "(('Beijing Mandarin [beij1234]':1,'Taibei Mandarin [taib1240]':1)'Beijingic [beij1235]':1,('Xi''an Mandarin [xian1253]':1,'Xining Mandarin [xini1234]':1,'Zhengzhou Mandarin [zhen1241]':1)'Central Plain Guanhua [huab1238]':1,'Ha''erbin Mandarin [haer1234]':1,'Hankou Mandarin [hank1234]':1,('Hefei Mandarin [hefe1234]':1,'Nanjing Mandarin [nanj1234]':1)'Jianghuai Guanhua [jing1262]':1,('Jinan Mandarin [jina1245]':1,'Tianjin Mandarin [tian1238]':1)'Jilu Guanhua [jilu1239]':1,('Lanzhou Mandarin [lanz1234]':1,'Wulumuqi Mandarin [wulu1243]':1,'Yinchuan Mandarin [yinc1239]':1)'Lanyin [xibe1241]':1,'Ningxia Mandarin [ning1279]':1,'Qingdao Mandarin [qing1240]':1,'Rongcheng Mandarin [rong1271]':1,('Chengdu Mandarin [chen1267]':1,'Guiyang Mandarin [guiy1236]':1,'Kunming Chinese [kunm1234]':1,'Shenyang Mandarin [shen1252]':1,'Wuhan Mandarin [wuha1234]':1)'Southwestern Guanhua [xina1239]':1,'Yangzhou Mandarin [yang1306]':1,'Yingshan Mandarin [ying1249]':1,'Yuci Mandarin [yuci1234]':1)'Mandarin Chinese [mand1415][cmn]-l-':1",
+    "pk": 12218,
+    "status": "safe"
+}

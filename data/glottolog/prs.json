@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "iran1269",
+            "name": "Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/iran1269"
+        },
+        {
+            "id": "sout3157",
+            "name": "Southwestern Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/sout3157"
+        },
+        {
+            "id": "midd1352",
+            "name": "Middle-Modern Persian",
+            "url": "http://glottolog.org/resource/languoid/id/midd1352"
+        },
+        {
+            "id": "mode1259",
+            "name": "Modern Southwestern Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/mode1259"
+        },
+        {
+            "id": "fars1254",
+            "name": "Farsic-Caucasian Tat",
+            "url": "http://glottolog.org/resource/languoid/id/fars1254"
+        },
+        {
+            "id": "fars1255",
+            "name": "Farsic",
+            "url": "http://glottolog.org/resource/languoid/id/fars1255"
+        },
+        {
+            "id": "east2745",
+            "name": "Eastern Farsic",
+            "url": "http://glottolog.org/resource/languoid/id/east2745"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 16888,
+    "hid": "prs",
+    "id": "dari1249",
+    "iso639-3": "prs",
+    "jsondata": {},
+    "latitude": 31.0405,
+    "level": "language",
+    "longitude": 67.3593,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Dari",
+    "newick": "('Nuclear Dari [nucl1275]':1,'Parsiwan [pars1250]':1)'Dari [dari1249][prs]-l-':1",
+    "pk": 18890,
+    "status": "safe"
+}

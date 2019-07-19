@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "cent2237",
+            "name": "Central-Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2237"
+        },
+        {
+            "id": "cent2245",
+            "name": "Central Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2245"
+        },
+        {
+            "id": "timo1259",
+            "name": "Timoric A",
+            "url": "http://glottolog.org/resource/languoid/id/timo1259"
+        },
+        {
+            "id": "west2545",
+            "name": "Western Timoric A",
+            "url": "http://glottolog.org/resource/languoid/id/west2545"
+        },
+        {
+            "id": "uabm1238",
+            "name": "Uab Metoic",
+            "url": "http://glottolog.org/resource/languoid/id/uabm1238"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 10718,
+    "hid": "aaz",
+    "id": "amar1273",
+    "iso639-3": "aaz",
+    "jsondata": {},
+    "latitude": -10.21751,
+    "level": "language",
+    "longitude": 123.96373,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Amarasi",
+    "newick": "('Kotos [koto1251]':1,'Ro''is [rois1241]':1,'Ro''is Hero [rois1243]':1,'Ro''is Tais Nonof [rois1242]':1)'Amarasi [amar1273][aaz]-l-':1",
+    "pk": 13644,
+    "status": "vulnerable"
+}

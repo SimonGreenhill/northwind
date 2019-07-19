@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "burm1265",
+            "name": "Burmo-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/burm1265"
+        },
+        {
+            "id": "naqi1236",
+            "name": "Na-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/naqi1236"
+        },
+        {
+            "id": "ersu1242",
+            "name": "Ersuic",
+            "url": "http://glottolog.org/resource/languoid/id/ersu1242"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 4318,
+    "hid": "ers",
+    "id": "ersu1241",
+    "iso639-3": "ers",
+    "jsondata": {},
+    "latitude": 29.2867,
+    "level": "language",
+    "longitude": 102.213,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Ersu",
+    "newick": "('Duoxu [duox1238]':1,'Lisu {Ersu} [lisu1245]':1,'Nuclear Ersu [nucl1312]':1)'Ersu [ersu1241][ers]-l-':1",
+    "pk": 6472,
+    "status": "definitely endangered"
+}

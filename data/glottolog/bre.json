@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "celt1248",
+            "name": "Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/celt1248"
+        },
+        {
+            "id": "nucl1715",
+            "name": "Nuclear Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1715"
+        },
+        {
+            "id": "tgbc1234",
+            "name": "TGB Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/tgbc1234"
+        },
+        {
+            "id": "insu1254",
+            "name": "Insular Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/insu1254"
+        },
+        {
+            "id": "bryt1239",
+            "name": "Brythonic",
+            "url": "http://glottolog.org/resource/languoid/id/bryt1239"
+        },
+        {
+            "id": "sout3176",
+            "name": "Southwestern Brythonic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3176"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11464,
+    "hid": "bre",
+    "id": "bret1244",
+    "iso639-3": "bre",
+    "jsondata": {},
+    "latitude": 48.2452,
+    "level": "language",
+    "longitude": -3.78934,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Breton",
+    "newick": "('Cornouaillais [corn1250]':1,'Leonais [leon1251]':1,'Tregorrois [treg1244]':1,'Vannetais [vann1244]':1)'Breton [bret1244][bre]-l-':1",
+    "pk": 14201,
+    "status": "safe"
+}

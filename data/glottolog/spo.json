@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sali1255",
+            "name": "Salishan",
+            "url": "http://glottolog.org/resource/languoid/id/sali1255"
+        },
+        {
+            "id": "inte1241",
+            "name": "Interior Salish",
+            "url": "http://glottolog.org/resource/languoid/id/inte1241"
+        },
+        {
+            "id": "sout1559",
+            "name": "Southern Interior Salish",
+            "url": "http://glottolog.org/resource/languoid/id/sout1559"
+        },
+        {
+            "id": "kali1307",
+            "name": "Kalispel-Spokane",
+            "url": "http://glottolog.org/resource/languoid/id/kali1307"
+        }
+    ],
+    "description": null,
+    "family_pk": 104,
+    "father_pk": 4106,
+    "hid": "spo",
+    "id": "spok1245",
+    "iso639-3": "spo",
+    "jsondata": {},
+    "latitude": 47.9087,
+    "level": "language",
+    "longitude": -118.062,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Spokane",
+    "newick": "'Spokane [spok1245][spo]-l-':1",
+    "pk": 6191,
+    "status": "severely endangered"
+}

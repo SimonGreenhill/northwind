@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "more1255",
+            "name": "Morehead-Wasur",
+            "url": "http://glottolog.org/resource/languoid/id/more1255"
+        },
+        {
+            "id": "more1256",
+            "name": "Morehead-Maro",
+            "url": "http://glottolog.org/resource/languoid/id/more1256"
+        },
+        {
+            "id": "namb1292",
+            "name": "Nambu",
+            "url": "http://glottolog.org/resource/languoid/id/namb1292"
+        }
+    ],
+    "description": null,
+    "family_pk": 217,
+    "father_pk": 2716,
+    "hid": "nqn",
+    "id": "nenn1238",
+    "iso639-3": "nqn",
+    "jsondata": {},
+    "latitude": -8.62183,
+    "level": "language",
+    "longitude": 142.032,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Nen",
+    "newick": "'Nen [nenn1238][nqn]-l-':1",
+    "pk": 4561,
+    "status": "definitely endangered"
+}

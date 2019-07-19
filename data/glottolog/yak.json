@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "saha1239",
+            "name": "Sahaptian",
+            "url": "http://glottolog.org/resource/languoid/id/saha1239"
+        },
+        {
+            "id": "saha1240",
+            "name": "Sahaptin",
+            "url": "http://glottolog.org/resource/languoid/id/saha1240"
+        },
+        {
+            "id": "nort1527",
+            "name": "Northern Sahaptin",
+            "url": "http://glottolog.org/resource/languoid/id/nort1527"
+        }
+    ],
+    "description": null,
+    "family_pk": 344,
+    "father_pk": 3031,
+    "hid": "yak",
+    "id": "yaki1237",
+    "iso639-3": "yak",
+    "jsondata": {},
+    "latitude": 46.2655,
+    "level": "language",
+    "longitude": -120.756,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Northwest Sahaptin",
+    "newick": "('Klikitat [klik1240]':1,'Nuclear Yakima [nucl1237]':1)'Northwest Sahaptin [yaki1237][yak]-l-':1",
+    "pk": 4805,
+    "status": "critically endangered"
+}

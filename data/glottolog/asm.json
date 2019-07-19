@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1323",
+            "name": "Indo-Aryan Eastern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1323"
+        },
+        {
+            "id": "oriy1254",
+            "name": "Oriya-Gauda-Kamrupa",
+            "url": "http://glottolog.org/resource/languoid/id/oriy1254"
+        },
+        {
+            "id": "gaud1237",
+            "name": "Gauda-Kamrupa",
+            "url": "http://glottolog.org/resource/languoid/id/gaud1237"
+        },
+        {
+            "id": "kamt1240",
+            "name": "Kamrupa",
+            "url": "http://glottolog.org/resource/languoid/id/kamt1240"
+        },
+        {
+            "id": "assa1262",
+            "name": "Eastern Kamta",
+            "url": "http://glottolog.org/resource/languoid/id/assa1262"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 14376,
+    "hid": "asm",
+    "id": "assa1263",
+    "iso639-3": "asm",
+    "jsondata": {},
+    "latitude": 26.0876,
+    "level": "language",
+    "longitude": 91.2932,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Assamese",
+    "newick": "('Jharwa [jhar1240]':1,'Mayang [maya1277]':1,'Standard Assamese [stan1302]':1,'Western Assamese [west2383]':1)'Assamese [assa1263][asm]-l-':1",
+    "pk": 16740,
+    "status": "safe"
+}

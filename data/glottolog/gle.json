@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "celt1248",
+            "name": "Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/celt1248"
+        },
+        {
+            "id": "nucl1715",
+            "name": "Nuclear Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1715"
+        },
+        {
+            "id": "tgbc1234",
+            "name": "TGB Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/tgbc1234"
+        },
+        {
+            "id": "insu1254",
+            "name": "Insular Celtic",
+            "url": "http://glottolog.org/resource/languoid/id/insu1254"
+        },
+        {
+            "id": "goid1240",
+            "name": "Goidelic",
+            "url": "http://glottolog.org/resource/languoid/id/goid1240"
+        },
+        {
+            "id": "west2822",
+            "name": "Western Goidelic",
+            "url": "http://glottolog.org/resource/languoid/id/west2822"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11462,
+    "hid": "gle",
+    "id": "iris1253",
+    "iso639-3": "gle",
+    "jsondata": {},
+    "latitude": 53.2186,
+    "level": "language",
+    "longitude": -7.61509,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Irish",
+    "newick": "('Connacht [conn1243]':1,'Donegal [done1238]':1,'Munster-Leinster [muns1250]':1)'Irish [iris1253][gle]-l-':1",
+    "pk": 14197,
+    "status": "definitely endangered"
+}

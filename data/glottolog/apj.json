@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "atha1245",
+            "name": "Athabaskan-Eyak-Tlingit",
+            "url": "http://glottolog.org/resource/languoid/id/atha1245"
+        },
+        {
+            "id": "atha1246",
+            "name": "Athabaskan-Eyak",
+            "url": "http://glottolog.org/resource/languoid/id/atha1246"
+        },
+        {
+            "id": "atha1247",
+            "name": "Athabaskan",
+            "url": "http://glottolog.org/resource/languoid/id/atha1247"
+        },
+        {
+            "id": "apac1239",
+            "name": "Apachean",
+            "url": "http://glottolog.org/resource/languoid/id/apac1239"
+        },
+        {
+            "id": "sout3151",
+            "name": "Southwestern Apachean",
+            "url": "http://glottolog.org/resource/languoid/id/sout3151"
+        },
+        {
+            "id": "east2723",
+            "name": "Eastern Southwestern Apachean",
+            "url": "http://glottolog.org/resource/languoid/id/east2723"
+        }
+    ],
+    "description": null,
+    "family_pk": 194,
+    "father_pk": 9445,
+    "hid": "apj",
+    "id": "jica1244",
+    "iso639-3": "apj",
+    "jsondata": {},
+    "latitude": 36.8079,
+    "level": "language",
+    "longitude": -107.007,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Jicarilla Apache",
+    "newick": "'Jicarilla Apache [jica1244][apj]-l-':1",
+    "pk": 12462,
+    "status": "definitely endangered"
+}

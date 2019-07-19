@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "semi1276",
+            "name": "Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/semi1276"
+        },
+        {
+            "id": "west2786",
+            "name": "West Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/west2786"
+        },
+        {
+            "id": "cent2236",
+            "name": "Central Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2236"
+        },
+        {
+            "id": "nort3165",
+            "name": "Northwest Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3165"
+        },
+        {
+            "id": "cana1267",
+            "name": "Canaanite",
+            "url": "http://glottolog.org/resource/languoid/id/cana1267"
+        },
+        {
+            "id": "hebr1246",
+            "name": "Hebrewic",
+            "url": "http://glottolog.org/resource/languoid/id/hebr1246"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 12657,
+    "hid": "heb",
+    "id": "hebr1245",
+    "iso639-3": "heb",
+    "jsondata": {},
+    "latitude": 31.1056,
+    "level": "language",
+    "longitude": 35.0179,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Modern Hebrew",
+    "newick": "('Oriental Hebrew [orie1241]':1,'Standard Hebrew [stan1314]':1)'Modern Hebrew [hebr1245][heb]-l-':1",
+    "pk": 15218,
+    "status": "safe"
+}

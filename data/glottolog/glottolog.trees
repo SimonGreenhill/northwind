@@ -1,0 +1,5 @@
+#NEXUS
+
+begin trees;
+   tree root = root;
+end;

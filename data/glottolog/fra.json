@@ -1,0 +1,101 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 16,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "west2813",
+            "name": "Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2813"
+        },
+        {
+            "id": "shif1234",
+            "name": "Shifted Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/shif1234"
+        },
+        {
+            "id": "nort3208",
+            "name": "Northwestern Shifted Romance",
+            "url": "http://glottolog.org/resource/languoid/id/nort3208"
+        },
+        {
+            "id": "gall1280",
+            "name": "Gallo-Rhaetian",
+            "url": "http://glottolog.org/resource/languoid/id/gall1280"
+        },
+        {
+            "id": "oila1234",
+            "name": "Oil",
+            "url": "http://glottolog.org/resource/languoid/id/oila1234"
+        },
+        {
+            "id": "cent2283",
+            "name": "Central Oil",
+            "url": "http://glottolog.org/resource/languoid/id/cent2283"
+        },
+        {
+            "id": "macr1273",
+            "name": "Macro-French",
+            "url": "http://glottolog.org/resource/languoid/id/macr1273"
+        },
+        {
+            "id": "glob1239",
+            "name": "Global French",
+            "url": "http://glottolog.org/resource/languoid/id/glob1239"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 23095,
+    "hid": "fra",
+    "id": "stan1290",
+    "iso639-3": "fra",
+    "jsondata": {},
+    "latitude": 48.0,
+    "level": "language",
+    "longitude": 2.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "French",
+    "newick": "('Acadian [acad1238]':1,'Angevin [ange1244]':1,'Anglo-Norman [angl1258][xno]':1,'Berrichon [berr1239]':1,'Bourbonnais [bour1246]':1,'Bourguignon [bour1247]':1,'Dgernesiais [dger1238]':1,'Franco-Ontarien [fran1263]':1,'Gallo [gall1275]':1,'Jerriais [jerr1238][nrf]':1,'Lorraine [lorr1242]':1,'Middle French [midd1316][frm]':1,'Norman [norm1245]':1,'Poitevin [poit1240]':1,'Qu\u00e9b\u00e9cois [queb1247]':1,'Santongeais [sant1407]':1)'French [stan1290][fra]-l-':1",
+    "pk": 23245,
+    "status": "definitely endangered"
+}

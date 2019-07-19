@@ -1,0 +1,50 @@
+﻿# Online Bible:
+http://paralleltext.info/data/hvn-x-bible/41/
+
+# Language:
+Hawu / Sabu
+
+# ISO Code:
+
+ISO 639-3: hvn
+
+# Consonant Inventory:
+p, t, k, ʔ, b, d, dʒ, g, ɓ, ɗ, ʄ, ɠ, v, h, m, n, ɲ, ŋ, l, r
+
+# Orthorgraphy consonant phoneme correspondences:
+<p> = /p/,  <t> = /t/, <k> = /k/, <'> = /ʔ/, <b> = /b/, <d> = /d/, <j> = /dʒ/, <g> = /g/, 
+<b'> = /ɓ/, <d'> = /ɗ/, <j'> = /ʄ/, <g'> = /ɠ/, <w> = /v/, <h> = /h/, <m> = /m/, <n> = /n/, 
+<ny> = /ɲ/, <ng> = /ŋ/, <l> = /l/, <r> = /r/
+
+# Vowel Inventory:
+i, e, ə, a, o, u
+
+# Orthography vowel phoneme correspondences:
+<i> = /i/, <e> = /e/, <è> = /ə/, <a> = /a/, <o> = /o/, <u> = /u/ 
+
+# Minimal pairs:
+
+
+# Minimal pairs differing in a single phonetic feature:
+/p~b/ /p~t/ /p~k/ /p~ʔ/ /p~ɓ/ /t~k/ /t~ʔ/ /t~d/ /t~ɗ/ /k~ʔ/ /k~g/ /k~ɠ/ /ʔ~h/ /b~d/  /b~g/ 
+/b~ɓ/ /b~m/ /d~g/ /d~ɗ/ /d~n/ /d~l/ /d~r/ /dʒ~ʄ/ /dʒ~ɲ/ /g~ɠ/ /g~ŋ/ /ɓ~ɗ/ /ɓ~ʄ/ /ɓ~ɠ/ /ɓ~m/ 
+/ɗ~ʄ/ /ɗ~ɠ/ /ɗ~n/ /ɗ~l/ /ɗ~r/ /ʄ~ɠ/ /ʄ~ɲ/ /ɠ~ŋ/ /m~n/ /m~ɲ/ /m~ŋ/ /n~ɲ/ /n~ŋ/ /n~l/ /n~r/ 
+/ɲ~ŋ/ /l~r/
+/i~e/ /e~ə/ /ə~o/ /ə~a/ /o~u/
+
+# Minimal pairs differing in more than a single phonetic feature:
+/b~dʒ/ /b~v/ /d~dʒ/ /dʒ~g/ /ɓ~v/ /v~h/ /v~m/
+/i~u/ /i~a/ /i~ə/ /e~o/ /e~a/ /a~u/ /o~a/
+
+# Notes:
+
+
+# Orthography Notes:
+In the bible translation the symbol <y> represents the palatal approximant /j/. It is used in 
+loanwords, Eg. 'Yesus" "Yesaya"
+
+# Resources: 
+Gimes, Charles. 2010. Hawu and Dhao in eastern Indonesia: revisiting their relationship. 
+In Ewing, Michael and Marian Klamer (eds) East Nusantara: typological and area anlyses. 
+Canberra: Pacific Linguistics. pp251-280.
+

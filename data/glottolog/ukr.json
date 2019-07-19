@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "east1426",
+            "name": "East Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/east1426"
+        },
+        {
+            "id": "ukra1257",
+            "name": "Ukrainian-Rusyn",
+            "url": "http://glottolog.org/resource/languoid/id/ukra1257"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6108,
+    "hid": "ukr",
+    "id": "ukra1253",
+    "iso639-3": "ukr",
+    "jsondata": {},
+    "latitude": 48.175842,
+    "level": "language",
+    "longitude": 24.395786,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Ukrainian",
+    "newick": "('East Ukrainian [east2270]':1,'Northwest Ukrainian [nort2599]':1,'Southwest Ukrainian [sout2604]':1)'Ukrainian [ukra1253][ukr]-l-':1",
+    "pk": 8628,
+    "status": "vulnerable"
+}

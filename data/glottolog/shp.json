@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "pano1259",
+            "name": "Pano-Tacanan",
+            "url": "http://glottolog.org/resource/languoid/id/pano1259"
+        },
+        {
+            "id": "pano1256",
+            "name": "Panoan",
+            "url": "http://glottolog.org/resource/languoid/id/pano1256"
+        },
+        {
+            "id": "main1279",
+            "name": "Mainline Pano",
+            "url": "http://glottolog.org/resource/languoid/id/main1279"
+        },
+        {
+            "id": "pano1257",
+            "name": "Pano Nawa",
+            "url": "http://glottolog.org/resource/languoid/id/pano1257"
+        },
+        {
+            "id": "cham1314",
+            "name": "Chama subgroup",
+            "url": "http://glottolog.org/resource/languoid/id/cham1314"
+        },
+        {
+            "id": "ship1253",
+            "name": "Shipibo-Konibo-Kapanawa",
+            "url": "http://glottolog.org/resource/languoid/id/ship1253"
+        }
+    ],
+    "description": null,
+    "family_pk": 16,
+    "father_pk": 7878,
+    "hid": "shp",
+    "id": "ship1254",
+    "iso639-3": "shp",
+    "jsondata": {},
+    "latitude": -7.17105,
+    "level": "language",
+    "longitude": -74.8219,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Shipibo-Conibo",
+    "newick": "('Conibo [coni1241]':1,'Pisquibo [pisq1240]':1,'Shetebo [shet1240]':1,'Shipibo [ship1255]':1,'Shipibo del Madre de Dios [ship1256]':1)'Shipibo-Conibo [ship1254][shp]-l-':1",
+    "pk": 10659,
+    "status": "vulnerable"
+}

@@ -1,0 +1,81 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "mala1536",
+            "name": "Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/mala1536"
+        },
+        {
+            "id": "nort3170",
+            "name": "North and East Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/nort3170"
+        },
+        {
+            "id": "mala1538",
+            "name": "Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/mala1538"
+        },
+        {
+            "id": "nucl1733",
+            "name": "Nuclear Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1733"
+        },
+        {
+            "id": "born1255",
+            "name": "Borneo Malay",
+            "url": "http://glottolog.org/resource/languoid/id/born1255"
+        },
+        {
+            "id": "sout3190",
+            "name": "Southeast Borneo Malay",
+            "url": "http://glottolog.org/resource/languoid/id/sout3190"
+        },
+        {
+            "id": "east2755",
+            "name": "East Borneo Malay",
+            "url": "http://glottolog.org/resource/languoid/id/east2755"
+        },
+        {
+            "id": "banj1240",
+            "name": "Banjar-Berau-Brunei Malay",
+            "url": "http://glottolog.org/resource/languoid/id/banj1240"
+        },
+        {
+            "id": "bera1266",
+            "name": "Berau-Brunei Malay",
+            "url": "http://glottolog.org/resource/languoid/id/bera1266"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 20308,
+    "hid": "kxd",
+    "id": "brun1242",
+    "iso639-3": "kxd",
+    "jsondata": {},
+    "latitude": 4.456045,
+    "level": "language",
+    "longitude": 114.429505,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Brunei",
+    "newick": "('Brunei Malay [brun1243]':1,'Kampong Ayer [kamp1243]':1,'Kedayan [keda1250]':1)'Brunei [brun1242][kxd]-l-':1",
+    "pk": 21427,
+    "status": "safe"
+}

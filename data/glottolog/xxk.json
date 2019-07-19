@@ -1,0 +1,76 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "cent2237",
+            "name": "Central-Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2237"
+        },
+        {
+            "id": "cent2245",
+            "name": "Central Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2245"
+        },
+        {
+            "id": "flor1240",
+            "name": "Flores-Sumba-Hawu",
+            "url": "http://glottolog.org/resource/languoid/id/flor1240"
+        },
+        {
+            "id": "flor1241",
+            "name": "Flores Barat",
+            "url": "http://glottolog.org/resource/languoid/id/flor1241"
+        },
+        {
+            "id": "ngad1265",
+            "name": "Ngada-Lio-Paluqe",
+            "url": "http://glottolog.org/resource/languoid/id/ngad1265"
+        },
+        {
+            "id": "ngad1266",
+            "name": "Ngada-Lio",
+            "url": "http://glottolog.org/resource/languoid/id/ngad1266"
+        },
+        {
+            "id": "ende1245",
+            "name": "Ende-Lio",
+            "url": "http://glottolog.org/resource/languoid/id/ende1245"
+        },
+        {
+            "id": "nage1238",
+            "name": "Nage-Keo",
+            "url": "http://glottolog.org/resource/languoid/id/nage1238"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 18597,
+    "hid": "xxk",
+    "id": "keoo1238",
+    "iso639-3": "xxk",
+    "jsondata": {},
+    "latitude": -8.8704,
+    "level": "language",
+    "longitude": 121.256,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Ke'o",
+    "newick": "'Ke''o [keoo1238][xxk]-l-':1",
+    "pk": 20261,
+    "status": "safe"
+}

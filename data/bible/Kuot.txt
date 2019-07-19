@@ -1,0 +1,56 @@
+﻿# Reference:
+
+
+# Online Bible:
+Gospel of Mark
+http://paralleltext.info/data/kto-x-bible/41/
+
+# Language:
+Kuot
+
+#ISO Code:
+639-3: kto
+
+
+# Consonant Inventory:
+ p(p, v, β), t(t, r), k(k, ɣ), b(b, mb), d(d, nd), g(g, ŋg), 
+m, n(n, l), ŋ, f, s, l, r
+
+
+# Orthography consonant phoneme correspondences:
+ <p>=/p/, <v>=[v], <t>=/t/, <k>=/k/, <b>=/b/, <d>=/d/, <g>=/g/-[ɣ], 
+<m>=/m/, <n>=/n/, <ng>=/ŋ/-[ŋg], <f>=/f/, <s>=/s/, <l>=/l/, <r>=/r/, <x>=[ɣ]
+     
+
+# Vowel Inventory:
+i, e, ə, a, o, u
+
+
+# Orthography vowel phoneme correspondences:
+<a>=/a/-/ə/, <i>=/i/, <e>=/e/, <o>=/o/, <u>=/u/
+
+# Minimal pairs differing in a single phonetic feature:
+/p~t/ /p~k/  /p~b/ /t~k/ /t~d/ /t~s/ /k~g/ /b~d/ /b~g/ /b~m/ /d~g/ /d~n/ /d~l/ 
+/d~r/ /g~ŋ/ /m~n/ /m~ŋ/ /n~ŋ/ /n~l/ /n~r/ /f~s/ /l~r/
+/i~e/ /e~ə/ /o~u/
+
+
+# Phonologically sensible minimal pairs differing in more than one feature:
+/p~f/
+ /i~a/ /i~u/ /ə~a/ /e~a/ /e~o/ /a~u/    
+
+# Orthographic marking of tone:
+
+
+# Transcript:
+
+
+
+# Notes:
+ 	Topics in the grammar of Kuot a non-Austronesian language of New Ireland, Papua New Guinea  Lindström, Eva  2002
+	 MENZIES 	 PL6621.K26L56 2002 	
+
+Description of orthography used by the Chungs (who produced the bible translation) p83 in Lindstrom.
+Allophones are often written with their own separate symbols. In these cases the allphones are indicated with square brackets.
+
+Lindström, Eva. "Literacy in a Dying Language: The Case of Kuot, New Ireland." 2007. In (Ed.) Anthony Liddicoat. Language Planning and Policy: Issues in Language Planning and Literacy. Multilingual Matters Ltd.

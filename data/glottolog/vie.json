@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1305",
+            "name": "Austroasiatic",
+            "url": "http://glottolog.org/resource/languoid/id/aust1305"
+        },
+        {
+            "id": "viet1250",
+            "name": "Vietic",
+            "url": "http://glottolog.org/resource/languoid/id/viet1250"
+        },
+        {
+            "id": "viet1251",
+            "name": "Viet-Muong",
+            "url": "http://glottolog.org/resource/languoid/id/viet1251"
+        }
+    ],
+    "description": null,
+    "family_pk": 141,
+    "father_pk": 2427,
+    "hid": "vie",
+    "id": "viet1252",
+    "iso639-3": "vie",
+    "jsondata": {},
+    "latitude": 20.681188,
+    "level": "language",
+    "longitude": 105.774071,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Vietnamese",
+    "newick": "('Central Vietnamese [cent1988]':1,'Northern Vietnamese [nort2683]':1,'Southern Vietnamese [sout2687]':1)'Vietnamese [viet1252][vie]-l-':1",
+    "pk": 4230,
+    "status": "safe"
+}

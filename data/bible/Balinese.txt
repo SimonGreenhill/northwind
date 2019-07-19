@@ -1,0 +1,53 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/ban-x-bible/41/001/
+
+# Language:
+Balinese
+
+#ISO Code:
+639-3: ban
+
+# Consonant Inventory:
+m, n, ɲ, ŋ, p, b, t, d, tʃ, dʒ, k, g, s, h, j, w, l, r 
+
+# Orthography consonant phoneme correspondences:
+<m>=/m/ <n>=/n/ <ny>=/ɲ/ <ng>=/ŋ/ <p>=/p/ <b>=/b/ <t>=/t/ <d>=/d/ 
+<c>=/tʃ/ <j>=/dʒ/ <k>=/k/ <g>=/g/ <s>=/s/ <h>=/h/ <y>=/j/ <w>=/w/ 
+<l>=/l/ <r>=/r/   
+
+# Vowel Inventory:
+i, e, ə, a, o, u
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <e>=/e/-/ə/ <a>=/a/ <o>=/o/ <u>=/u/   
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/m~n/ /m~ɲ/ /m~ŋ/ /m~b/ /n~ɲ/ /n~ŋ/ /n~d/ /n~l/ /n~r/ /ɲ~ŋ/ /ɲ~j/ /ŋ~g/ 
+/p~b/ /p~t/ /p~k/ /b~d/ /b~g/ /t~tʃ/ /t~k/ /t~d/ /t~s/ /d~dʒ/ /d~g/ 
+/d~l/ /d~r/ /k~g/ /s~h/ /j~w/ l~r/ 
+/i~e/ /o~u/ /e~ə/ /ə~o/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/p~tʃ/ /b~dʒ/ /dʒ~g/ 
+/i~a/ /i~u/ /a~u/ 
+
+# Transcript:
+
+
+
+# Notes:
+
+Some orthographies differentiate schwa with <é>, but not in the online bible.
+
+# References:
+
+Barber, C. C. 1977. A Grammar of the Balinese Language. Vol. 1. Aberdeen University Library, Occasional Publications No. 3. Aberdeen.
+
+Shadeg, Norbet. 2014. Balinese-English Dictionary. Tuttle Publishing: Singapore.
+
+https://en.wikipedia.org/wiki/Balinese_language	

@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "ital1286",
+            "name": "Italo-Dalmatian",
+            "url": "http://glottolog.org/resource/languoid/id/ital1286"
+        },
+        {
+            "id": "ital1287",
+            "name": "Italian Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1287"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 16924,
+    "hid": "ita",
+    "id": "ital1282",
+    "iso639-3": "ita",
+    "jsondata": {},
+    "latitude": 43.0464,
+    "level": "language",
+    "longitude": 12.6489,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Italian",
+    "newick": "('Abruzzese [abru1239]':1,'Cicolano-Reatino-Aquilano [cico1238]':1,'Fiorentino [fior1235]':1,'Laziale [lazi1238]':1)'Italian [ital1282][ita]-l-':1",
+    "pk": 19005,
+    "status": "safe"
+}

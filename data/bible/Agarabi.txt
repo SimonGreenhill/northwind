@@ -1,0 +1,68 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/agd-x-bible/41/001/
+
+# Language:
+Agarabi
+
+#ISO Code:
+ISO-639-3: agd
+
+# Consonant Inventory:
+p(p, ɸ, pʰ), b(b, bʷ, w),  t(t, tʰ, ts, s), d(d, dʲ, j)  k(k, kʰ, x), 
+w(w, β), j, m, n(n, ŋ), r(ɾ, r), ʔ(ʔ, ɦ)
+
+
+# Orthography consonant phoneme correspondences:
+/p/=<p> /t/=<t> /k/=<k> /w/=<v> /b/=<b> /d/=<d> /j/=<y> /m/=<m> /n/=<n>
+/r/=<r> /ʔ/=<í>-<é>-<á>-<ó>-<ú> [ɸ]=<f>
+     
+
+# Vowel Inventory:
+i, e, a(a, aː, ə), o, u
+
+# Tone Inventory:
+High tone: ˥, Low tone: ˩
+
+
+# Orthography vowel phoneme correspondences:
+/i/=<i> /e/=<e> /a/=<a> /o/=<o> /u/=<u> [aː]=<aa>
+     
+
+# Orthographic marking of tone:
+Tone unmarked.
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~b/ /p~t/ /p~k/ /p~ʔ/ /b~d/ /b~w/ /b~m/ /t~d/ /t~k/ /t~ʔ/ /d~n/ /d~r/ /k~ʔ/ /w~j/ /w~m/ /m~n/ /n~r/ 
+/i~e/ /o~u/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /i~u/ /e~o/ /u~a/
+
+
+# Transcript:
+
+
+
+# Notes:
+Tone is not represented orthographically. Glottal stops are represented by a 
+diacritic on the preceding vowel.
+
+Two allophones are represented in the otherwise phonemic orthography.
+
+# References:
+Bee, Darlene, Lorna Luff, and Jean Goddard. 1973. "Notes on Agarabi phonology."
+In Howard McKaughan (ed.), The languages of the Eastern family of the East New G
+uinea Highland stock. 414-23. Anthopological Studies in the Eastern Highlands 
+of New Guinea, 1. Seattle: University of Washington. 	
+
+Goddard, Jean. 1980. Notes on Agarabi Grammar. Papers in New Guinea Linguistics 20, 
+Pacific Linguistics, Series A-56. Canberra: Australian National University.
+
+Goddard, Jean. 1973. Agarabi Narratives and Commentary. In McKaughan, Howard (ed.) 
+The Languages of the Astern Family of the East New Guinea Highland Stock.
+Seattle: University of Washington Press.
+
+http://www-01.sil.org/pacific/png/pubs/928474542448/Agarabi.pdf

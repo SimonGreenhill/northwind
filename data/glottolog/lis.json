@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 6,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "burm1265",
+            "name": "Burmo-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/burm1265"
+        },
+        {
+            "id": "lolo1265",
+            "name": "Lolo-Burmese",
+            "url": "http://glottolog.org/resource/languoid/id/lolo1265"
+        },
+        {
+            "id": "lolo1267",
+            "name": "Loloish",
+            "url": "http://glottolog.org/resource/languoid/id/lolo1267"
+        },
+        {
+            "id": "nili1235",
+            "name": "Ni-Li-Kazhouish",
+            "url": "http://glottolog.org/resource/languoid/id/nili1235"
+        },
+        {
+            "id": "liso1234",
+            "name": "Lisoid",
+            "url": "http://glottolog.org/resource/languoid/id/liso1234"
+        },
+        {
+            "id": "nucl1734",
+            "name": "Nuclear Lisoid",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1734"
+        },
+        {
+            "id": "lisu1252",
+            "name": "Lisu-Laluba-Lavu",
+            "url": "http://glottolog.org/resource/languoid/id/lisu1252"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 14827,
+    "hid": "lis",
+    "id": "lisu1250",
+    "iso639-3": "lis",
+    "jsondata": {},
+    "latitude": 22.5488,
+    "level": "language",
+    "longitude": 94.0184,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Lisu",
+    "newick": "('Black Lisu [blac1267]':1,'Hua Lisu [hual1240]':1,'Hwa Lisu [hwal1238]':1,'Lu Shi Lisu [lush1248]':1,'Pai Lisu [pail1242]':1,'White Lisu [whit1263]':1)'Lisu [lisu1250][lis]-l-':1",
+    "pk": 17042,
+    "status": "safe"
+}

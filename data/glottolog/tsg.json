@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "grea1284",
+            "name": "Greater Central Philippine",
+            "url": "http://glottolog.org/resource/languoid/id/grea1284"
+        },
+        {
+            "id": "cent2246",
+            "name": "Central Philippine",
+            "url": "http://glottolog.org/resource/languoid/id/cent2246"
+        },
+        {
+            "id": "bisa1268",
+            "name": "Bisayan",
+            "url": "http://glottolog.org/resource/languoid/id/bisa1268"
+        },
+        {
+            "id": "sout3175",
+            "name": "South Bisayan",
+            "url": "http://glottolog.org/resource/languoid/id/sout3175"
+        },
+        {
+            "id": "butu1243",
+            "name": "Butuan-Tausug",
+            "url": "http://glottolog.org/resource/languoid/id/butu1243"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 10864,
+    "hid": "tsg",
+    "id": "taus1251",
+    "iso639-3": "tsg",
+    "jsondata": {},
+    "latitude": 5.12236,
+    "level": "language",
+    "longitude": 118.88,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Tausug",
+    "newick": "'Tausug [taus1251][tsg]-l-':1",
+    "pk": 13765,
+    "status": "safe"
+}

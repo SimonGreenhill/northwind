@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "west2792",
+            "name": "West Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2792"
+        },
+        {
+            "id": "sorb1249",
+            "name": "Sorbian",
+            "url": "http://glottolog.org/resource/languoid/id/sorb1249"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6113,
+    "hid": "hsb",
+    "id": "uppe1395",
+    "iso639-3": "hsb",
+    "jsondata": {},
+    "latitude": 51.2403,
+    "level": "language",
+    "longitude": 14.4098,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Upper Sorbian",
+    "newick": "('Bautzen [baut1239]':1,'Kamenz [kame1249]':1)'Upper Sorbian [uppe1395][hsb]-l-':1",
+    "pk": 8640,
+    "status": "vulnerable"
+}

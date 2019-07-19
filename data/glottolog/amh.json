@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "semi1276",
+            "name": "Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/semi1276"
+        },
+        {
+            "id": "west2786",
+            "name": "West Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/west2786"
+        },
+        {
+            "id": "ethi1244",
+            "name": "Ethiosemitic",
+            "url": "http://glottolog.org/resource/languoid/id/ethi1244"
+        },
+        {
+            "id": "sout3078",
+            "name": "South Ethiopic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3078"
+        },
+        {
+            "id": "tran1288",
+            "name": "Transversal South Ethiopic",
+            "url": "http://glottolog.org/resource/languoid/id/tran1288"
+        },
+        {
+            "id": "amha1244",
+            "name": "Amharic-Argobba",
+            "url": "http://glottolog.org/resource/languoid/id/amha1244"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 12665,
+    "hid": "amh",
+    "id": "amha1245",
+    "iso639-3": "amh",
+    "jsondata": {},
+    "latitude": 11.708182,
+    "level": "language",
+    "longitude": 39.543456,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Amharic",
+    "newick": "'Amharic [amha1245][amh]-l-':1",
+    "pk": 15232,
+    "status": "safe"
+}

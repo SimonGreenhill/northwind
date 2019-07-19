@@ -1,0 +1,55 @@
+﻿# Reference:
+10.1017/S0025100300004990
+
+# Language:
+Hindi
+
+#ISO Code:
+hin
+
+# Consonant Inventory:
+p, b, pʰ, bʱ, t̪, d̪, t̪ʰ, d̪ʱ, ʈ, ɖ, ʈʰ, ɖʱ, k, g, kʰ, gʱ, tʃ, dʒ, tʃʰ, dʒʱ, m, n, ŋ, ɾ(ɾ, r), ɽ, ɽʱ, f, 
+s, z, ʃ, h, ʋ(ʋ, v, w), j, l, p:, bː, pʰː, t̪ː, t̪ʰː, d̪ː, dʱː, tʃː, ʈː, ɖː, ʈʰː, ɖːʱ, kː, gː, kʰː, gʱː, dʒː, 
+tʃʰː, dʒʱː, mː, nː, ŋː, r, fː, sː, zː, ʃː, ʋː, jː, lː
+
+# Vowel Inventory:
+i, ɪ, e, ɛ, æ, ə, ɑ, ɔ, o, ʊ, u, ĩ, ɪ̃, ẽ, ɛ̃, ɑ̃, ɔ̃, ə̃, õ, ʊ̃, ũ
+
+# Phoneme inventory size:
+85
+
+# Length of NWS audio file:
+not available
+
+# Audio:
+NA
+
+# Minimal pairs:
+/p~b~pʰ~bʱ~m/ /t̪~d̪~t̪ʰ/ /s~h/ /ɾ~l/ /tʃ~dʒ~tʃʰ~ʃ/ /k~g~kʰ/ /ʈ~ɖ~ʈʰ~ɖʱ/ /ɽ~ɽʱ/
+/i~ɪ~e~ɛ/ 
+
+# Minimal pair examples:
+/pɑl~bɑl~pʰɑl~bʱɑl~mɑl/ /t̪ɑl~d̪ɑl~t̪ʰɑl/ /sɑl~hɑl/ /ɾɑl~lɑl/ /tʃɑl~dʒɑl~tʃʰɑl~ʃɑl/ /kɑl~gɑl~kʰɑl/ 
+/ʈɑl~ɖɑl~ʈʰɑl~ɖʱɑl/ /bəɽɑ~bəɽʱɑ/
+/mil~mɪl~mel~mɛl/ 
+
+# Other symbols:
+/./
+
+
+# Transcript:
+ʊt̪ːəɾi həʋɑ ɔɾ suɾədʒ ɪs bɑt̪ pəɾ dʒʱəgəɽ ɾəhe t̪ʰe ki həm d̪onõ, mẽ zjɑd̪ɑ
+bəlʋɑn kɔn hɛ. ɪt̪ne mẽ gəɾəm tʃogɑ pɛhne ek mʊsɑfɪɾ ʊd̪ʱəɾ ɑ nɪklɑ. həʋɑ
+ɔɾ suɾədʒ d̪onõ ɪs bɑt̪ pəɾ ɾɑzi ho gəje ki d̪onõ mẽ se dʒo pɛhle mʊsɑfɪɾ kɑ
+tʃogɑ ʊt̪əɾʋɑ degɑ ʋəhi zjɑd̪ɑ bəlʋɑn səmdʒʱɑ dʒɑjegɑ. ɪs pəɾ ʊt̪ːəɾi həʋɑ
+əpnɑ puɾɑ zoɾ ləgɑkəɾ tʃəlne ləgi lekɪn ʋo dʒɛse dʒɛse dʒɛse əpnɑ zoɾ bəɽhɑt̪i gəji
+ʋɛse ʋɛse mʊsɑfɪɾ əpne bəd̪ən pəɾ tʃoge ko ɔɾ bʱi zjɑd̪ɑ kəs kəɾ ləpeʈt̪ɑ
+gəjɑ. ənt̪ mẽ həʋɑ ne əpni koʃɪʃ bənd̪ kəɾ d̪i. pʰɪɾ suɾədʒ t̪ezi ke sɑt̪ʰ nɪklɑ
+ɔɾ mʊsɑfɪɾ ne t̪ʊɾənt̪ əpnɑ tʃogɑ ʊt̪ɑɾ d̪ɪjɑ. ɪs lɪje həʋɑ ko mɑnːɑ pəɽɑ ki
+ʊn d̪onõ mẽ suɾədʒ hi zjɑd̪ɑ bəlʋɑn hɛ.
+
+# Notes:
+Minimal pair examples from JIPA.
+
+# Errors:
+/d/ not in phoneme inventory but in transcript. Probably author’s typo.

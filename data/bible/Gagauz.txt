@@ -1,0 +1,54 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/gag-x-bible/41/001/
+
+# Language:
+Gagauz
+
+#ISO Code:
+639-3: 
+
+# Consonant Inventory:
+m, n, p, b, t, d, c, ɟ, k, g, ts, tʃ, dʒ, f, v(v, w), s,
+ z, ʃ, ʒ, x, h, ɫ, l, j, ʎ, ɾ
+
+
+# Orthography consonant phoneme correspondences:
+/m/=<m> /n/=<n> /p/=<p> /b/<b> /t/=<t> /d/=<d> /c/-/k/=<k> /ɟ/-/g/=<g> 
+/ts/=<ts>-<t̹> /tʃ/=<ç> /dʒ/=<c> /f/=<f> /v/=<v> /s/=<s> /z/=<z> /ʃ/=<ş> 
+/ʒ/=<j> /x/-/h/=<h> /ɫ/-/l/-/ʎ/=<l> /j/=<y> /ɾ/=<r>      
+
+# Vowel Inventory:
+ɑ, æ, e, ə, i, o, ø, u, ɯ, y
+
+
+# Orthography vowel phoneme correspondences:
+/ɑ/=<a> /æ/=<ä> /e/=<e> /ə/=<ê> /i/=<i> /o/=<o> /ø/=<ö> /u/=<u> /ɯ/=<ı> /y/=<ü>
+     
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/m~n/ /m~b/ /n~d/ /n~l/ /n~ɾ/ /n~z/ /p~b/ /p~t/ /p~c/ /p~k/ /b~d/ /b~g/ /b~ɟ/ 
+/t~d/ /t~c/ /t~k/ /t~ts/ /t~tʃ/ /t~s/ /d~ɟ/ /d~g/ /d~z/ /d~ɫ/ /d~l/ /d~ɾ/ /c~ɟ/ 
+/c~k/ /ɟ~g/ /ɟ~j/ /ɟ~ʎ/ /k~g/ /k~x/ /ts~tʃ/ /ts~s/ /tʃ~dʒ/ /tʃ~ʃ/ /dʒ~ʒ/ /f~v/ /f~s/ 
+/f~ʃ/ /f~x/ /f~h/ /v~z/ /v~ʒ/ /s~z/ /s~ʃ/ /s~x/ /s~h/ /z~ʒ/ /z~l/ /z~ɾ/ /ʃ~ʒ/ /ʃ~x/ 
+/ʃ~h/ /x~h/ /ɫ~l/ /ɫ~ʎ/ /ɫ~ɾ/ /l~ʎ/ /l~ɾ/ /j~ʎ/
+/ɑ~æ/ /ɑ~ɯ/ /æ~e/ /e~ə/ /e~i/ /e~ø/ /ə~ø/ /i~y/ /i~ɯ/ /o~ø/ /o~u/ u~ɯ/ /y~u/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/m~v/  /p~f/
+/i~u/ /i~ɑ/ /ɑ~u/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+https://en.wikipedia.org/wiki/Help:IPA_for_Turkish,_Gagauz,_Azerbaijani_and_Turkmen
+
+https://en.wikipedia.org/wiki/Gagauz_language#Phonology 	

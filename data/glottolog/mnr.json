@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "utoa1244",
+            "name": "Uto-Aztecan",
+            "url": "http://glottolog.org/resource/languoid/id/utoa1244"
+        },
+        {
+            "id": "nort2953",
+            "name": "Northern Uto-Aztecan",
+            "url": "http://glottolog.org/resource/languoid/id/nort2953"
+        },
+        {
+            "id": "numi1242",
+            "name": "Numic",
+            "url": "http://glottolog.org/resource/languoid/id/numi1242"
+        },
+        {
+            "id": "west2621",
+            "name": "Western Numic",
+            "url": "http://glottolog.org/resource/languoid/id/west2621"
+        }
+    ],
+    "description": null,
+    "family_pk": 378,
+    "father_pk": 5056,
+    "hid": "mnr",
+    "id": "mono1275",
+    "iso639-3": "mnr",
+    "jsondata": {},
+    "latitude": 37.1935,
+    "level": "language",
+    "longitude": -119.347,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Mono (USA)",
+    "newick": "'Mono {USA} [mono1275][mnr]-l-':1",
+    "pk": 7341,
+    "status": "critically endangered"
+}

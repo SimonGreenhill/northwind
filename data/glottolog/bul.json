@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "sout3147",
+            "name": "South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3147"
+        },
+        {
+            "id": "east2269",
+            "name": "Eastern South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/east2269"
+        },
+        {
+            "id": "mace1252",
+            "name": "Macedo-Bulgarian",
+            "url": "http://glottolog.org/resource/languoid/id/mace1252"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 8645,
+    "hid": "bul",
+    "id": "bulg1262",
+    "iso639-3": "bul",
+    "jsondata": {},
+    "latitude": 43.3646,
+    "level": "language",
+    "longitude": 25.047,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Bulgarian",
+    "newick": "('Palityan [pali1272]':1,'Pomak [poma1238]':1)'Bulgarian [bulg1262][bul]-l-':1",
+    "pk": 11487,
+    "status": "definitely endangered"
+}

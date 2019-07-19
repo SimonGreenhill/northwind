@@ -1,0 +1,49 @@
+﻿# Reference:
+10.1017/S002510031000006X
+
+# Language:
+Temne
+
+#ISO Code:
+tem
+
+# Consonant Inventory:
+p, b, t̪, t, d, k, gb, m, n, ŋ, tʃ, f, s, ʃ, h, r, j, w, l
+
+# Vowel Inventory:
+i(i, í, ì), e(e, é, è), ɛ(ɛ, ɛ́, ɛ̀), ə(ə, ə́, ə̀), a(a, á, à), 
+ʌ(ʌ, ʌ́, ʌ̀), ɔ(ɔ, ɔ́, ɔ̀), o(o, ó, ò), u(u, ú, ù)
+
+# Toneme Inventory:
+V́(í, é, ɛ́, ə́, á, ʌ́, ɔ́, ó, ú),
+V̀(ì, è, ɛ̀, ə̀, à, ʌ̀, ɔ̀, ò, ù)
+
+# Phoneme inventory size:
+30
+
+# Length of NWS audio file:
+1.08min.sec
+
+# Audio:
+68
+
+# Transcript:
+ʌ̀ŋfèf ʌ̀t̪ɔ̀rɔ́ŋ jìʌ̀nèjʌ́ŋ dʌ̀ dè sór ɛ̀fɔ́f tʌ̀ pá ŋà kə̀bʌ́k tə̀bʌ́nt̪. ʌ̀ŋféf ʌ̀t̪ɔ̀rɔ́ŋ ʌ́ŋ
+pá ŋʌ̀ t̪à bʌ́k tə̀bʌ́nt̪. ʌ̀néy sɔ̀ də̀ pá dʌ̀ t̪á bʌ́k tə̀bʌ́nt̪. kà ʌ̀ŋlɔ̀kɔ́ ŋà ɛ́fɔ́f ɛ̀yé,
+dʌ̀ ùkɔ́t̪ ɔ̀ dè dér dì. ɔ̀kót̪ ɔ̀wè ɔ̀ kúfəlànɛ̀ rùmá rɔ̀ wón. kà ʌ̀ŋlɔ̀kɔ́ ʌ̀ŋè, ʌ̀féf
+ʌ̀t̪ɔ̀rɔ́ŋ jìʌ̀nèjʌ́ŋ dʌ̀ ʌ̀ŋ dè bʌ́jə̀t kə̀pá ɔ̀wè mɔ́t̪à gbò jɔ́ ɔ̀kɔ́t̪ ɔ̀ bús ʌ̀rùmá rɔ́ŋ-è,
+kɔ̀nɔ́ t̪à bʌ́k tə̀bʌ́nt̪. kà kʌ̀tɔ́ŋ kàtí, dʌ̀ ʌ̀ŋféf ʌ̀t̪ɔ̀rɔ́ŋ ʌ̀ŋ féŋ ɔ̀lél ɔ̀lél. kɛ̀rɛ́ mʌ̀ŋ
+fɛ́ŋ gbó-è, jʌ̀ ɔ̀kɔ́t̪ mɔ̀ kúfə̀lànɛ̀ ʌ̀rùmá rɔ́ŋ rɔ̀ wòn. kə̀lə́psɔ̀-ì, dʌ̀ ʌ̀ŋféf ʌ̀t̪ɔ̀rɔ́ŋ
+ʌ̀ŋt̪ɔ́bə̀lɛ̀. ʌ̀nèj dʌ̀ də̀ wɔ́ŋ kʌ̀bàránt̪à. pə̀ wónə̀jɛ̀, kʌ̀ ɔ́kɔ́t̪ ɔ̀ bús ʌ̀rùmá rɔ́ŋ rɔ̀
+ɔ̀wɔ̀n. tàtí-ì ʌ̀ŋféf ʌ̀t̪ɔ̀rɔ́ŋ dʌ̀ gbìt̪ánɛ̀ kə̀pá ʌ̀néy rʌ̀ t̪à bʌ́k tə̀bʌ́nt̪.
+
+# Notes:
+There is dispute amongst linguists how many tones there are in Temne.  In this paper the 
+authors argue for two tones: High tone represented by diacritic V́ and low tone represented
+by diacritic V̀. 
+
+No mention is made of the symbol <y>.  Presumably it is being used as the palatal approximant /j/.
+
+
+# Errors:
+/y/ not in phoneme inventory, but present in transcription. Possibly author’s typo – meant to be palatal approximant.

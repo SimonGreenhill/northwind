@@ -1,0 +1,91 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "west2813",
+            "name": "Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2813"
+        },
+        {
+            "id": "shif1234",
+            "name": "Shifted Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/shif1234"
+        },
+        {
+            "id": "sout3183",
+            "name": "Southwestern Shifted Romance",
+            "url": "http://glottolog.org/resource/languoid/id/sout3183"
+        },
+        {
+            "id": "west2838",
+            "name": "West Ibero-Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2838"
+        },
+        {
+            "id": "cast1243",
+            "name": "Castilic",
+            "url": "http://glottolog.org/resource/languoid/id/cast1243"
+        },
+        {
+            "id": "sout3200",
+            "name": "South Castilic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3200"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 22295,
+    "hid": "lad",
+    "id": "ladi1251",
+    "iso639-3": "lad",
+    "jsondata": {},
+    "latitude": 41.205,
+    "level": "language",
+    "longitude": 28.6632,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Ladino",
+    "newick": "('Haquetiya [haqu1237]':1,'Judezmo [jude1254]':1,'Nuclear Ladino [nucl1268]':1)'Ladino [ladi1251][lad]-l-':1",
+    "pk": 22796,
+    "status": "safe"
+}

@@ -1,1 +1,9 @@
-../../requirements.txt
+IPython
+requests
+pytest
+pytest-cov
+pytest-xdist
+pytest-catchlog
+treemaker
+pybtex
+tabulate

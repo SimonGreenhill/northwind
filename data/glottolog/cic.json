@@ -1,0 +1,36 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "musk1252",
+            "name": "Muskogean",
+            "url": "http://glottolog.org/resource/languoid/id/musk1252"
+        },
+        {
+            "id": "west2614",
+            "name": "Western Muskogean",
+            "url": "http://glottolog.org/resource/languoid/id/west2614"
+        }
+    ],
+    "description": null,
+    "family_pk": 150,
+    "father_pk": 1273,
+    "hid": "cic",
+    "id": "chic1270",
+    "iso639-3": "cic",
+    "jsondata": {},
+    "latitude": 33.9452,
+    "level": "language",
+    "longitude": -97.1301,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Chickasaw",
+    "newick": "'Chickasaw [chic1270][cic]-l-':1",
+    "pk": 2520,
+    "status": "definitely endangered"
+}

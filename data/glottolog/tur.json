@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 10,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "turk1311",
+            "name": "Turkic",
+            "url": "http://glottolog.org/resource/languoid/id/turk1311"
+        },
+        {
+            "id": "comm1245",
+            "name": "Common Turkic",
+            "url": "http://glottolog.org/resource/languoid/id/comm1245"
+        },
+        {
+            "id": "oghu1243",
+            "name": "Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/oghu1243"
+        },
+        {
+            "id": "nucl1769",
+            "name": "Nuclear Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1769"
+        },
+        {
+            "id": "west2406",
+            "name": "West Oghuz",
+            "url": "http://glottolog.org/resource/languoid/id/west2406"
+        }
+    ],
+    "description": null,
+    "family_pk": 116,
+    "father_pk": 6219,
+    "hid": "tur",
+    "id": "nucl1301",
+    "iso639-3": "tur",
+    "jsondata": {},
+    "latitude": 39.8667,
+    "level": "language",
+    "longitude": 32.8667,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Turkish",
+    "newick": "(('Dinler [dinl1238]':1,'Edirne [edir1241]':1,'Eskisehir [eski1263]':1,'Gaziantep [gazi1244]':1,'Urfa [urfa1238]':1,'Yuruk [yuru1261]':1)'Anatolian Turkish [anat1259]':1,'Cypriot Turkish [cypr1251]':1,'Karamanli [kara1469]':1,'Syrian Turkmen Turkish [syri1244]':1)'Turkish [nucl1301][tur]-l-':1",
+    "pk": 8798,
+    "status": "safe"
+}

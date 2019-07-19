@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 22,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "sini1245",
+            "name": "Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/sini1245"
+        },
+        {
+            "id": "clas1255",
+            "name": "Classical-Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/clas1255"
+        },
+        {
+            "id": "midd1354",
+            "name": "Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/midd1354"
+        },
+        {
+            "id": "yuep1234",
+            "name": "Yue-Pinghua",
+            "url": "http://glottolog.org/resource/languoid/id/yuep1234"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 6552,
+    "hid": "yue",
+    "id": "yuec1235",
+    "iso639-3": "yue",
+    "jsondata": {},
+    "latitude": 23.0,
+    "level": "language",
+    "longitude": 113.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Yue Chinese",
+    "newick": "(('Gaozhou [gaoz1234]':1,'Yangjiang [yang1307]':1)'Gaoyang [gaol1235]':1,'Goulou [guin1237]':1,'Qinlian [qinl1235]':1,('Dancun [danc1234]':1,'Jiangmen [jian1244]':1,'Toishanese [tois1237]':1,'Vancouver Cantonese [vanc1237]':1)'Siyi [siyi1236]':1,'Wuhua [wuhu1235]':1,'Yongxun [yong1286]':1,(('Guangzhou [guan1279]':1,'Tanka Cantonese [tank1239]':1,'Wuzhou Yue [wuzh1239]':1,'Xianggang [xian1255]':1,'Xiguan [xigu1234]':1)'Cantonese [cant1236]':1,'Guan-Bao [guan1280]':1,'Samyap [samy1234]':1,'Zhongshan [zhon1239]':1)'Yuehai [yueh1236]':1)'Yue Chinese [yuec1235][yue]-l-':1",
+    "pk": 9262,
+    "status": "safe"
+}

@@ -1,0 +1,91 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "nort3175",
+            "name": "North Sea Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3175"
+        },
+        {
+            "id": "angl1264",
+            "name": "Anglo-Frisian",
+            "url": "http://glottolog.org/resource/languoid/id/angl1264"
+        },
+        {
+            "id": "angl1265",
+            "name": "Anglian",
+            "url": "http://glottolog.org/resource/languoid/id/angl1265"
+        },
+        {
+            "id": "merc1242",
+            "name": "Mercian",
+            "url": "http://glottolog.org/resource/languoid/id/merc1242"
+        },
+        {
+            "id": "macr1271",
+            "name": "Macro-English",
+            "url": "http://glottolog.org/resource/languoid/id/macr1271"
+        },
+        {
+            "id": "guin1259",
+            "name": "Guinea Coast Creole English",
+            "url": "http://glottolog.org/resource/languoid/id/guin1259"
+        },
+        {
+            "id": "cari1284",
+            "name": "Caribbean English Creole",
+            "url": "http://glottolog.org/resource/languoid/id/cari1284"
+        },
+        {
+            "id": "west2854",
+            "name": "Western Caribbean Creole",
+            "url": "http://glottolog.org/resource/languoid/id/west2854"
+        },
+        {
+            "id": "jama1264",
+            "name": "Jamaicanic",
+            "url": "http://glottolog.org/resource/languoid/id/jama1264"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 22286,
+    "hid": "jam",
+    "id": "jama1262",
+    "iso639-3": "jam",
+    "jsondata": {},
+    "latitude": 18.13,
+    "level": "language",
+    "longitude": -77.2612,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Jamaican Creole English",
+    "newick": "('British Creole [brit1243]':1)'Jamaican Creole English [jama1262][jam]-l-':1",
+    "pk": 22783,
+    "status": "definitely endangered"
+}

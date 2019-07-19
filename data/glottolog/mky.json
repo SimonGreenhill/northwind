@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "cent2237",
+            "name": "Central-Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/cent2237"
+        },
+        {
+            "id": "east2712",
+            "name": "Eastern Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/east2712"
+        },
+        {
+            "id": "sout2850",
+            "name": "Greater SHWNG",
+            "url": "http://glottolog.org/resource/languoid/id/sout2850"
+        },
+        {
+            "id": "sout3229",
+            "name": "South Halmahera-West New Guinea",
+            "url": "http://glottolog.org/resource/languoid/id/sout3229"
+        },
+        {
+            "id": "raja1255",
+            "name": "Raja Ampat-South Halmahera",
+            "url": "http://glottolog.org/resource/languoid/id/raja1255"
+        },
+        {
+            "id": "sout3231",
+            "name": "South Halmahera",
+            "url": "http://glottolog.org/resource/languoid/id/sout3231"
+        },
+        {
+            "id": "east2439",
+            "name": "East Makian-Gane",
+            "url": "http://glottolog.org/resource/languoid/id/east2439"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 16087,
+    "hid": "mky",
+    "id": "east2440",
+    "iso639-3": "mky",
+    "jsondata": {},
+    "latitude": 0.07337,
+    "level": "language",
+    "longitude": 127.423,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "East Makian",
+    "newick": "('Kayoa [kayo1246]':1,'Nuclear East Makian [nucl1468]':1)'East Makian [east2440][mky]-l-':1",
+    "pk": 18237,
+    "status": "definitely endangered"
+}

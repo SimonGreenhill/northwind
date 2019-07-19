@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1324",
+            "name": "Indo-Aryan Northwestern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1324"
+        },
+        {
+            "id": "chit1278",
+            "name": "Chitral",
+            "url": "http://glottolog.org/resource/languoid/id/chit1278"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6121,
+    "hid": "khw",
+    "id": "khow1242",
+    "iso639-3": "khw",
+    "jsondata": {},
+    "latitude": 36.0,
+    "level": "language",
+    "longitude": 72.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Khowar",
+    "newick": "('East Khowar [east2321]':1,'North Khowar [nort2664]':1,'South Khowar [sout2670]':1,'Swat Khowar [swat1242]':1)'Khowar [khow1242][khw]-l-':1",
+    "pk": 8660,
+    "status": "safe"
+}

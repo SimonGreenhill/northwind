@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "sout3147",
+            "name": "South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/sout3147"
+        },
+        {
+            "id": "west2804",
+            "name": "Western South Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2804"
+        },
+        {
+            "id": "sout1528",
+            "name": "Serbian-Croatian-Bosnian",
+            "url": "http://glottolog.org/resource/languoid/id/sout1528"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 8641,
+    "hid": "hrv",
+    "id": "croa1245",
+    "iso639-3": "hrv",
+    "jsondata": {},
+    "latitude": 45.2006,
+    "level": "language",
+    "longitude": 16.826,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Croatian",
+    "newick": "('Burgenland Croatian [burg1244]':1,'Chakavski [chak1265]':1,'Nuclear Croatian [nucl1267]':1)'Croatian [croa1245][hrv]-l-':1",
+    "pk": 11476,
+    "status": "definitely endangered"
+}

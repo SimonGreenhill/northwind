@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 15,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1323",
+            "name": "Indo-Aryan Eastern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1323"
+        },
+        {
+            "id": "oriy1254",
+            "name": "Oriya-Gauda-Kamrupa",
+            "url": "http://glottolog.org/resource/languoid/id/oriy1254"
+        },
+        {
+            "id": "gaud1237",
+            "name": "Gauda-Kamrupa",
+            "url": "http://glottolog.org/resource/languoid/id/gaud1237"
+        },
+        {
+            "id": "gaud1238",
+            "name": "Gauda-Banga",
+            "url": "http://glottolog.org/resource/languoid/id/gaud1238"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11556,
+    "hid": "ben",
+    "id": "beng1280",
+    "iso639-3": "ben",
+    "jsondata": {},
+    "latitude": 24.0,
+    "level": "language",
+    "longitude": 90.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Bengali",
+    "newick": "('Bahe [bahe1242]':1,'Barik [bari1281]':1,'Bhatiari [bhat1266]':1,'Central Bengali [cent1983]':1,'Chirmar [chir1281]':1,'Ganda {Bengali} [gand1253]':1,'Kachari-Bengali [kach1275]':1,'Musselmani [muss1245]':1,('Koch {Northern Bengali} [koch1248]':1,'Siripuria [siri1268]':1)'Northern Bengali [nort2658]':1,'Rajshahi [rajs1238]':1,'Samaria [sama1293]':1,'Saraki [sara1311]':1,'Vanga [vang1242]':1)'Bengali [beng1280][ben]-l-':1",
+    "pk": 14383,
+    "status": "safe"
+}

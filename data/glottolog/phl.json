@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1324",
+            "name": "Indo-Aryan Northwestern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1324"
+        },
+        {
+            "id": "shin1270",
+            "name": "Shinaic",
+            "url": "http://glottolog.org/resource/languoid/id/shin1270"
+        },
+        {
+            "id": "west2860",
+            "name": "Western Shinaic",
+            "url": "http://glottolog.org/resource/languoid/id/west2860"
+        },
+        {
+            "id": "palu1255",
+            "name": "Dangari",
+            "url": "http://glottolog.org/resource/languoid/id/palu1255"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11513,
+    "hid": "phl",
+    "id": "phal1254",
+    "iso639-3": "phl",
+    "jsondata": {},
+    "latitude": 35.5096,
+    "level": "language",
+    "longitude": 71.8421,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Phalura",
+    "newick": "('Ashreti [ashr1238]':1,'Northern Phalura [nort2667]':1)'Phalura [phal1254][phl]-l-':1",
+    "pk": 14264,
+    "status": "vulnerable"
+}

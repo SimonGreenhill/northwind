@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "west2792",
+            "name": "West Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2792"
+        },
+        {
+            "id": "lech1241",
+            "name": "Lechitic",
+            "url": "http://glottolog.org/resource/languoid/id/lech1241"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6111,
+    "hid": "pol",
+    "id": "poli1260",
+    "iso639-3": "pol",
+    "jsondata": {},
+    "latitude": 51.8439,
+    "level": "language",
+    "longitude": 18.6255,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Polish",
+    "newick": "('Upper Silesian Polish [uppe1394]':1)'Polish [poli1260][pol]-l-':1",
+    "pk": 8634,
+    "status": "safe"
+}

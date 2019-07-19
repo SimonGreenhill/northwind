@@ -1,0 +1,86 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "ital1284",
+            "name": "Italic",
+            "url": "http://glottolog.org/resource/languoid/id/ital1284"
+        },
+        {
+            "id": "lati1262",
+            "name": "Latino-Faliscan",
+            "url": "http://glottolog.org/resource/languoid/id/lati1262"
+        },
+        {
+            "id": "lati1263",
+            "name": "Latinic",
+            "url": "http://glottolog.org/resource/languoid/id/lati1263"
+        },
+        {
+            "id": "impe1234",
+            "name": "Imperial Latin",
+            "url": "http://glottolog.org/resource/languoid/id/impe1234"
+        },
+        {
+            "id": "roma1334",
+            "name": "Romance",
+            "url": "http://glottolog.org/resource/languoid/id/roma1334"
+        },
+        {
+            "id": "ital1285",
+            "name": "Italo-Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/ital1285"
+        },
+        {
+            "id": "west2813",
+            "name": "Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2813"
+        },
+        {
+            "id": "shif1234",
+            "name": "Shifted Western Romance",
+            "url": "http://glottolog.org/resource/languoid/id/shif1234"
+        },
+        {
+            "id": "sout3183",
+            "name": "Southwestern Shifted Romance",
+            "url": "http://glottolog.org/resource/languoid/id/sout3183"
+        },
+        {
+            "id": "west2838",
+            "name": "West Ibero-Romance",
+            "url": "http://glottolog.org/resource/languoid/id/west2838"
+        },
+        {
+            "id": "gali1263",
+            "name": "Galician Romance",
+            "url": "http://glottolog.org/resource/languoid/id/gali1263"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 21501,
+    "hid": "glg",
+    "id": "gali1258",
+    "iso639-3": "glg",
+    "jsondata": {},
+    "latitude": 42.2446,
+    "level": "language",
+    "longitude": -7.5343,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Galician",
+    "newick": "'Galician [gali1258][glg]-l-':1",
+    "pk": 22299,
+    "status": "safe"
+}

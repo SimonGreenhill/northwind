@@ -1,0 +1,81 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 19,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "drav1251",
+            "name": "Dravidian",
+            "url": "http://glottolog.org/resource/languoid/id/drav1251"
+        },
+        {
+            "id": "sout3133",
+            "name": "South Dravidian",
+            "url": "http://glottolog.org/resource/languoid/id/sout3133"
+        },
+        {
+            "id": "sout3138",
+            "name": "South Dravidian I",
+            "url": "http://glottolog.org/resource/languoid/id/sout3138"
+        },
+        {
+            "id": "tami1291",
+            "name": "Tamil-Kannada",
+            "url": "http://glottolog.org/resource/languoid/id/tami1291"
+        },
+        {
+            "id": "tami1292",
+            "name": "Tamil-Kota",
+            "url": "http://glottolog.org/resource/languoid/id/tami1292"
+        },
+        {
+            "id": "tami1293",
+            "name": "Tamil-Toda",
+            "url": "http://glottolog.org/resource/languoid/id/tami1293"
+        },
+        {
+            "id": "tami1294",
+            "name": "Tamil-Irula",
+            "url": "http://glottolog.org/resource/languoid/id/tami1294"
+        },
+        {
+            "id": "tami1297",
+            "name": "Tamil-Kodagu",
+            "url": "http://glottolog.org/resource/languoid/id/tami1297"
+        },
+        {
+            "id": "tami1298",
+            "name": "Tamil-Malayalam",
+            "url": "http://glottolog.org/resource/languoid/id/tami1298"
+        },
+        {
+            "id": "tami1299",
+            "name": "Tamiloid",
+            "url": "http://glottolog.org/resource/languoid/id/tami1299"
+        },
+        {
+            "id": "tami1300",
+            "name": "Tamil-Paliyan",
+            "url": "http://glottolog.org/resource/languoid/id/tami1300"
+        }
+    ],
+    "description": null,
+    "family_pk": 353,
+    "father_pk": 20555,
+    "hid": "tam",
+    "id": "tami1289",
+    "iso639-3": "tam",
+    "jsondata": {},
+    "latitude": 10.520219,
+    "level": "language",
+    "longitude": 78.825989,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Tamil",
+    "newick": "('Adi Dravida [adid1237]':1,'Aiyangar [aiya1239]':1,'Aiyar [aiya1240]':1,'Arava [arav1239]':1,'Burgandi [burg1245]':1,'Burma Tamil [burm1258]':1,'Harijan [hari1247]':1,'Hebbar [hebb1237]':1,'Kongar [kong1282]':1,'Madrasi [madr1237]':1,'Malaya Tamil [mala1467]':1,'Mandyam Brahmin [mand1410]':1,'Nuclear Tamil [nucl1304]':1,'Pattapu Bhasha [patt1247]':1,'Sanketi [sank1249]':1,'Secunderabad Brahmin [secu1237]':1,'South Africa Tamil [sout2709]':1,'Sri Lanka Tamil [sril1244]':1,'Tigalu [tiga1243]':1)'Tamil [tami1289][tam]-l-':1",
+    "pk": 21579,
+    "status": "safe"
+}

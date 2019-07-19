@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 11,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1324",
+            "name": "Indo-Aryan Northwestern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1324"
+        },
+        {
+            "id": "sind1278",
+            "name": "Sindhi-Lahnda",
+            "url": "http://glottolog.org/resource/languoid/id/sind1278"
+        },
+        {
+            "id": "sind1279",
+            "name": "Sindhic",
+            "url": "http://glottolog.org/resource/languoid/id/sind1279"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 8684,
+    "hid": "snd",
+    "id": "sind1272",
+    "iso639-3": "snd",
+    "jsondata": {},
+    "latitude": 26.0,
+    "level": "language",
+    "longitude": 69.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Sindhi",
+    "newick": "('Bhatia [bhat1267]':1,'Dukslinu [duks1238]':1,'Kayasthi [kaya1313]':1,'Lari {Sindhi} [lari1254]':1,'Macharia [mach1263]':1,'Sindhi Musalmani [sind1273]':1,'Thareli [thar1281]':1,'Thari [thar1282]':1,'Viccholi [vicc1238]':1,'Vicholo [vich1239]':1,'Visholi [vish1242]':1)'Sindhi [sind1272][snd]-l-':1",
+    "pk": 11527,
+    "status": "safe"
+}

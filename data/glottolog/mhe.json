@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 6,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1305",
+            "name": "Austroasiatic",
+            "url": "http://glottolog.org/resource/languoid/id/aust1305"
+        },
+        {
+            "id": "asli1243",
+            "name": "Aslian",
+            "url": "http://glottolog.org/resource/languoid/id/asli1243"
+        },
+        {
+            "id": "sout2686",
+            "name": "South Aslian",
+            "url": "http://glottolog.org/resource/languoid/id/sout2686"
+        }
+    ],
+    "description": null,
+    "family_pk": 141,
+    "father_pk": 2452,
+    "hid": "mhe",
+    "id": "besi1244",
+    "iso639-3": "mhe",
+    "jsondata": {},
+    "latitude": 2.717,
+    "level": "language",
+    "longitude": 101.676,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Besisi",
+    "newick": "('Betise'' [beti1247]':1,'Kuala Langot Besisi [kual1250]':1,'Malakka Besisi [mala1455]':1,'Selangor Sakai [sela1257]':1,'Sisi [sisi1247]':1,'Ulu Langat Orang Bukit [ulul1240]':1)'Besisi [besi1244][mhe]-l-':1",
+    "pk": 4280,
+    "status": "definitely endangered"
+}

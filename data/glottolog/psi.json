@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1324",
+            "name": "Indo-Aryan Northwestern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1324"
+        },
+        {
+            "id": "pash1270",
+            "name": "Pashayi",
+            "url": "http://glottolog.org/resource/languoid/id/pash1270"
+        },
+        {
+            "id": "east2322",
+            "name": "Eastern Pashayi",
+            "url": "http://glottolog.org/resource/languoid/id/east2322"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 8663,
+    "hid": "psi",
+    "id": "sout2672",
+    "iso639-3": "psi",
+    "jsondata": {},
+    "latitude": 34.43099,
+    "level": "language",
+    "longitude": 70.30351,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Southeast Pashayi",
+    "newick": "('Alingar [alin1238]':1,'Darrai Nur [darr1238]':1,'Kunar {Southeast Pashayi} [kuna1265]':1,'Laghman [lagh1243]':1,'Wegal [wega1238]':1)'Southeast Pashayi [sout2672][psi]-l-':1",
+    "pk": 11509,
+    "status": "vulnerable"
+}

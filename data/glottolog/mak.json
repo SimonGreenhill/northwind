@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 3,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "sout2923",
+            "name": "South Sulawesi",
+            "url": "http://glottolog.org/resource/languoid/id/sout2923"
+        },
+        {
+            "id": "maka1310",
+            "name": "Makassaric",
+            "url": "http://glottolog.org/resource/languoid/id/maka1310"
+        },
+        {
+            "id": "nucl1727",
+            "name": "Nuclear Makassaric",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1727"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 5522,
+    "hid": "mak",
+    "id": "maka1311",
+    "iso639-3": "mak",
+    "jsondata": {},
+    "latitude": -5.65551,
+    "level": "language",
+    "longitude": 119.838,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Makasar",
+    "newick": "('Gowa [gowa1239]':1,'Maros-Pangkep [maro1245]':1,'Turatea [tura1262]':1)'Makasar [maka1311][mak]-l-':1",
+    "pk": 8161,
+    "status": "vulnerable"
+}

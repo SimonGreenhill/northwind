@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "atla1278",
+            "name": "Atlantic-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/atla1278"
+        },
+        {
+            "id": "volt1241",
+            "name": "Volta-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/volt1241"
+        },
+        {
+            "id": "nort3149",
+            "name": "North Volta-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/nort3149"
+        },
+        {
+            "id": "came1255",
+            "name": "Cameroun-Ubangian",
+            "url": "http://glottolog.org/resource/languoid/id/came1255"
+        },
+        {
+            "id": "uban1244",
+            "name": "Ubangi",
+            "url": "http://glottolog.org/resource/languoid/id/uban1244"
+        },
+        {
+            "id": "band1341",
+            "name": "Bandaic",
+            "url": "http://glottolog.org/resource/languoid/id/band1341"
+        },
+        {
+            "id": "cent2021",
+            "name": "Central Bandaic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2021"
+        },
+        {
+            "id": "cent2022",
+            "name": "Central Core Bandaic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2022"
+        },
+        {
+            "id": "mids1242",
+            "name": "Mid-Southern Central Core Bandaic",
+            "url": "http://glottolog.org/resource/languoid/id/mids1242"
+        }
+    ],
+    "description": null,
+    "family_pk": 10,
+    "father_pk": 15629,
+    "hid": "mnh",
+    "id": "mono1270",
+    "iso639-3": "mnh",
+    "jsondata": {},
+    "latitude": 4.57915,
+    "level": "language",
+    "longitude": 19.8264,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Mono (Democratic Republic of Congo)",
+    "newick": "('Bili [bili1251]':1,'Bubanda [buba1239]':1,'Galaba [gala1253]':1,'Kaga {Democratic Republic of Congo} [kaga1253]':1,'Mpaka [mpak1240]':1)'Mono {Democratic Republic of Congo} [mono1270][mnh]-l-':1",
+    "pk": 17723,
+    "status": "vulnerable"
+}

@@ -1,0 +1,48 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/aai-x-bible/41/001/
+
+# Language:
+Arifama-Miniafia
+
+#ISO Code:
+639-3: aai
+
+# Consonant Inventory:
+b, d, f, g, h, k, kʷ, m, n, r, s, t, w, j, ʔ
+
+# Orthography consonant phoneme correspondences:
+/b/=<b> /d/=<d> /f/=<f> /g/=<g> /h/=<h> /k/=<k> /kʷ/=<kw> /m/=<m> /n/=<n> /r/=<r>
+ /s/=<s> /t/+<t> /w/=<w> /j/=<y> /ʔ/=<'>   
+
+# Vowel Inventory:
+ɑ, e, i, o, u
+
+
+# Orthography vowel phoneme correspondences:
+/ɑ/=<a> /e/=<e> /i/=<i> /o/=<o> /u/=<u>
+  
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/b~d/ /b~g/ /b~m/ /d~g/ /d~n/ /d~t/ /f~s/ /g~k/ /h~ʔ/ /f~h/ /h~s/ /k~kʷ/ /k~ʔ/ 
+/m~n/ /n~r/ /d~r/ /s~t/ /w~j/
+/i~e/ /o~u/
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/b~f/
+/ɑ~i/ /ɑ~u/ /i~u/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+Organised Phonology Data: Arifama-Miniafia Language, Tufi, Oro Province. Found at:
+http://www-01.sil.org/pacific/png/pubs/928474542232/Miniafia.pdf
+ 	

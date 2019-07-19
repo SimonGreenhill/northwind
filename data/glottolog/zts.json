@@ -1,0 +1,66 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "otom1299",
+            "name": "Otomanguean",
+            "url": "http://glottolog.org/resource/languoid/id/otom1299"
+        },
+        {
+            "id": "east2557",
+            "name": "Eastern Otomanguean",
+            "url": "http://glottolog.org/resource/languoid/id/east2557"
+        },
+        {
+            "id": "popo1292",
+            "name": "Popoloca-Zapotecan",
+            "url": "http://glottolog.org/resource/languoid/id/popo1292"
+        },
+        {
+            "id": "zapo1436",
+            "name": "Zapotecan",
+            "url": "http://glottolog.org/resource/languoid/id/zapo1436"
+        },
+        {
+            "id": "zapo1437",
+            "name": "Zapotec",
+            "url": "http://glottolog.org/resource/languoid/id/zapo1437"
+        },
+        {
+            "id": "nucl1765",
+            "name": "Nuclear Zapotec",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1765"
+        },
+        {
+            "id": "core1259",
+            "name": "Core Zapotec",
+            "url": "http://glottolog.org/resource/languoid/id/core1259"
+        },
+        {
+            "id": "cent2146",
+            "name": "Central Core Zapotec",
+            "url": "http://glottolog.org/resource/languoid/id/cent2146"
+        }
+    ],
+    "description": null,
+    "family_pk": 381,
+    "father_pk": 15433,
+    "hid": "zts",
+    "id": "tilq1235",
+    "iso639-3": "zts",
+    "jsondata": {},
+    "latitude": 16.8529,
+    "level": "language",
+    "longitude": -96.6321,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Tilquiapan Zapotec",
+    "newick": "'Tilquiapan Zapotec [tilq1235][zts]-l-':1",
+    "pk": 17528,
+    "status": "safe"
+}

@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1322",
+            "name": "Indo-Aryan Central zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1322"
+        },
+        {
+            "id": "subc1234",
+            "name": "Subcontinental Central Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/subc1234"
+        },
+        {
+            "id": "west2812",
+            "name": "Western Hindi",
+            "url": "http://glottolog.org/resource/languoid/id/west2812"
+        },
+        {
+            "id": "hind1270",
+            "name": "Hindustani",
+            "url": "http://glottolog.org/resource/languoid/id/hind1270"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 11628,
+    "hid": "hin",
+    "id": "hind1269",
+    "iso639-3": "hin",
+    "jsondata": {},
+    "latitude": 25.0,
+    "level": "language",
+    "longitude": 77.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Hindi",
+    "newick": "('Dakhini [dakh1243]':1,'Literary Hindi [lite1247]':1,'Nuclear Hindi [nucl1281]':1,'Rekhta [rekh1239]':1)'Hindi [hind1269][hin]-l-':1",
+    "pk": 14526,
+    "status": "safe"
+}

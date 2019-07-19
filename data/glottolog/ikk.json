@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "atla1278",
+            "name": "Atlantic-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/atla1278"
+        },
+        {
+            "id": "volt1241",
+            "name": "Volta-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/volt1241"
+        },
+        {
+            "id": "benu1247",
+            "name": "Benue-Congo",
+            "url": "http://glottolog.org/resource/languoid/id/benu1247"
+        },
+        {
+            "id": "igbo1258",
+            "name": "Igboid",
+            "url": "http://glottolog.org/resource/languoid/id/igbo1258"
+        },
+        {
+            "id": "igbo1259",
+            "name": "Nuclear Igboid",
+            "url": "http://glottolog.org/resource/languoid/id/igbo1259"
+        }
+    ],
+    "description": null,
+    "family_pk": 10,
+    "father_pk": 5263,
+    "hid": "ikk",
+    "id": "ikaa1238",
+    "iso639-3": "ikk",
+    "jsondata": {},
+    "latitude": 6.36423,
+    "level": "language",
+    "longitude": 6.31058,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Ika",
+    "newick": "'Ika [ikaa1238][ikk]-l-':1",
+    "pk": 7670,
+    "status": "safe"
+}

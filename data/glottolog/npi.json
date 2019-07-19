@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 9,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "indo1321",
+            "name": "Indo-Aryan",
+            "url": "http://glottolog.org/resource/languoid/id/indo1321"
+        },
+        {
+            "id": "indo1310",
+            "name": "Indo-Aryan Northern zone",
+            "url": "http://glottolog.org/resource/languoid/id/indo1310"
+        },
+        {
+            "id": "east1436",
+            "name": "Eastern Pahari",
+            "url": "http://glottolog.org/resource/languoid/id/east1436"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6147,
+    "hid": "npi",
+    "id": "nepa1254",
+    "iso639-3": "npi",
+    "jsondata": {},
+    "latitude": 28.0,
+    "level": "language",
+    "longitude": 85.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Nepali",
+    "newick": "('Acchami [acch1238]':1,'Baitadi [bait1246]':1,'Bajhangi [bajh1238]':1,'Bajurali [baju1244]':1,'Darjula [darj1238]':1,'Doteli [dote1238]':1,'Gorkhali [gork1241]':1,'Nuclear Nepali [nucl1265]':1,'Soradi [sora1251]':1)'Nepali [nepa1254][npi]-l-':1",
+    "pk": 8744,
+    "status": "safe"
+}

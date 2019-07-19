@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "mala1536",
+            "name": "Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/mala1536"
+        },
+        {
+            "id": "nort3170",
+            "name": "North and East Malayo-Sumbawan",
+            "url": "http://glottolog.org/resource/languoid/id/nort3170"
+        },
+        {
+            "id": "mala1538",
+            "name": "Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/mala1538"
+        },
+        {
+            "id": "nucl1733",
+            "name": "Nuclear Malayic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1733"
+        },
+        {
+            "id": "indo1326",
+            "name": "Indonesian Archipelago Malay",
+            "url": "http://glottolog.org/resource/languoid/id/indo1326"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 11005,
+    "hid": "ind",
+    "id": "indo1316",
+    "iso639-3": "ind",
+    "jsondata": {},
+    "latitude": -7.33458,
+    "level": "language",
+    "longitude": 109.716,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Indonesian",
+    "newick": "('Colloquial Jakarta Indonesian [cjin1234]':1,'Standard Indonesian [stin1234]':1)'Indonesian [indo1316][ind]-l-':1",
+    "pk": 13875,
+    "status": "safe"
+}

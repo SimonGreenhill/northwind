@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 29,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "sini1245",
+            "name": "Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/sini1245"
+        },
+        {
+            "id": "clas1255",
+            "name": "Classical-Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/clas1255"
+        },
+        {
+            "id": "midd1354",
+            "name": "Middle-Modern Sinitic",
+            "url": "http://glottolog.org/resource/languoid/id/midd1354"
+        },
+        {
+            "id": "wuhu1234",
+            "name": "Wu-Hui Chinese",
+            "url": "http://glottolog.org/resource/languoid/id/wuhu1234"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 6559,
+    "hid": "wuu",
+    "id": "wuch1236",
+    "iso639-3": "wuu",
+    "jsondata": {},
+    "latitude": 29.8621,
+    "level": "language",
+    "longitude": 119.682,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Wu Chinese",
+    "newick": "(('Jiangshan [long1386]':1,'Qingtian [qing1241]':1,'Quzhou [chuz1238]':1)'Chuqu [chuq1241]':1,'Jinhua [jinh1238]':1,(('Lin-Shao [lins1238]':1,('Ningbo [ning1280]':1,'Zhoushan [zhou1235]':1)'Yongjiang [yong1273]':1)'Northern Zhejiang [nort3273]':1,('Hangzhou [hang1257]':1,'Piling [pili1238]':1)'Northwestern Wu [nort3274]':1,('Jiaxing [jiax1234]':1,'Shanghainese [shan1293]':1,'Suzhou [suzh1234]':1,'Wuxi [wuxi1234]':1)'Su-Hu-Jia [suhu1238]':1,('Huzhou [huzh1239]':1,'Southeast Guangde [sout3256]':1)'Tiaoxi [tiao1238]':1)'Taihu [taih1244]':1,'Taizhou [taiz1238]':1,'Wenzhou [ouji1238]':1,'Wuzhou Wu [wuzh1238]':1,('Shiling [shil1262]':1,'Taigao [taig1246]':1,'Tongjing [tong1313]':1)'Xuanzhou [xuan1238]':1)'Wu Chinese [wuch1236][wuu]-l-':1",
+    "pk": 9289,
+    "status": "safe"
+}

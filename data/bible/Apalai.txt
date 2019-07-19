@@ -1,0 +1,54 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/apy-x-bible/41/
+
+# Language:
+Apalai
+
+#ISO Code:
+639-3: apy
+
+# Consonant Inventory:
+p, t, k, ʔ, m, n, z, s, x, r, w, j 
+
+# Orthography consonant phoneme correspondences:
+/p/=<p> /t/=<t> /k/=<k> /ʔ/=<h> /m/=<m> /n/=<n> /z/=<z> /s/=<s> 
+/š/=<x> /ř/=<r> /w/=<w> /j/=<y>       
+
+# Vowel Inventory:
+i, ĩ, e, a, o, u, ɨ,  ẽ, ã, õ, ũ, ɨ̃
+
+# Orthography vowel phoneme correspondences:
+/i/=<i> /ĩ/=<ĩ> /ɨ/=<y> /ɨ̃/=<ỹ> /u/=<u> /ũ/=<ũ> /e/=<e> /ẽ/=<ẽ> /a/=<a> /ã/=<ã>  
+/o/=<o> /õ/=<õ> 
+      
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /ʔ~k/ /ʔ~p/ /ʔ~t/ /j~w/ /k~t/ /k~p/ 
+/m~n/ /n~z/ /r~d/ /s~x/ /s~t/ /s~z/
+/i~e/ /i~ĩ/ /i~ɨ/ /e~ẽ/ /a~ã/ /a~ɨ/ /o~u/ /o~õ/ /u~ũ/ /ɨ~ɨ̃/ /ĩ~ẽ/ /õ~ũ/ /ã~ɨ̃/  
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/p~m/ /p~w/ /t~n/
+/i~u/ /i~a/ /u~a/ /ĩ~ũ/ /ĩ~ã/ /ũ~ã/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+
+Koehn, Edward & Sally Koehn. 1986. Apalai. In Derbyshire, Desmond C. & 
+Geoffrey K Pullum (Eds.) Handbook of Amazonian languages. Vol 1. 
+De Gruyter Mouton. 33-127
+
+http://www.native-languages.org/apalai_guide.htm
+
+
+ 	

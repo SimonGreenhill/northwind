@@ -1,0 +1,61 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "pama1250",
+            "name": "Pama-Nyungan",
+            "url": "http://glottolog.org/resource/languoid/id/pama1250"
+        },
+        {
+            "id": "dese1234",
+            "name": "Desert Nyungic",
+            "url": "http://glottolog.org/resource/languoid/id/dese1234"
+        },
+        {
+            "id": "wati1241",
+            "name": "Wati",
+            "url": "http://glottolog.org/resource/languoid/id/wati1241"
+        },
+        {
+            "id": "pint1254",
+            "name": "Pintupic",
+            "url": "http://glottolog.org/resource/languoid/id/pint1254"
+        },
+        {
+            "id": "nucl1724",
+            "name": "Nuclear Pintupic",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1724"
+        },
+        {
+            "id": "wang1300",
+            "name": "Wangkatja-Tjarra",
+            "url": "http://glottolog.org/resource/languoid/id/wang1300"
+        },
+        {
+            "id": "tjar1234",
+            "name": "Tjarra",
+            "url": "http://glottolog.org/resource/languoid/id/tjar1234"
+        }
+    ],
+    "description": null,
+    "family_pk": 66,
+    "father_pk": 11355,
+    "hid": "pjt",
+    "id": "pitj1243",
+    "iso639-3": "pjt",
+    "jsondata": {},
+    "latitude": -26.9704,
+    "level": "language",
+    "longitude": 131.357,
+    "macroareas": {
+        "australia": "Australia"
+    },
+    "markup_description": null,
+    "name": "Pitjantjatjara",
+    "newick": "'Pitjantjatjara [pitj1243][pjt]-l-':1",
+    "pk": 14100,
+    "status": "vulnerable"
+}

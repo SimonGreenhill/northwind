@@ -1,0 +1,47 @@
+﻿# Reference:
+
+
+# Online Bible:
+
+
+# Language:
+Torres Strait Creole / Broken
+
+#ISO Code:
+639-3: tcs
+
+# Consonant Inventory:
+p(p, f), t(t, θ), k, s(s, ʃ, tʃ), l, m, j, b(b, v), d(d, ð), 
+g, z(z, ʒ, dʒ), 
+r, n, w, ŋ 
+
+# Orthography consonant phoneme correspondences:  
+<p>=/p/ <t>=/t/ <k>=/k/ <s>=/s/ <l>=/l/ <m>=/m/ <y>=/j/ <b>=/b/ <d>=/d/ 
+<g>=/g/ <z>=/z/ <r>=/r/ <n>=/n/ <w>=/w/ <ng>=/ŋ/
+
+# Vowel Inventory:
+i, e, a, o, u, ei, ai, au, oi
+
+# Orthography vowel phoneme correspondences:
+<i>=/i/ <e>=/e/ <a>=/a/ <o>=/o/ <u>=/u/ <ei>=/ei/ <ai>=/ai/ <au>=/au/ <oi>=/oi/  
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/p~t/ /p~k/ /p~b/ /t~k/ /t~s/ /t~d/ /k~g/ /s~z/ /l~d/ /l~z/ /l~n/ /l~r/ /m~b/
+ /m~n/ /m~ŋ/ /j~w/ /b~d/ /b~g/ /g~ŋ/ /z~r/ /z~n/ /r~n/ /n~ŋ/ 
+/i~e/ /i~ei/ /i~ai/ /i~oi/ /e~ei/ /a~ai/ /a~ai/ /o~u/ /o~oi/ /ei~ai/ /ei~oi/ /ai~au/ /ai~oi/ 
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/i~a/ /a~u/ /i~u/
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+Shnukal, Anna. 1988. Broken: an introduction to the creole language of Torres Strait. 
+Series C-No.107. Pacific Linguistics: Canberra. 
+ 	

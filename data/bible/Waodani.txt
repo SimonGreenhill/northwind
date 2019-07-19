@@ -1,0 +1,51 @@
+﻿# Reference:
+
+
+# Online Bible:
+http://paralleltext.info/data/auc-x-bible/41/001/
+
+# Language:
+Waodani
+
+
+#ISO Code:
+639-3: auc
+
+# Consonant Inventory:
+b(b, m), d(d, ɾ, n), g(g, ŋ), p, k, t, j(j, ɲ) , w
+
+# Orthography consonant phoneme correspondences:
+<b>=/b/ <d>=/d/ <g>-<gu>=/g/ <p>=/p/ <c>-<qu>=/k/ <m>=[m] <n>=[n] 
+<j>=/j/ <ng>=[ŋ] <t>=/t/ <w>=/w/    
+
+# Vowel Inventory:
+a, æ, e(e, ɛ), i, o(o, ʊ), ã, æ̃, ẽ, ĩ, õ 
+
+# Orthography vowel phoneme correspondences:
+<a>=/a/ <æ>=/æ/ <e>=/e/ <i>=/i/ <o>=/o/ <ä>=/ã/ <æ̈>=/æ̃/ <ë>=/ẽ/ 
+<ï>=/ĩ/ <ö>=/õ/   
+
+# Orthographic marking of tone:
+
+# Minimal pairs differing in only a single phonetic feature:
+/b~d/ /b~g/ /b~p/ /d~g/ /d~t/ /g~k/ /p~k/ /p~t/ /k~t/
+ /j~w/ 
+/a~æ/ /a~ã/ /æ~e/ /æ~i/ /æ~æ̃/  /e~i/ /e~ẽ/ /i~ĩ/ /o~õ/ /ã~æ̃/ /æ̃~ẽ/ /ẽ~ĩ/ 
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/a~i/ 
+
+# Transcript:
+
+
+
+# Notes:
+
+# References:
+
+Kelley, Patricia M. 1988. Issues for Literacy Materials Development in a Monolingual Amazonian Culture: The Waodani of Ecuador.
+Masters Thesis. The University of British Columbia.
+
+http://www.native-languages.org/waorani_guide.htm
+
+ 	

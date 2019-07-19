@@ -1,0 +1,36 @@
+﻿# Reference:
+10.1017/S0025100300001754
+
+# Language:
+Basque (Wester Low Navarrese dialect)
+
+#ISO Code:
+eus
+
+# Consonant Inventory:
+p, t, c, k, pʰ, tʰ, kʰ, b,d, ɟ, g, f, s, ʂ, ʃ, h, ts, tʂ, tʃ, m, n, ɲ, l, ʎ, ɾ, ʁ(ʁ, r)
+
+# Vowel Inventory:
+i, e(e, j, eː), a(a, aː), o(o, w, oː), u(u, uː), ai, ei, oi, ui, au, eu
+
+# Length of NWS audio file:
+NA
+
+# Audio:
+NA
+
+# Transcript:
+bidaɾi bat kapa lodi bates ɟauntsia etʰori selaik ipʰar aisia eta iguskia kalapitan 
+ai sien bakotʃak beɾe buːia haskarena kauʂitus. elgar aitu suten eranes soinek eta 
+bietaik lehena bidaɾiai beɾe kapa
+ken aːsten basion, huɾa haskarena kauʂitua isaːn sela. orduan 
+ipʰar aisia beɾe indar gusias ɟokatu sen, baita haisia soɾoagoa baita 
+cinkiagoa suen bidaɾiak beɾe kapa lotsen eta askenian ipʰar aisiak beː 
+giʂa utsi suen. orduan iguskia beotsen haʂi sen bortiski eta
+bidaɾiak beɾe kapa ʂegidan kendu suen. askenian ipʰar aisiak
+iguskiaɾi aitʰortu behar isan sion bietaik ahulena sela.
+
+
+# Notes:
+In the JIPA article long vowels were written with a double letter grapheme, here I have
+used the length symbol for consistencey across languages. 

@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "semi1276",
+            "name": "Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/semi1276"
+        },
+        {
+            "id": "west2786",
+            "name": "West Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/west2786"
+        },
+        {
+            "id": "cent2236",
+            "name": "Central Semitic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2236"
+        },
+        {
+            "id": "arab1394",
+            "name": "Arabian",
+            "url": "http://glottolog.org/resource/languoid/id/arab1394"
+        },
+        {
+            "id": "arab1395",
+            "name": "Arabic",
+            "url": "http://glottolog.org/resource/languoid/id/arab1395"
+        }
+    ],
+    "description": null,
+    "family_pk": 374,
+    "father_pk": 9770,
+    "hid": "arb",
+    "id": "stan1318",
+    "iso639-3": "arb",
+    "jsondata": {},
+    "latitude": 27.9625,
+    "level": "language",
+    "longitude": 43.8525,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Standard Arabic",
+    "newick": "'Standard Arabic [stan1318][arb]-l-':1",
+    "pk": 12653,
+    "status": "safe"
+}

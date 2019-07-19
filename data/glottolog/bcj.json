@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "nyul1248",
+            "name": "Nyulnyulan",
+            "url": "http://glottolog.org/resource/languoid/id/nyul1248"
+        },
+        {
+            "id": "west2872",
+            "name": "Western Nyulnyulan",
+            "url": "http://glottolog.org/resource/languoid/id/west2872"
+        },
+        {
+            "id": "bard1254",
+            "name": "Bardic",
+            "url": "http://glottolog.org/resource/languoid/id/bard1254"
+        }
+    ],
+    "description": null,
+    "family_pk": 108,
+    "father_pk": 2294,
+    "hid": "bcj",
+    "id": "bard1255",
+    "iso639-3": "bcj",
+    "jsondata": {},
+    "latitude": -16.6274,
+    "level": "language",
+    "longitude": 122.906,
+    "macroareas": {
+        "australia": "Australia"
+    },
+    "markup_description": null,
+    "name": "Bardi",
+    "newick": "('Jawi [jawi1238]':1,'Nuclear Bardi [nucl1338]':1)'Bardi [bard1255][bcj]-l-':1",
+    "pk": 4123,
+    "status": "critically endangered"
+}

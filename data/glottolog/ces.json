@@ -1,0 +1,56 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 6,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "west2792",
+            "name": "West Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2792"
+        },
+        {
+            "id": "czec1260",
+            "name": "Czech-Slovak",
+            "url": "http://glottolog.org/resource/languoid/id/czec1260"
+        },
+        {
+            "id": "czec1261",
+            "name": "Czech-Lach",
+            "url": "http://glottolog.org/resource/languoid/id/czec1261"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 8637,
+    "hid": "ces",
+    "id": "czec1258",
+    "iso639-3": "ces",
+    "jsondata": {},
+    "latitude": 49.873398,
+    "level": "language",
+    "longitude": 15.10437,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Czech",
+    "newick": "('Central Bohemian [cent1953]':1,'Czecho-Moravian [czec1259]':1,'Hanak [hana1242]':1,'Lach [lach1246]':1,'Northeast Bohemian [nort2596]':1,'Southwest Bohemian [sout1722]':1)'Czech [czec1258][ces]-l-':1",
+    "pk": 11473,
+    "status": "safe"
+}

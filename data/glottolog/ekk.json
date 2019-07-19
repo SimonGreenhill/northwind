@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 2,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "ural1272",
+            "name": "Uralic",
+            "url": "http://glottolog.org/resource/languoid/id/ural1272"
+        },
+        {
+            "id": "finn1317",
+            "name": "Finnic",
+            "url": "http://glottolog.org/resource/languoid/id/finn1317"
+        },
+        {
+            "id": "coas1319",
+            "name": "Coastal Finnic",
+            "url": "http://glottolog.org/resource/languoid/id/coas1319"
+        },
+        {
+            "id": "neva1234",
+            "name": "Neva",
+            "url": "http://glottolog.org/resource/languoid/id/neva1234"
+        },
+        {
+            "id": "cent2329",
+            "name": "Central Finnic",
+            "url": "http://glottolog.org/resource/languoid/id/cent2329"
+        }
+    ],
+    "description": null,
+    "family_pk": 383,
+    "father_pk": 7422,
+    "hid": "ekk",
+    "id": "esto1258",
+    "iso639-3": "ekk",
+    "jsondata": {},
+    "latitude": 58.55,
+    "level": "language",
+    "longitude": 25.82,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Estonian",
+    "newick": "('Middle Estonian [midd1322]':1,'North Estonian [nort2674]':1)'Estonian [esto1258][ekk]-l-':1",
+    "pk": 9998,
+    "status": "safe"
+}

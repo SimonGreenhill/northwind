@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 5,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "germ1287",
+            "name": "Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/germ1287"
+        },
+        {
+            "id": "nort3152",
+            "name": "Northwest Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/nort3152"
+        },
+        {
+            "id": "west2793",
+            "name": "West Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/west2793"
+        },
+        {
+            "id": "high1286",
+            "name": "High German",
+            "url": "http://glottolog.org/resource/languoid/id/high1286"
+        },
+        {
+            "id": "midd1349",
+            "name": "Middle-Modern High German",
+            "url": "http://glottolog.org/resource/languoid/id/midd1349"
+        },
+        {
+            "id": "mode1258",
+            "name": "Modern High German",
+            "url": "http://glottolog.org/resource/languoid/id/mode1258"
+        },
+        {
+            "id": "uppe1397",
+            "name": "Alpine Germanic",
+            "url": "http://glottolog.org/resource/languoid/id/uppe1397"
+        },
+        {
+            "id": "baye1239",
+            "name": "Bayerisch",
+            "url": "http://glottolog.org/resource/languoid/id/baye1239"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 16687,
+    "hid": "bar",
+    "id": "bava1246",
+    "iso639-3": "bar",
+    "jsondata": {},
+    "latitude": 47.9232,
+    "level": "language",
+    "longitude": 13.246,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Bavarian",
+    "newick": "(('Upper Austrian german [uppe1398]':1,'Viennese German [vien1238]':1)'Central Bavarian [cent1967]':1,'North Bavarian [nort2634]':1,'South Bavarian [sout2632]':1)'Bavarian [bava1246][bar]-l-':1",
+    "pk": 18789,
+    "status": "vulnerable"
+}

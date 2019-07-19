@@ -1,0 +1,25 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [],
+    "description": null,
+    "family_pk": null,
+    "father_pk": null,
+    "hid": "sei",
+    "id": "seri1257",
+    "iso639-3": "sei",
+    "jsondata": {},
+    "latitude": 28.9877,
+    "level": "language",
+    "longitude": -112.384,
+    "macroareas": {
+        "northamerica": "North America"
+    },
+    "markup_description": null,
+    "name": "Seri",
+    "newick": "'Seri [seri1257][sei]-l-':1",
+    "pk": 290,
+    "status": "definitely endangered"
+}

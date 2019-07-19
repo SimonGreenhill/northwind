@@ -1,0 +1,71 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "sino1245",
+            "name": "Sino-Tibetan",
+            "url": "http://glottolog.org/resource/languoid/id/sino1245"
+        },
+        {
+            "id": "burm1265",
+            "name": "Burmo-Qiangic",
+            "url": "http://glottolog.org/resource/languoid/id/burm1265"
+        },
+        {
+            "id": "lolo1265",
+            "name": "Lolo-Burmese",
+            "url": "http://glottolog.org/resource/languoid/id/lolo1265"
+        },
+        {
+            "id": "lolo1267",
+            "name": "Loloish",
+            "url": "http://glottolog.org/resource/languoid/id/lolo1267"
+        },
+        {
+            "id": "nili1235",
+            "name": "Ni-Li-Kazhouish",
+            "url": "http://glottolog.org/resource/languoid/id/nili1235"
+        },
+        {
+            "id": "sout3212",
+            "name": "Southeastern Ngwi",
+            "url": "http://glottolog.org/resource/languoid/id/sout3212"
+        },
+        {
+            "id": "niso1234",
+            "name": "Nisoid",
+            "url": "http://glottolog.org/resource/languoid/id/niso1234"
+        },
+        {
+            "id": "nucl1739",
+            "name": "Nuclear Nisoid",
+            "url": "http://glottolog.org/resource/languoid/id/nucl1739"
+        },
+        {
+            "id": "nasu1236",
+            "name": "Nasu-Nosu",
+            "url": "http://glottolog.org/resource/languoid/id/nasu1236"
+        }
+    ],
+    "description": null,
+    "family_pk": 149,
+    "father_pk": 17063,
+    "hid": "iii",
+    "id": "sich1238",
+    "iso639-3": "iii",
+    "jsondata": {},
+    "latitude": 28.1947,
+    "level": "language",
+    "longitude": 102.121,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Sichuan Yi",
+    "newick": "('Butuo Yi [butu1242]':1,'Huili Yi [huil1243]':1,'Yinuo Yi [yinu1238]':1,'Yishengzha Yi [yish1238]':1)'Sichuan Yi [sich1238][iii]-l-':1",
+    "pk": 19094,
+    "status": "safe"
+}

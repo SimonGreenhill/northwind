@@ -1,0 +1,76 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "taik1256",
+            "name": "Tai-Kadai",
+            "url": "http://glottolog.org/resource/languoid/id/taik1256"
+        },
+        {
+            "id": "kamt1241",
+            "name": "Kam-Tai",
+            "url": "http://glottolog.org/resource/languoid/id/kamt1241"
+        },
+        {
+            "id": "beta1258",
+            "name": "Be-Tai",
+            "url": "http://glottolog.org/resource/languoid/id/beta1258"
+        },
+        {
+            "id": "daic1237",
+            "name": "Daic",
+            "url": "http://glottolog.org/resource/languoid/id/daic1237"
+        },
+        {
+            "id": "cent2251",
+            "name": "Central-Southwestern Tai",
+            "url": "http://glottolog.org/resource/languoid/id/cent2251"
+        },
+        {
+            "id": "wenm1239",
+            "name": "Wenma-Southwestern Tai",
+            "url": "http://glottolog.org/resource/languoid/id/wenm1239"
+        },
+        {
+            "id": "sapa1255",
+            "name": "Sapa-Southwestern Tai",
+            "url": "http://glottolog.org/resource/languoid/id/sapa1255"
+        },
+        {
+            "id": "sout3184",
+            "name": "Southwestern Tai",
+            "url": "http://glottolog.org/resource/languoid/id/sout3184"
+        },
+        {
+            "id": "sput1235",
+            "name": "Southwestern Thai PH",
+            "url": "http://glottolog.org/resource/languoid/id/sput1235"
+        },
+        {
+            "id": "laot1235",
+            "name": "Lao-Thai",
+            "url": "http://glottolog.org/resource/languoid/id/laot1235"
+        }
+    ],
+    "description": null,
+    "family_pk": 23,
+    "father_pk": 18762,
+    "hid": "tha",
+    "id": "thai1261",
+    "iso639-3": "tha",
+    "jsondata": {},
+    "latitude": 14.192,
+    "level": "language",
+    "longitude": 100.671,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Thai",
+    "newick": "('Khorat Thai [khor1272]':1)'Thai [thai1261][tha]-l-':1",
+    "pk": 20341,
+    "status": "safe"
+}

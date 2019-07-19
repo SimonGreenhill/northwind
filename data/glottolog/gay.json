@@ -1,0 +1,41 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "aust1307",
+            "name": "Austronesian",
+            "url": "http://glottolog.org/resource/languoid/id/aust1307"
+        },
+        {
+            "id": "mala1545",
+            "name": "Malayo-Polynesian",
+            "url": "http://glottolog.org/resource/languoid/id/mala1545"
+        },
+        {
+            "id": "nort2829",
+            "name": "Northwest Sumatra-Barrier Islands",
+            "url": "http://glottolog.org/resource/languoid/id/nort2829"
+        }
+    ],
+    "description": null,
+    "family_pk": 21,
+    "father_pk": 1961,
+    "hid": "gay",
+    "id": "gayo1244",
+    "iso639-3": "gay",
+    "jsondata": {},
+    "latitude": 4.3733,
+    "level": "language",
+    "longitude": 97.3456,
+    "macroareas": {
+        "pacific": "Papunesia"
+    },
+    "markup_description": null,
+    "name": "Gayo",
+    "newick": "('Bobasan [boba1247]':1,'Dorot [doro1264]':1,'Serbodjadi [serb1268]':1,'Tampur [tamp1253]':1)'Gayo [gayo1244][gay]-l-':1",
+    "pk": 3635,
+    "status": "vulnerable"
+}

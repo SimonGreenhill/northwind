@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "araw1281",
+            "name": "Arawakan",
+            "url": "http://glottolog.org/resource/languoid/id/araw1281"
+        },
+        {
+            "id": "sout3131",
+            "name": "Southern Maipuran",
+            "url": "http://glottolog.org/resource/languoid/id/sout3131"
+        },
+        {
+            "id": "puru1265",
+            "name": "Purus",
+            "url": "http://glottolog.org/resource/languoid/id/puru1265"
+        },
+        {
+            "id": "piro1249",
+            "name": "Piroic",
+            "url": "http://glottolog.org/resource/languoid/id/piro1249"
+        }
+    ],
+    "description": null,
+    "family_pk": 77,
+    "father_pk": 3991,
+    "hid": "pib",
+    "id": "yine1238",
+    "iso639-3": "pib",
+    "jsondata": {},
+    "latitude": -11.1086,
+    "level": "language",
+    "longitude": -73.3087,
+    "macroareas": {
+        "southamerica": "South America"
+    },
+    "markup_description": null,
+    "name": "Yine",
+    "newick": "'Yine [yine1238][pib]-l-':1",
+    "pk": 5992,
+    "status": "definitely endangered"
+}

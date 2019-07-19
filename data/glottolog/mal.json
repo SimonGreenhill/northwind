@@ -1,0 +1,76 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 12,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "drav1251",
+            "name": "Dravidian",
+            "url": "http://glottolog.org/resource/languoid/id/drav1251"
+        },
+        {
+            "id": "sout3133",
+            "name": "South Dravidian",
+            "url": "http://glottolog.org/resource/languoid/id/sout3133"
+        },
+        {
+            "id": "sout3138",
+            "name": "South Dravidian I",
+            "url": "http://glottolog.org/resource/languoid/id/sout3138"
+        },
+        {
+            "id": "tami1291",
+            "name": "Tamil-Kannada",
+            "url": "http://glottolog.org/resource/languoid/id/tami1291"
+        },
+        {
+            "id": "tami1292",
+            "name": "Tamil-Kota",
+            "url": "http://glottolog.org/resource/languoid/id/tami1292"
+        },
+        {
+            "id": "tami1293",
+            "name": "Tamil-Toda",
+            "url": "http://glottolog.org/resource/languoid/id/tami1293"
+        },
+        {
+            "id": "tami1294",
+            "name": "Tamil-Irula",
+            "url": "http://glottolog.org/resource/languoid/id/tami1294"
+        },
+        {
+            "id": "tami1297",
+            "name": "Tamil-Kodagu",
+            "url": "http://glottolog.org/resource/languoid/id/tami1297"
+        },
+        {
+            "id": "tami1298",
+            "name": "Tamil-Malayalam",
+            "url": "http://glottolog.org/resource/languoid/id/tami1298"
+        },
+        {
+            "id": "mala1541",
+            "name": "Malayalamoid",
+            "url": "http://glottolog.org/resource/languoid/id/mala1541"
+        }
+    ],
+    "description": null,
+    "family_pk": 353,
+    "father_pk": 19135,
+    "hid": "mal",
+    "id": "mala1464",
+    "iso639-3": "mal",
+    "jsondata": {},
+    "latitude": 9.59208,
+    "level": "language",
+    "longitude": 76.7651,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Malayalam",
+    "newick": "('Central Kerala [cent1998]':1,'Kayavar [kaya1314]':1,'Malabar [mala1465]':1,'Moplah [mopl1237]':1,'Nagari-Malayalam [naga1395]':1,'Namboodiri [namb1289]':1,'Nasrani [nasr1237]':1,'Nayar [naya1237]':1,'North Kerala [nort2700]':1,'Nuclear Malayalam [nucl1303]':1,'Pulaya [pula1261]':1,'South Kerala [sout2708]':1)'Malayalam [mala1464][mal]-l-':1",
+    "pk": 20549,
+    "status": "safe"
+}

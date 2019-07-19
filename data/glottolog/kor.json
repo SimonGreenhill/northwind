@@ -1,0 +1,31 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 8,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "kore1284",
+            "name": "Koreanic",
+            "url": "http://glottolog.org/resource/languoid/id/kore1284"
+        }
+    ],
+    "description": null,
+    "family_pk": 266,
+    "father_pk": 266,
+    "hid": "kor",
+    "id": "kore1280",
+    "iso639-3": "kor",
+    "jsondata": {},
+    "latitude": 37.5,
+    "level": "language",
+    "longitude": 128.0,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Korean",
+    "newick": "('Ch''ungch''ongdo [chun1247]':1,'Cheju Island [chej1238]':1,'Chollado [chol1278]':1,'Hamgyongdo [hamg1238]':1,'Hwanghaedo [hwan1238]':1,'Kyongsangdo [kyon1247]':1,'P''yong''ando [pyon1239]':1,'Seoul [seou1239]':1)'Korean [kore1280][kor]-l-':1",
+    "pk": 1483,
+    "status": "safe"
+}

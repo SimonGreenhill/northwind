@@ -1,0 +1,46 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 4,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "indo1320",
+            "name": "Indo-Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/indo1320"
+        },
+        {
+            "id": "iran1269",
+            "name": "Iranian",
+            "url": "http://glottolog.org/resource/languoid/id/iran1269"
+        },
+        {
+            "id": "yidg1239",
+            "name": "Yidgha-Munja",
+            "url": "http://glottolog.org/resource/languoid/id/yidg1239"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 4070,
+    "hid": "mnj",
+    "id": "munj1244",
+    "iso639-3": "mnj",
+    "jsondata": {},
+    "latitude": 35.9321,
+    "level": "language",
+    "longitude": 70.9404,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Munji",
+    "newick": "('Central Munji [cent1974]':1,'Mamalgha Munji [mama1270]':1,'Northern Munji [nort2649]':1,'Southern Munji [sout2651]':1)'Munji [munj1244][mnj]-l-':1",
+    "pk": 6168,
+    "status": "definitely endangered"
+}

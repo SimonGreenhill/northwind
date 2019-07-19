@@ -1,0 +1,51 @@
+{
+    "bookkeeping": false,
+    "child_dialect_count": 0,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "indo1319",
+            "name": "Indo-European",
+            "url": "http://glottolog.org/resource/languoid/id/indo1319"
+        },
+        {
+            "id": "balt1263",
+            "name": "Balto-Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/balt1263"
+        },
+        {
+            "id": "slav1255",
+            "name": "Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/slav1255"
+        },
+        {
+            "id": "west2792",
+            "name": "West Slavic",
+            "url": "http://glottolog.org/resource/languoid/id/west2792"
+        },
+        {
+            "id": "czec1260",
+            "name": "Czech-Slovak",
+            "url": "http://glottolog.org/resource/languoid/id/czec1260"
+        }
+    ],
+    "description": null,
+    "family_pk": 87,
+    "father_pk": 6112,
+    "hid": "slk",
+    "id": "slov1269",
+    "iso639-3": "slk",
+    "jsondata": {},
+    "latitude": 48.545705,
+    "level": "language",
+    "longitude": 18.78479,
+    "macroareas": {
+        "eurasia": "Eurasia"
+    },
+    "markup_description": null,
+    "name": "Slovak",
+    "newick": "'Slovak [slov1269][slk]-l-':1",
+    "pk": 8638,
+    "status": "vulnerable"
+}
