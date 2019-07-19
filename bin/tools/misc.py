@@ -10,7 +10,7 @@ from collections import namedtuple
 from .FileReader import FileReader
 
 DATADIR = os.path.join(
-    os.path.split(os.path.split(os.path.abspath(os.path.dirname(__file__)))[0])[0], 'data'
+    os.path.split(os.path.split(os.path.abspath(os.path.dirname(__file__)))[0])[0], 'data/jipa'
 )
 
 
