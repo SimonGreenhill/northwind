@@ -1,0 +1,48 @@
+# Reference:
+10.1017/S00251003120000217
+
+# Language:
+Bardi
+
+#ISO Code:
+bcj
+
+# Consonant Inventory:
+p(p, b), t(t, d), ʈ(ʈ, ɖ), c(c, ɟ), k(k, g), 
+m, n, ɳ, ɲ, ŋ, l, ɭ, ʎ, r(r, ɾ, ɹ), ɻ, j, w
+
+# Vowel Inventory:
+i(i, ɪ), iː(iː, ɛː), a(a, ɑ, ə, æ), aː(aː, ɑː), o(o, ɒ), u(u, ʊ), uː 
+
+# Other Symbols:
+/ɂ/ glottal stop is non phonemic.
+
+# Transcript:
+bɑːwɑɂ ‖ midəbɑʊ ‖ ɑɣɑl iːlɑ ɑgɑl gɑrjɑɭ cirə cɑwɑl ‖
+midɑbɑːw jɪnɑ cɑwɑl ɑgɑl | iːlɑ ‖ ɑgɑl gɑrcɑɭ ‖
+ulɒn | cubolɟubol ɪrɪn ‖
+ɻoəlɪ ɪnɲɑ ‖ miːdəbɑwə agal iːlə | bɑɖə | bɑlɪŋɑn ‖
+ɪnəmɪjɪn | miːdəbɑwnɪm ɪnɑmɪjɪn bɑːgɪdi |
+nɛːd ɪnəmɪjɪn  | gɑɳɖɪ | bɑɖə | ruəl inɲə cubol
+inɟʊ ‖ bɪləboŋgonɂ ‖
+giɲiŋgɔn | ɪmbɑɲiɟɪn ‖ ɪmbɑɲi | cubolb ɪnco ‖
+balab ɻuil ɪnɲa baɖ ar ɪndan ‖ 
+bʊlŋʊr ɲʊn ɪnɟal bɪləboŋ | garcaɭ ɪnɪn gaɳdɪ | bɪlɪlon 
+iɲɟarələ ɲæləb |laɖaŋɑn injaliç | garɟaɭ | iːl agal
+midəbaw ɪŋarcarələ baɖə ‖
+wir ɪŋarjarmɪn jubol ɪŋɪɾɪn ɲuno pɪləboŋgon ‖
+puɲɟə ɪralɂ kaɾəgʊn iːla | miːdəpawə agal karcaɭ ‖
+olal ɪŋargaɖi | bɑːw agal | iːla | buɣun garɟəɭnɪm
+arə oːlalənəɾ ‖
+daral ɪŋorbul | bəlab | aŋanaɖ | garɟaɭnim
+ɪnɟalɪɾ aŋanaŋar | dɔrɔlb ɪŋorobol ‖
+ɲɑləbʊ | gɑɳɖ ɪnɪn bɪlɪlɔn gɑrɟɑɭ ‖
+gɪɲɪŋɣɔn wɪr ɪɲɟɑrmɪn bilɪlɔ bɑɖɪ ɲʊn ɪnɪn
+bɔɖɔɣɔn | gɑɳɖɪ gɑrɟɑɭ inɟɑɹgɪɟɪr ‖
+
+
+# Notes:
+The text is a telling of Mercer Meyer's 'The Frog Story'.
+
+# Errors:
+/x/ something

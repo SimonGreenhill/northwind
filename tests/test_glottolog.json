@@ -1,0 +1,89 @@
+{
+    "child_dialect_count": 1,
+    "child_family_count": 0,
+    "child_language_count": 0,
+    "classification": [
+        {
+            "id": "afro1255",
+            "name": "Afro-Asiatic",
+            "url": "http://glottolog.org/resource/languoid/id/afro1255"
+        },
+        {
+            "id": "chad1250",
+            "name": "Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/chad1250"
+        },
+        {
+            "id": "east2632",
+            "name": "East Chadic",
+            "url": "http://glottolog.org/resource/languoid/id/east2632"
+        },
+        {
+            "id": "east2640",
+            "name": "East Chadic A",
+            "url": "http://glottolog.org/resource/languoid/id/east2640"
+        },
+        {
+            "id": "east2641",
+            "name": "East Chadic A A.3",
+            "url": "http://glottolog.org/resource/languoid/id/east2641"
+        }
+    ],
+    "description": null,
+    "family_pk": 104949,
+    "father_pk": 25413,
+    "hid": "ker",
+    "id": "kera1255",
+    "iso639-3": "ker",
+    "jsondata": {
+        "endangerment": null,
+        "ethnologue": "http://www.ethnologue.com/language/ker",
+        "med": {
+            "doctype": "grammar",
+            "id": "38319",
+            "name": "Ebert, Karen H. 1979",
+            "pages": 289,
+            "year": 1979
+        },
+        "sources": [
+            {
+                "doctype": "grammar",
+                "id": "38319",
+                "name": "Ebert, Karen H. 1979",
+                "pages": 289,
+                "year": 1979
+            },
+            {
+                "doctype": "dictionary",
+                "id": "21262",
+                "name": "Ebert, Karen H. 1976",
+                "pages": 190,
+                "year": 1976
+            },
+            {
+                "doctype": "wordlist",
+                "id": "70023",
+                "name": "Ebert, Karen H. 1968",
+                "pages": 3,
+                "year": 1968
+            },
+            {
+                "doctype": "wordlist",
+                "id": "102268",
+                "name": "Lukas, Johannes 1937",
+                "pages": 2,
+                "year": 1937
+            }
+        ]
+    },
+    "latitude": 9.88165,
+    "level": "language",
+    "longitude": 15.1419,
+    "macroareas": {
+        "africa": "Africa"
+    },
+    "markup_description": null,
+    "name": "Kera",
+    "pk": 25423,
+    "status": "established"
+}
