@@ -1,0 +1,180 @@
+---
+title: "Coverage Results"
+output: pdf_document
+latex_engine: xelatex 
+---
+
+
+```{r, echo=FALSE}
+library('methods')
+library('knitr')
+library('ggplot2')
+
+cov <- read.delim('statistics.dat', header=TRUE, sep="\t")
+cov$PropAbsent <- (cov$Unobserved / cov$InventoryLength) * 100
+
+overview <- function(var) {
+    cat(sprintf("* %s = %d\n", "N", length(var)))
+    cat(sprintf("* %s = %0.2f\n", "Mean", mean(var)))
+    cat(sprintf("* %s = %0.2f\n", "Median", median(var)))
+    cat(sprintf("* %s = %0.3f\n", "SD", sd(var)))
+    cat(sprintf("* %s = %0.2f-%0.2f\n", "Range", min(var), max(var)))
+}
+
+get_corlabel <- function(x, y) {
+    r <- cor.test(x, y, method="spearman")
+    if (r$p.value <= 0.05) {
+        sig <- '*'
+    } else {
+        sig <- ''
+    }
+    sprintf(
+        "r=%0.2f, p=%0.2f%s",
+        r$estimate,
+        r$p.value,
+        sig
+    )
+}
+
+```
+
+# How big are the phoneme inventories?
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(InventoryLength))
+p <- p + geom_histogram(binwidth=1)
+p <- p + ggtitle('Number of Phonemes in Inventory')
+p <- p + xlab("Number of Phonemes")
+p <- p + ylab("Number of Languages")
+p <- p + theme_classic()
+
+print(p)
+
+pdf('histogram-phoneme_inventory_size.pdf')
+print(p)
+x <- dev.off()
+```
+
+\clearpage
+
+## Summary Statistics
+
+```{r}
+overview(cov$InventoryLength)
+```
+
+
+
+## Biggest Phoneme Inventory
+
+```{r, echo=FALSE}
+cov.sorted <- cov[order(-cov$InventoryLength),]
+cov.sorted <- cov.sorted[c("Language","InventoryLength")]
+kable(head(cov.sorted))
+```
+
+## Smallest Phoneme Inventory
+
+```{r, echo=FALSE}
+kable(tail(cov.sorted))
+```
+
+
+
+\clearpage
+
+# How big are the transcripts?
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(TranscriptLength))
+p <- p + geom_histogram(binwidth=20)
+p <- p + ggtitle('Length of Transcript (Phonemes)')
+p <- p + xlab("Number of Phonemes")
+p <- p + ylab("Number of Languages")
+p <- p + theme_classic()
+
+print(p)
+
+pdf('histogram-transcript_size.pdf')
+print(p)
+x <- dev.off()
+```
+
+\clearpage
+
+
+## Summary Statistics
+
+```{r}
+overview(cov$TranscriptLength)
+```
+
+
+## Longest Transcript
+
+```{r, echo=FALSE}
+cov.sorted <- cov[order(-cov$TranscriptLength),]
+cov.sorted <- cov.sorted[c("Language", "TranscriptLength")]
+kable(head(cov.sorted))
+```
+
+## Shortest Transcript
+
+```{r, echo=FALSE}
+kable(tail(cov.sorted))
+```
+
+
+\clearpage
+
+
+# Number of Absent Phonemes.
+
+- the number of phonemes for each language that are absent from the language's transcription (more absences means poorer coverage).
+
+- Note that a phoneme with allophones is NOT considered missing if at least one of its allophones is present e.g. if we have
+  "a(a:, a)" and "a:" is found but not "a", then this is still considered not missing.
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(Unobserved))
+p <- p + geom_histogram(binwidth=1)
+p <- p + ggtitle('Number of Unobserved Phonemes')
+p <- p + theme_classic()
+print(p)
+
+pdf('histogram-absent_phonemes.pdf')
+print(p)
+x <- dev.off()
+```
+
+\clearpage
+
+## Summary Statistics
+
+```{r}
+overview(cov$Unobserved)
+```
+
+## Languages that are most poorly described by the transcript:
+
+```{r, echo=FALSE}
+kable(
+    head(cov[order(-cov$Unobserved),])[c("Language", "Unobserved")]
+)
+```
+
+## Languages that are completely described by the transcript:
+
+```{r, echo=FALSE}
+kable(cov[cov$Unobserved==0,][c("Language", "Unobserved")])
+cat(sprintf(
+    "%d of %d languages",
+    nrow(cov[cov$Unobserved==0,]),
+    nrow(cov)
+))
+```
+
+\clearpage
+
+
+

@@ -1,0 +1,13 @@
+how many chi-sq tests are significant?
+157 of 158
+
+which tests are not significant?
+      Language   Length TotalInventory    ChiSig       RSq
+13 Azerbaijani 762.8113             35 0.1501224 0.9197391
+
+
+Minimum: [1] 9.008008e-146
+
+Maximum: [1] 0.1501224
+[1] 0.01282474
+

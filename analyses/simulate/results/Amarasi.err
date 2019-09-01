@@ -1,0 +1,2 @@
+/Users/simon/files/Projects/NorthWind/env/lib/python3.6/site-packages/nltk/probability.py:1369: UserWarning: SimpleGoodTuring did not find a proper best fit line for smoothing probabilities of occurrences. The probability estimates are likely to be unreliable.
+  warnings.warn('SimpleGoodTuring did not find a proper best fit '

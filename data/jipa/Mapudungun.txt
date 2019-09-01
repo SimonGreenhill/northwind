@@ -7,6 +7,10 @@ Mapudungun
 #ISO Code:
 arn
 
+# Online Bible:
+Gospel of Mark
+http://paralleltext.info/data/arn-x-bible/41/001/
+
 # Consonant Inventory:
 p(p, pʰ, pʷ), t̪(t̪, t̪ʰ, tʷ), t, k(k, c, kʰ, cʰ, kʷ), tʃ, ʈʂ(ʈʂ, t̺s̺, t̺ʰ, ʈʰ), 
 m(m, mː), n̪, n(n, nː, n̥ː), ɲ(ɲ, ɲː), ŋ(ŋ, ɲ), f(f, fʷ, fː), θ, s, ʃ, ʐ(ʐ, ɻ, ʂ, ɭ), ɣ(ɣ, ʝ), j(j, ʝ), 
@@ -57,3 +61,30 @@ but based on the broad transcription they have been allocated as allophones.
 No mention of the retroflex click [ǃ] is made.  It has not been listed in the sounds, because it is not possible
 to determine its status from the paper.
 In the original paper consonant length is indicated by doubling of the letter.
+
+# Orthography consonant phoneme correspondences:
+<p> = /p/, <t> = /t/-/t̪/, <k> = /k/, <ch> = /tʃ/, <tr> = /ʈʂ/, 
+<m> = /m/, <n> = /n/-/n̪/, <ñ> = /ɲ/, <ng> = /ŋ/, <f> = /f/, <d> = /θ/, <s> = /s/-/ʃ/,  
+<r> = /ʐ/, <g> = /ɣ/, <y> = /j/, <l> = /l/-/l̪/, <ll> = /ʎ/, <w> = /w/  
+
+# Orthography vowel phoneme correspondences:
+<i> = /ɪ/, <e> = /ë/, <a> = /ɐ̝/, <o> = /ö/, <u> = /ʊ/, <ü> = /ɘ/
+
+# Minimal pairs differing in a single phonetic feature:
+/p~t̪/ /p~t/ /p~k/ /t̪~t/ /t̪~k/ /t̪~θ/ /t~k/ /t~tʃ/ /t~s/ /tʃ~ʈʂ/ /tʃ~ʃ/ /m~n̪/ /m~n/ /m~ɲ/ 
+/m~ŋ/ /n̪~ɲ/ /n̪~ŋ/ /n~ɲ/ /n~ŋ/ /n~l/ /ŋ~ɣ/ /f~θ/ /f~s/ /f~ʃ/ /θ~s/ /θ~ʃ/ /s~ʃ/ /ʐ~ɣ/ 
+/n̪~l̪/ /j~ʎ/ /j~w/ /l̪~l/ /l̪~ʎ/ /l~ʎ/ 
+
+
+# Phonologically sensible minimal pairs differing in more than a single phonetic feature:
+/p~m/ /p~f/ /p~w/ /t~n/ /k~ŋ/ /k~ɣ/ /ʈʂ~ʐ/ /t̪~n̪/ 
+/ɪ~ë/ /ë~ɐ̝/ /ë~ɘ/ /ɐ̝~ö/ /ɐ̝~ʊ/ /ɐ̝~ɘ/ /ö~ʊ/    
+
+# Orthography notes:
+All orthographies for Mapudungun underspecify for certain sounds. 
+The orthography information comes from https://en.wikipedia.org/wiki/Mapudungun_alphabet. 
+The orthography as used in the bible translation does not seem to adhere to a single system, as per Wikipedia,
+but all graphemes are identifiable based on a combination of the systems. 
+<> represent graphemes, // represent phonemes.
+
+Sadowsky, Scott; Painequeo, Héctor; Salamanca, Gastón; Avelino, HeribertoAuthor InformationView Profile. International Phonetic Association. Journal of the International Phonetic Association43.1 (Apr 2013): 87-96. 

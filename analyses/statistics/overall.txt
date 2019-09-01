@@ -1,0 +1,70 @@
+
+# Statistics
+
+* Number of Inventories: 158
+* Number of Languages: 137
+* Number of Publications: 156
+
+## Length of Inventory:
+
+* Range: 18 - 97
+* Median: 39.500000
+* SD: 14.704486
+
+## Length of Full Token Inventory:
+
+(i.e. inventory + missing + other_symbols)
+
+* Range: 20 - 102
+* Median: 42.000000
+* SD: 15.777687
+
+## Length of Transcript:
+
+* Range: 262 - 1690
+* Median: 591.000000
+* SD: 181.043053
+
+
+
+## Languages by Family:
+
+* 6600 (41.77) - Indo-European
+* 1600 (10.13) - Austronesian
+* 1300 (8.23) - Atlantic-Congo
+* 1100 (6.96) - Sino-Tibetan
+* 900 (5.70) - Afro-Asiatic
+* 300 (1.90) - Otomanguean
+* 200 (1.27) - Turkic
+* 200 (1.27) - Basque
+* 200 (1.27) - Pama-Nyungan
+* 200 (1.27) - Uralic
+* 200 (1.27) - Austroasiatic
+* 200 (1.27) - Nilotic
+* 200 (1.27) - Dravidian
+* 200 (1.27) - Uto-Aztecan
+* 200 (1.27) - Quechuan
+* 100 (0.63) - Nyulnyulan
+* 100 (0.63) - Muskogean
+* 100 (0.63) - Tsimshian
+* 100 (0.63) - Japonic
+* 100 (0.63) - Athabaskan-Eyak-Tlingit
+* 100 (0.63) - Ijoid
+* 100 (0.63) - Koreanic
+* 100 (0.63) - Kunama
+* 100 (0.63) - Araucanian
+* 100 (0.63) - Nara
+* 100 (0.63) - Morehead-Wasur
+* 100 (0.63) - Matacoan
+* 100 (0.63) - Sahaptian
+* 100 (0.63) - Wakashan
+* 100 (0.63) - Sandawe
+* 100 (0.63) - Seri
+* 100 (0.63) - Pano-Tacanan
+* 100 (0.63) - Cahuapanan
+* 100 (0.63) - Salishan
+* 100 (0.63) - Kartvelian
+* 100 (0.63) - Tai-Kadai
+* 100 (0.63) - Arawakan
+
+

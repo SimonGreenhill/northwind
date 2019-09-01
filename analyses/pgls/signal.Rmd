@@ -1,0 +1,146 @@
+---
+title: "Phylogenetic Signal"
+author: "Simon"
+date: "12 April 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ape)
+library(nlme)
+
+dat <- read.delim('../statistics/statistics.dat', header=TRUE)
+rownames(dat) <- dat$Label
+dat <- dat[c("InventoryLength", "TranscriptLength", "Absences", "Missings", "DistinctMissings")]
+
+tree <- read.nexus('../../data/glottolog/glottolog.trees')
+
+# safety check
+if (length(row.names(dat)[row.names(dat) %in% tree$tip.label == FALSE])) {
+    stop("Language in data doesn't match tree file")
+}
+
+if (length(tree$tip.label[tree$tip.label %in% row.names(dat) == FALSE])) {
+    stop(paste(
+        "Language in tree doesn't match data file: ",
+        tree$tip.label[tree$tip.label %in% row.names(dat) == FALSE], '\n'
+    ))
+}
+
+# ordering
+dat <- dat[tree$tip.label, ]
+
+```
+
+## Tree:
+
+Take glottolog tree. Because we don't know the amount of evolution in each language and we need to guess at it for this to work, we can estimate the branch lengths using a Grafen Transform which:
+
+"Grafen's (1989) computation of branch lengths: each node is given a ‘height’, namely the number of leaves of the subtree minus one, 0 for leaves. Each height is scaled so that root height is 1, and then raised at power 'rho' (> 0). Branch lengths are then computed as the difference between height of lower node and height of upper node."
+
+```{r tree}
+# Grafen transform to add branchlengths
+tree <- compute.brlen(tree, method="Grafen")
+```
+
+# Inventory Length
+
+```{r}
+fitLambdaE <- gls(
+    Absences ~ InventoryLength,
+    correlation=corPagel(value=0.8, phy=tree, fixed=FALSE),
+    data=dat
+)
+
+fitLambda0 <- gls(
+    Absences ~ InventoryLength,
+    correlation=corPagel(value=0, phy=tree, fixed=TRUE),
+    data=dat
+)
+
+fitLambda1 <- gls(
+    Absences ~ InventoryLength,
+    correlation=corPagel(value=1, phy=tree, fixed=TRUE),
+    data=dat
+)
+
+```
+
+### Estimate of Lambda:
+
+```{r}
+summary(fitLambdaE)
+intervals(fitLambdaE, which="var-cov")
+```
+
+### Model Fit: Absences vs. Inventory Length:
+
+```{r}
+anova(fitLambda0, fitLambdaE, test=T)
+anova(fitLambda1, fitLambdaE, test=T)
+```
+
+
+
+\clearpage
+
+# Transcript Length
+
+```{r}
+fitLambdaE <- gls(
+    Absences ~ TranscriptLength,
+    correlation=corPagel(value=0.8, phy=tree, fixed=FALSE),
+    data=dat
+)
+
+fitLambda0 <- gls(
+    Absences ~ TranscriptLength,
+    correlation=corPagel(value=0, phy=tree, fixed=TRUE),
+    data=dat
+)
+
+fitLambda1 <- gls(
+    Absences ~ TranscriptLength,
+    correlation=corPagel(value=1, phy=tree, fixed=TRUE),
+    data=dat
+)
+
+```
+
+### Estimate of Lambda:
+
+```{r}
+summary(fitLambdaE)
+intervals(fitLambdaE, which="var-cov")
+```
+
+### Model Fit: Absences vs. Transcript Length:
+
+```{r}
+anova(fitLambda0, fitLambdaE, test=T)
+anova(fitLambda1, fitLambdaE, test=T)
+```
+
+\clearpage
+
+# Blomberg's K
+
+```{r}
+library(picante)
+library(phytools)
+
+t <- multi2di(compute.brlen(tree))
+InvL <- dat$InventoryLength
+TrnL <- dat$TranscriptLength
+names(InvL) <- row.names(dat) 
+names(TrnL) <- row.names(dat)
+
+kI <- phylosig(t, InvL[t$tip.label], method="K", test=TRUE)
+print(kI)
+
+
+kT <- phylosig(t, TrnL[t$tip.label], method="K", test=TRUE)
+print(kT)
+```

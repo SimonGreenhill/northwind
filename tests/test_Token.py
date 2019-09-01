@@ -68,10 +68,7 @@ class Test_Token(unittest.TestCase):
             assert len(t.names) == len(names), \
                 "Uneven amount of names: %r != %r" % (t.names, names)
             for i, name in enumerate(t.names):
-                if name != names[i]:
-                    raise AssertionError(
-                        "Unexpected name %d, %s != %s" % (i, name, names[i])
-                    )
+                assert name == names[i], "Unexpected name %d, %s != %s" % (i, name, names[i])
             # 6. tests that variants list matches the expected
             if t.allophones is None:
                 assert len(t.variants) == 1
@@ -172,6 +169,9 @@ class Test_Token(unittest.TestCase):
         assert Token("a(a, á, à, aː, ḁ, a̰, ḁ̀)") != Token("a(a, á, à, aː, ḁ, ḁ̀)")
         assert Token("a(a, á, à, aː, ḁ, a̰, ḁ̀)") != Token("a")
     
+    def test_error_on_invalid_type(self):
+        with self.assertRaises(ValueError):
+            Token('a', phoneme_type='tagmeme')
 
 class Test_MissingToken(unittest.TestCase):
     def test_missing_token(self):

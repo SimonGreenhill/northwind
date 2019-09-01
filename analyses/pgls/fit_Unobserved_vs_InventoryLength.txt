@@ -1,0 +1,27 @@
+
+Call:
+pgls(formula = Unobserved ~ InventoryLength, data = d, lambda = "ML")
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.9160  -3.1281  -0.0762   2.5176  13.2717 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.327
+   lower bound : 0.000, p = 1.0047e-09
+   upper bound : 1.000, p = < 2.22e-16
+   95.0% CI   : (0.159, 0.534)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                  Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)     -15.522103   1.045345 -14.849 < 2.2e-16 ***
+InventoryLength   0.642046   0.021333  30.096 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.011 on 156 degrees of freedom
+Multiple R-squared: 0.8531,	Adjusted R-squared: 0.8521 
+F-statistic: 905.8 on 1 and 156 DF,  p-value: < 2.2e-16 

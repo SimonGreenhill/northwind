@@ -1,0 +1,122 @@
+[1] "Normal"
+
+Call:
+lm(formula = Length ~ TotalInventory, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1021957  -209688   -50116    78987  5655094 
+
+Coefficients:
+               Estimate Std. Error t value   Pr(>|t|)    
+(Intercept)     -577729     153892  -3.754   0.000245 ***
+TotalInventory    16797       3462   4.852 0.00000294 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 637800 on 156 degrees of freedom
+Multiple R-squared:  0.1311,	Adjusted R-squared:  0.1256 
+F-statistic: 23.54 on 1 and 156 DF,  p-value: 0.000002935
+
+[1] "LOG"
+
+Call:
+lm(formula = log(Length) ~ TotalInventory, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.7984 -1.1146 -0.4873  0.5536  5.4452 
+
+Coefficients:
+               Estimate Std. Error t value             Pr(>|t|)    
+(Intercept)    5.661567   0.400673  14.130 < 0.0000000000000002 ***
+TotalInventory 0.065838   0.009013   7.305      0.0000000000134 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.661 on 156 degrees of freedom
+Multiple R-squared:  0.2549,	Adjusted R-squared:  0.2501 
+F-statistic: 53.36 on 1 and 156 DF,  p-value: 0.00000000001343
+
+
+Call:
+pgls(formula = Length ~ TotalInventory, data = cd, lambda = "ML")
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2756060  -186813    -1861   246043  3000910 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.311
+   lower bound : 0.000, p = 0.0089064
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (0.076, 0.531)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                Estimate Std. Error t value      Pr(>|t|)    
+(Intercept)    -682228.9   177327.0 -3.8473     0.0001737 ***
+TotalInventory   20328.0     3630.7  5.5990 0.00000009487 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 678500 on 156 degrees of freedom
+Multiple R-squared: 0.1673,	Adjusted R-squared: 0.162 
+F-statistic: 31.35 on 1 and 156 DF,  p-value: 0.00000009487 
+
+Call:
+pgls(formula = log(Length) ~ TotalInventory, data = cd, lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.5045 -0.7143  0.2402  1.1492  5.5434 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.218
+   lower bound : 0.000, p = 0.00017992
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (0.062, 0.459)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                Estimate Std. Error t value              Pr(>|t|)    
+(Intercept)    5.2770514  0.4406016 11.9769 < 0.00000000000000022 ***
+TotalInventory 0.0813921  0.0091955  8.8513  0.000000000000001776 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.668 on 156 degrees of freedom
+Multiple R-squared: 0.3343,	Adjusted R-squared:  0.33 
+F-statistic: 78.35 on 1 and 156 DF,  p-value: 0.000000000000001787 
+
+Call:
+pgls(formula = log(Length) ~ log(TotalInventory), data = cd, 
+    lambda = "ML")
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-5.625 -1.008  0.093  1.046  6.025 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.255
+   lower bound : 0.000, p = 0.00002782
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (0.085, 0.498)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                    Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)         -4.60947    1.59598 -2.8882            0.004426 ** 
+log(TotalInventory)  3.62592    0.43078  8.4172 0.00000000000002331 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.724 on 156 degrees of freedom
+Multiple R-squared: 0.3123,	Adjusted R-squared: 0.3079 
+F-statistic: 70.85 on 1 and 156 DF,  p-value: 0.00000000000002333 

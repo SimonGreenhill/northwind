@@ -1,0 +1,64 @@
+Token	Count	Type	Missing
+ 	774236	punctuation	FALSE
+ɛ	251995	vowel	FALSE
+a	226616	vowel	FALSE
+o	224279	vowel	FALSE
+n(n, ɱ, ŋ)	158033	consonant	FALSE
+t	156688	consonant	FALSE
+l(l, l̩)	146656	consonant	FALSE
+j	141792	vowel	FALSE
+s	138592	consonant	FALSE
+v	137154	consonant	FALSE
+ɪ	135306	vowel	FALSE
+d	117497	consonant	FALSE
+m(m, m̩)	111468	consonant	FALSE
+k	99143	consonant	FALSE
+iː	94297	vowel	FALSE
+p	85916	consonant	FALSE
+r(r, r̩)	85783	consonant	FALSE
+u	73904	vowel	FALSE
+,	68523	punctuation	FALSE
+y	63023	missing	TRUE
+b	62141	consonant	FALSE
+aː	61400	vowel	FALSE
+z	58435	consonant	FALSE
+ɦ	53074	consonant	FALSE
+r̝	40572	consonant	FALSE
+ʒ	38897	consonant	FALSE
+.	33786	punctuation	FALSE
+ʃ	33758	consonant	FALSE
+ɛː	32857	vowel	FALSE
+x(x, ɣ)	30901	consonant	FALSE
+ts(ts, dz)	30473	consonant	FALSE
+ou	21809	vowel	FALSE
+tʃ(tʃ, dʒ)	19947	consonant	FALSE
+uː	18076	vowel	FALSE
+:	7965	missing	TRUE
+„	6416	missing	TRUE
+“	6415	missing	TRUE
+;	6192	punctuation	FALSE
+[	5322	missing	TRUE
+]	5322	missing	TRUE
+ť	4631	missing	TRUE
+?	3084	missing	TRUE
+g	2850	consonant	FALSE
+f	2671	consonant	FALSE
+ú	2129	missing	TRUE
+‚	2036	missing	TRUE
+‘	2035	missing	TRUE
+ď	1970	missing	TRUE
+ɲ	1822	consonant	FALSE
+!	1326	missing	TRUE
+ɛu	1181	vowel	FALSE
+-	746	misc	FALSE
+au	735	vowel	FALSE
+—	691	missing	TRUE
+oː	688	vowel	FALSE
+(	168	punctuation	FALSE
+)	168	punctuation	FALSE
+′	95	missing	TRUE
+·	15	missing	TRUE
+q	9	missing	TRUE
+0	7	missing	TRUE
+=	1	missing	TRUE
+6	1	missing	TRUE

@@ -1,0 +1,118 @@
+---
+title: "PoweRlaw R package"
+output: pdf_notebook
+---
+
+```{r}
+library(poweRlaw)
+```
+
+## Example Data
+
+```{r}
+data("moby", package="poweRlaw")
+head(moby)
+```
+
+```{r}
+# fit data
+m_pl = displ$new(moby)
+m_pl
+```
+
+The resulting object, m pl, is a `displ` object. It also inherits the discrete distribution class. After creating the displ object, a typical first step would be to infer model parameters.
+
+## infer parameters:
+
+```{r}
+est = estimate_xmin(m_pl)
+m_pl$setXmin(est)
+m_pl
+```
+
+This yields a threshold estimate of xmin = 7 and scaling parameter α = 1.95, which matches results found in Clauset et al. (2009).
+
+## fit different models:
+
+```{r}
+# lognormal
+m_ln = dislnorm$new(moby)
+m_ln$setXmin(estimate_xmin(m_ln))
+
+# poisson
+m_pois = dispois$new(moby)
+m_pois$setXmin(estimate_xmin(m_pois))
+```
+
+## plot
+
+```{r}
+plot(m_pl, pch=19)
+lines(m_pl, col=2)
+lines(m_ln, col=3)
+lines(m_pois, col=4)
+```
+
+## estimate uncertainty in parameters
+
+```{r bootstrap}
+bs = bootstrap(m_pl, no_of_sims=10, threads=4)
+```
+
+1. The goodness of fit statistic obtained from the Kolmogorov-Smirnoff test. This value should correspond to the value obtained from the estimate xmin function.
+2. A data frame containing the results for the bootstrap procedure.
+3. The average simulation time, in seconds, for a single bootstrap.
+4. The random number seed.
+5. The package version.
+
+
+
+```{r}
+sd(bs$bootstraps[,2])
+## [1] 1.780825
+sd(bs$bootstraps[,3])
+## [1] 0.02428821
+plot(bs, trim=0.1)  # trim = 90% 
+```
+
+Results from the standard bootstrap procedure (for the power law model) using the Moby Dick data set: bootstrap(m pl). The top row shows the mean estimate of pa- rameters xmin, α and ntail. The bottom row shows the estimate of standard deviation for each parameter. The dashed-lines give approximate 95% confidence intervals. After 5,000 iterations, the standard deviation of xmin and α is estimated to be 2.1 and 0.03 respectively.
+
+
+## Testing the power law hypothesis
+
+Clauset et al. (2009) suggest that this hypothesis is tested using a goodness-of-fit test, via a bootstrapping procedure. This test generates a p -value that can be used to quantify the plausibility of the hypothesis. 
+
+If the p -value is large, than any difference between the empirical data and the model can be explained with statistical fluctuations. 
+
+If p ≃ 0, then the model does not provide a plausible fit to the data and another distribution may be more appropriate. In this scenario,
+
+* H0 : data is generated from a power law distribution.
+* H1 : data is not generated from a power law distribution.
+
+```{r}
+bs_p = bootstrap_p(m_pl)
+bs_p
+```
+
+## Comparing distributions
+
+A standard technique is to use Vuong’s test, which a likelihood ratio test for model selection using the Kullback-Leibler criteria. The test statistic, R, is the ratio of the log-likelihoods of the data between the two competing models. The sign of R indicates which model is better. Since the value of R is obviously subject to error, we use the method proposed by Vuong (1989).
+
+```{r}
+#To compare two distributions, each distribution must have the same lower threshold. So we first set the log normal distribution object to have the same xmin as the power law object
+m_ln$setXmin(m_pl$getXmin())
+
+#Next we estimate the parameters for this particular value of xmin:
+est = estimate_pars(m_ln)
+m_ln$setPars(est)
+
+#Then we can compare distributions
+compare_distributions(m_pl, m_ln)
+```
+
+This comparison gives a p-value of 0.6824. This p -value corresponds to the p-value on page 29 of the Clauset et al. paper (the paper gives 0.69).
+
+Overall these results suggest that one model can’t be favoured over the other.
+
+
+

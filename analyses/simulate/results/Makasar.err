@@ -1,0 +1,2 @@
+simulate.py:27: UserWarning: no hapaxes present -- shifting distribution down
+  warnings.warn("no hapaxes present -- shifting distribution down")

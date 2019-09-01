@@ -1,0 +1,883 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Results Notebook},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Results Notebook}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\hypertarget{zipf}{%
+\section{Zipf}\label{zipf}}
+
+Read data
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z <-}\StringTok{ }\KeywordTok{read.delim}\NormalTok{(}\StringTok{'results.dat'}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{)}
+\KeywordTok{head}\NormalTok{(z)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                 Language Alpha Sigma Xmin vsExp.R vsExp.P vsLN.R vsLN.P
+## 1 Mennonite Plautdietsch 2.194 0.267    8   0.244   0.807 -0.766  0.444
+## 2                   Yine 4.018 1.141   44  -0.012   0.991 -0.257  0.797
+## 3                  Czech 2.176 0.231    7   0.351   0.725 -0.868  0.386
+## 4             Indonesian 2.692 0.469   25   0.906   0.365 -0.231  0.817
+## 5            Tukang Besi 2.818 0.469   22   1.750   0.080 -1.027  0.304
+## 6          Cypriot Greek 3.207 0.736   33   0.049   0.961 -0.343  0.731
+##   vsTPL.R vsTPL.P
+## 1  -0.878   0.217
+## 2  -0.328   0.699
+## 3  -1.007   0.167
+## 4  -0.431   0.639
+## 5  -0.152   0.883
+## 6  -0.437   0.589
+\end{verbatim}
+
+\hypertarget{plot-alpha-parameter}{%
+\subsection{plot alpha parameter}\label{plot-alpha-parameter}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(ggplot2)}
+
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(z, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Alpha)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{xlim}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{6}\NormalTok{) }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{1}\NormalTok{, }\DataTypeTok{color=}\StringTok{"tomato"}\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: Removed 2 rows containing missing values (geom_bar).
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+Hmm. Not much around expected Zipf alpha of 1.
+
+Summary of Alpha:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{summary}\NormalTok{(z}\OperatorTok{$}\NormalTok{Alpha)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   1.691   2.147   2.454   2.543   2.814   4.856
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{sd}\NormalTok{(z}\OperatorTok{$}\NormalTok{Alpha)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.5564823
+\end{verbatim}
+
+\hypertarget{compare-models-exponential}{%
+\subsection{compare models:
+Exponential}\label{compare-models-exponential}}
+
+Negative means preference for the named model.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(z, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{vsExp.R)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{xlim}\NormalTok{(}\OperatorTok{-}\DecValTok{10}\NormalTok{, }\DecValTok{10}\NormalTok{) }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{0}\NormalTok{, }\DataTypeTok{color=}\StringTok{"gray"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{'Exponential'}\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+\hypertarget{compare-models-lognormal}{%
+\subsection{compare models: Lognormal}\label{compare-models-lognormal}}
+
+Negative means preference for the named model.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(z, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{vsLN.R)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{xlim}\NormalTok{(}\OperatorTok{-}\DecValTok{10}\NormalTok{, }\DecValTok{10}\NormalTok{) }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{0}\NormalTok{, }\DataTypeTok{color=}\StringTok{"gray"}\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+\hypertarget{compare-models-truncated-power-law}{%
+\subsection{compare models: Truncated Power
+law}\label{compare-models-truncated-power-law}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(z, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{vsTPL.R)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{xlim}\NormalTok{(}\OperatorTok{-}\DecValTok{10}\NormalTok{, }\DecValTok{10}\NormalTok{) }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{0}\NormalTok{, }\DataTypeTok{color=}\StringTok{"gray"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{'LogNormal'}\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-6-1.pdf}
+
+\hypertarget{combined-plot}{%
+\subsection{Combined plot:}\label{combined-plot}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{df <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{Language=}\NormalTok{z}\OperatorTok{$}\NormalTok{Language, }\DataTypeTok{Model=}\StringTok{"Exponential"}\NormalTok{, }\DataTypeTok{R=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsExp.R, }\DataTypeTok{P=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsExp.P)}
+\NormalTok{df <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(df, }\KeywordTok{data.frame}\NormalTok{(}
+    \DataTypeTok{Language=}\NormalTok{z}\OperatorTok{$}\NormalTok{Language, }\DataTypeTok{Model=}\StringTok{"Log Normal"}\NormalTok{, }\DataTypeTok{R=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsLN.R, }\DataTypeTok{P=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsLN.P    }
+\NormalTok{))}
+\NormalTok{df <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(df, }\KeywordTok{data.frame}\NormalTok{(}
+    \DataTypeTok{Language=}\NormalTok{z}\OperatorTok{$}\NormalTok{Language, }\DataTypeTok{Model=}\StringTok{"Truncated Power Law"}\NormalTok{, }\DataTypeTok{R=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsTPL.R, }\DataTypeTok{P=}\NormalTok{z}\OperatorTok{$}\NormalTok{vsTPL.P    }
+\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{p-values}{%
+\subsection{P-values}\label{p-values}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(df, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{P, }\DataTypeTok{group=}\NormalTok{Model, }\DataTypeTok{fill=}\NormalTok{Model))}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{facet_grid}\NormalTok{(Model}\OperatorTok{~}\NormalTok{.)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{0}\NormalTok{, }\DataTypeTok{color=}\StringTok{"gray"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}\DataTypeTok{legend.position=}\StringTok{"none"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}
+      \DataTypeTok{strip.background =} \KeywordTok{element_rect}\NormalTok{(}\DataTypeTok{colour=}\OtherTok{NA}\NormalTok{, }\DataTypeTok{fill=}\OtherTok{NA}\NormalTok{)}
+\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-8-1.pdf}
+
+\hypertarget{likelihood-ratio}{%
+\subsection{Likelihood ratio}\label{likelihood-ratio}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(df, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{R, }\DataTypeTok{group=}\NormalTok{Model, }\DataTypeTok{fill=}\NormalTok{Model))}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_histogram}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{xlim}\NormalTok{(}\OperatorTok{-}\DecValTok{15}\NormalTok{, }\DecValTok{5}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{facet_grid}\NormalTok{(Model}\OperatorTok{~}\NormalTok{.)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme_classic}\NormalTok{()}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept=}\DecValTok{0}\NormalTok{, }\DataTypeTok{color=}\StringTok{"gray"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}\DataTypeTok{legend.position=}\StringTok{"none"}\NormalTok{)}
+\NormalTok{p <-}\StringTok{ }\NormalTok{p }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}
+      \DataTypeTok{strip.background =} \KeywordTok{element_rect}\NormalTok{(}\DataTypeTok{colour=}\OtherTok{NA}\NormalTok{, }\DataTypeTok{fill=}\OtherTok{NA}\NormalTok{)}
+\NormalTok{)}
+\NormalTok{p}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: Removed 6 rows containing missing values (geom_bar).
+\end{verbatim}
+
+\includegraphics{results_files/figure-latex/unnamed-chunk-9-1.pdf}
+
+\hypertarget{best-fitting-model}{%
+\section{Best fitting model}\label{best-fitting-model}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{BFM <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{Language=}\KeywordTok{c}\NormalTok{(), }\DataTypeTok{Model=}\KeywordTok{c}\NormalTok{(), }\DataTypeTok{R=}\KeywordTok{c}\NormalTok{())}
+\ControlFlowTok{for}\NormalTok{ (language }\ControlFlowTok{in} \KeywordTok{levels}\NormalTok{(df}\OperatorTok{$}\NormalTok{Language)) \{}
+\NormalTok{    b <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{Language=}\KeywordTok{c}\NormalTok{(language), }\DataTypeTok{Model=}\KeywordTok{c}\NormalTok{(}\StringTok{'Power Law'}\NormalTok{), }\DataTypeTok{R=}\KeywordTok{c}\NormalTok{(}\DecValTok{0}\NormalTok{))}
+    
+    \ControlFlowTok{for}\NormalTok{ (model }\ControlFlowTok{in} \KeywordTok{levels}\NormalTok{(df}\OperatorTok{$}\NormalTok{Model)) \{}
+        \KeywordTok{print}\NormalTok{(}\KeywordTok{paste}\NormalTok{(language, model))}
+\NormalTok{        m <-}\StringTok{ }\NormalTok{df[}\KeywordTok{c}\NormalTok{(df}\OperatorTok{$}\NormalTok{Language }\OperatorTok{==}\StringTok{ }\NormalTok{language }\OperatorTok{&}\StringTok{ }\NormalTok{df}\OperatorTok{$}\NormalTok{Model }\OperatorTok{==}\StringTok{ }\NormalTok{model),]}
+        \ControlFlowTok{if}\NormalTok{ (m}\OperatorTok{$}\NormalTok{P }\OperatorTok{<=}\StringTok{ }\FloatTok{0.05} \OperatorTok{&}\StringTok{ }\NormalTok{m}\OperatorTok{$}\NormalTok{R }\OperatorTok{<}\StringTok{ }\NormalTok{b}\OperatorTok{$}\NormalTok{R) \{}
+\NormalTok{            b <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{Language=}\KeywordTok{c}\NormalTok{(language), }\DataTypeTok{Model=}\KeywordTok{c}\NormalTok{(model), }\DataTypeTok{R=}\KeywordTok{c}\NormalTok{(m}\OperatorTok{$}\NormalTok{R))}
+\NormalTok{        \}}
+\NormalTok{    \}}
+\NormalTok{    BFM <-}\StringTok{ }\KeywordTok{rbind}\NormalTok{(BFM, b)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Amarasi Exponential"
+## [1] "Amarasi Log Normal"
+## [1] "Amarasi Truncated Power Law"
+## [1] "American English - Southern Michigan Exponential"
+## [1] "American English - Southern Michigan Log Normal"
+## [1] "American English - Southern Michigan Truncated Power Law"
+## [1] "Amharic Exponential"
+## [1] "Amharic Log Normal"
+## [1] "Amharic Truncated Power Law"
+## [1] "Arabic Exponential"
+## [1] "Arabic Log Normal"
+## [1] "Arabic Truncated Power Law"
+## [1] "Assamese Exponential"
+## [1] "Assamese Log Normal"
+## [1] "Assamese Truncated Power Law"
+## [1] "Australian English Exponential"
+## [1] "Australian English Log Normal"
+## [1] "Australian English Truncated Power Law"
+## [1] "Azerbaijani Exponential"
+## [1] "Azerbaijani Log Normal"
+## [1] "Azerbaijani Truncated Power Law"
+## [1] "Bardi Exponential"
+## [1] "Bardi Log Normal"
+## [1] "Bardi Truncated Power Law"
+## [1] "Basaa Exponential"
+## [1] "Basaa Log Normal"
+## [1] "Basaa Truncated Power Law"
+## [1] "Basque (Western Low Navarrese dialect) Exponential"
+## [1] "Basque (Western Low Navarrese dialect) Log Normal"
+## [1] "Basque (Western Low Navarrese dialect) Truncated Power Law"
+## [1] "Béarnais (Gascon) Exponential"
+## [1] "Béarnais (Gascon) Log Normal"
+## [1] "Béarnais (Gascon) Truncated Power Law"
+## [1] "Belgian Limburg dialect of Hamont Exponential"
+## [1] "Belgian Limburg dialect of Hamont Log Normal"
+## [1] "Belgian Limburg dialect of Hamont Truncated Power Law"
+## [1] "Belgian Standard Dutch Exponential"
+## [1] "Belgian Standard Dutch Log Normal"
+## [1] "Belgian Standard Dutch Truncated Power Law"
+## [1] "Bemba Exponential"
+## [1] "Bemba Log Normal"
+## [1] "Bemba Truncated Power Law"
+## [1] "Bengali (Bangladeshi Standard) Exponential"
+## [1] "Bengali (Bangladeshi Standard) Log Normal"
+## [1] "Bengali (Bangladeshi Standard) Truncated Power Law"
+## [1] "Brazilian Portuguese Exponential"
+## [1] "Brazilian Portuguese Log Normal"
+## [1] "Brazilian Portuguese Truncated Power Law"
+## [1] "Breton (Treger dialect) Exponential"
+## [1] "Breton (Treger dialect) Log Normal"
+## [1] "Breton (Treger dialect) Truncated Power Law"
+## [1] "Breton of the Isle of Groix Exponential"
+## [1] "Breton of the Isle of Groix Log Normal"
+## [1] "Breton of the Isle of Groix Truncated Power Law"
+## [1] "British English recieved pronunciation Exponential"
+## [1] "British English recieved pronunciation Log Normal"
+## [1] "British English recieved pronunciation Truncated Power Law"
+## [1] "Brunei Malay Exponential"
+## [1] "Brunei Malay Log Normal"
+## [1] "Brunei Malay Truncated Power Law"
+## [1] "Bukharan Tajik Exponential"
+## [1] "Bukharan Tajik Log Normal"
+## [1] "Bukharan Tajik Truncated Power Law"
+## [1] "Bulgarian Exponential"
+## [1] "Bulgarian Log Normal"
+## [1] "Bulgarian Truncated Power Law"
+## [1] "Burmese Exponential"
+## [1] "Burmese Log Normal"
+## [1] "Burmese Truncated Power Law"
+## [1] "Castilian Spanish Exponential"
+## [1] "Castilian Spanish Log Normal"
+## [1] "Castilian Spanish Truncated Power Law"
+## [1] "Catalan Exponential"
+## [1] "Catalan Log Normal"
+## [1] "Catalan Truncated Power Law"
+## [1] "Central Arrernte Exponential"
+## [1] "Central Arrernte Log Normal"
+## [1] "Central Arrernte Truncated Power Law"
+## [1] "Central Sama Exponential"
+## [1] "Central Sama Log Normal"
+## [1] "Central Sama Truncated Power Law"
+## [1] "Chicahuaxtla Triqui Exponential"
+## [1] "Chicahuaxtla Triqui Log Normal"
+## [1] "Chicahuaxtla Triqui Truncated Power Law"
+## [1] "Chikasaw Exponential"
+## [1] "Chikasaw Log Normal"
+## [1] "Chikasaw Truncated Power Law"
+## [1] "Chinese (Hong Kong Cantonese) Exponential"
+## [1] "Chinese (Hong Kong Cantonese) Log Normal"
+## [1] "Chinese (Hong Kong Cantonese) Truncated Power Law"
+## [1] "Chistabino (Pyrenean Aragonese) Exponential"
+## [1] "Chistabino (Pyrenean Aragonese) Log Normal"
+## [1] "Chistabino (Pyrenean Aragonese) Truncated Power Law"
+## [1] "Cicipu Exponential"
+## [1] "Cicipu Log Normal"
+## [1] "Cicipu Truncated Power Law"
+## [1] "Cocos Malay Exponential"
+## [1] "Cocos Malay Log Normal"
+## [1] "Cocos Malay Truncated Power Law"
+## [1] "Croatian Exponential"
+## [1] "Croatian Log Normal"
+## [1] "Croatian Truncated Power Law"
+## [1] "Cypriot Greek Exponential"
+## [1] "Cypriot Greek Log Normal"
+## [1] "Cypriot Greek Truncated Power Law"
+## [1] "Czech Exponential"
+## [1] "Czech Log Normal"
+## [1] "Czech Truncated Power Law"
+## [1] "Czech spoken in Bohemia Exponential"
+## [1] "Czech spoken in Bohemia Log Normal"
+## [1] "Czech spoken in Bohemia Truncated Power Law"
+## [1] "Czech spoken in Moravia Exponential"
+## [1] "Czech spoken in Moravia Log Normal"
+## [1] "Czech spoken in Moravia Truncated Power Law"
+## [1] "Danish Exponential"
+## [1] "Danish Log Normal"
+## [1] "Danish Truncated Power Law"
+## [1] "Dari Afghan Persian Formal Exponential"
+## [1] "Dari Afghan Persian Formal Log Normal"
+## [1] "Dari Afghan Persian Formal Truncated Power Law"
+## [1] "Dari Afghan Persian Informal Exponential"
+## [1] "Dari Afghan Persian Informal Log Normal"
+## [1] "Dari Afghan Persian Informal Truncated Power Law"
+## [1] "Dutch Exponential"
+## [1] "Dutch Log Normal"
+## [1] "Dutch Truncated Power Law"
+## [1] "Dutch dialect of Hasselt Exponential"
+## [1] "Dutch dialect of Hasselt Log Normal"
+## [1] "Dutch dialect of Hasselt Truncated Power Law"
+## [1] "Dutch Dialect of Maastricht Exponential"
+## [1] "Dutch Dialect of Maastricht Log Normal"
+## [1] "Dutch Dialect of Maastricht Truncated Power Law"
+## [1] "Dutch dialect of Weert Exponential"
+## [1] "Dutch dialect of Weert Log Normal"
+## [1] "Dutch dialect of Weert Truncated Power Law"
+## [1] "Ega Exponential"
+## [1] "Ega Log Normal"
+## [1] "Ega Truncated Power Law"
+## [1] "Ersu Exponential"
+## [1] "Ersu Log Normal"
+## [1] "Ersu Truncated Power Law"
+## [1] "Estonian Exponential"
+## [1] "Estonian Log Normal"
+## [1] "Estonian Truncated Power Law"
+## [1] "European Portuguese Exponential"
+## [1] "European Portuguese Log Normal"
+## [1] "European Portuguese Truncated Power Law"
+## [1] "Flemish-Brabant dialect of Orsmaal-Gussenhoven Exponential"
+## [1] "Flemish-Brabant dialect of Orsmaal-Gussenhoven Log Normal"
+## [1] "Flemish-Brabant dialect of Orsmaal-Gussenhoven Truncated Power Law"
+## [1] "French Exponential"
+## [1] "French Log Normal"
+## [1] "French Truncated Power Law"
+## [1] "Friulian Exponential"
+## [1] "Friulian Log Normal"
+## [1] "Friulian Truncated Power Law"
+## [1] "Galician Exponential"
+## [1] "Galician Log Normal"
+## [1] "Galician Truncated Power Law"
+## [1] "Gayo Exponential"
+## [1] "Gayo Log Normal"
+## [1] "Gayo Truncated Power Law"
+## [1] "German Exponential"
+## [1] "German Log Normal"
+## [1] "German Truncated Power Law"
+## [1] "Gitksan Exponential"
+## [1] "Gitksan Log Normal"
+## [1] "Gitksan Truncated Power Law"
+## [1] "Goemai Exponential"
+## [1] "Goemai Log Normal"
+## [1] "Goemai Truncated Power Law"
+## [1] "Goizueta Basque Exponential"
+## [1] "Goizueta Basque Log Normal"
+## [1] "Goizueta Basque Truncated Power Law"
+## [1] "Greek Thrace Xoraxane Romane Exponential"
+## [1] "Greek Thrace Xoraxane Romane Log Normal"
+## [1] "Greek Thrace Xoraxane Romane Truncated Power Law"
+## [1] "Hakka Chinese Exponential"
+## [1] "Hakka Chinese Log Normal"
+## [1] "Hakka Chinese Truncated Power Law"
+## [1] "Hanoi Vietnamese Exponential"
+## [1] "Hanoi Vietnamese Log Normal"
+## [1] "Hanoi Vietnamese Truncated Power Law"
+## [1] "Hausa Exponential"
+## [1] "Hausa Log Normal"
+## [1] "Hausa Truncated Power Law"
+## [1] "Hebrew Exponential"
+## [1] "Hebrew Log Normal"
+## [1] "Hebrew Truncated Power Law"
+## [1] "Hindi Exponential"
+## [1] "Hindi Log Normal"
+## [1] "Hindi Truncated Power Law"
+## [1] "Hungarian Exponential"
+## [1] "Hungarian Log Normal"
+## [1] "Hungarian Truncated Power Law"
+## [1] "Ibibio Exponential"
+## [1] "Ibibio Log Normal"
+## [1] "Ibibio Truncated Power Law"
+## [1] "Igbo Exponential"
+## [1] "Igbo Log Normal"
+## [1] "Igbo Truncated Power Law"
+## [1] "Ika Igbo Exponential"
+## [1] "Ika Igbo Log Normal"
+## [1] "Ika Igbo Truncated Power Law"
+## [1] "Indonesian Exponential"
+## [1] "Indonesian Log Normal"
+## [1] "Indonesian Truncated Power Law"
+## [1] "Irish Exponential"
+## [1] "Irish Log Normal"
+## [1] "Irish Truncated Power Law"
+## [1] "Istanbul Judeo-Spanish Exponential"
+## [1] "Istanbul Judeo-Spanish Log Normal"
+## [1] "Istanbul Judeo-Spanish Truncated Power Law"
+## [1] "Isthmus (Juchitán) Zapotec Exponential"
+## [1] "Isthmus (Juchitán) Zapotec Log Normal"
+## [1] "Isthmus (Juchitán) Zapotec Truncated Power Law"
+## [1] "Italian Exponential"
+## [1] "Italian Log Normal"
+## [1] "Italian Truncated Power Law"
+## [1] "Itunyoso Trique Exponential"
+## [1] "Itunyoso Trique Log Normal"
+## [1] "Itunyoso Trique Truncated Power Law"
+## [1] "Jamaican Creole Exponential"
+## [1] "Jamaican Creole Log Normal"
+## [1] "Jamaican Creole Truncated Power Law"
+## [1] "Japanese Exponential"
+## [1] "Japanese Log Normal"
+## [1] "Japanese Truncated Power Law"
+## [1] "Jicarilla Apache Exponential"
+## [1] "Jicarilla Apache Log Normal"
+## [1] "Jicarilla Apache Truncated Power Law"
+## [1] "Kabiye Exponential"
+## [1] "Kabiye Log Normal"
+## [1] "Kabiye Truncated Power Law"
+## [1] "Kalabari Ijo Exponential"
+## [1] "Kalabari Ijo Log Normal"
+## [1] "Kalabari Ijo Truncated Power Law"
+## [1] "Kedayan Exponential"
+## [1] "Kedayan Log Normal"
+## [1] "Kedayan Truncated Power Law"
+## [1] "Keo Exponential"
+## [1] "Keo Log Normal"
+## [1] "Keo Truncated Power Law"
+## [1] "Kera Exponential"
+## [1] "Kera Log Normal"
+## [1] "Kera Truncated Power Law"
+## [1] "Khowar Exponential"
+## [1] "Khowar Log Normal"
+## [1] "Khowar Truncated Power Law"
+## [1] "Korean Exponential"
+## [1] "Korean Log Normal"
+## [1] "Korean Truncated Power Law"
+## [1] "Kunama Exponential"
+## [1] "Kunama Log Normal"
+## [1] "Kunama Truncated Power Law"
+## [1] "Liverpool English Exponential"
+## [1] "Liverpool English Log Normal"
+## [1] "Liverpool English Truncated Power Law"
+## [1] "Lizu Exponential"
+## [1] "Lizu Log Normal"
+## [1] "Lizu Truncated Power Law"
+## [1] "Lower Xumi Exponential"
+## [1] "Lower Xumi Log Normal"
+## [1] "Lower Xumi Truncated Power Law"
+## [1] "Luanyjang Dinka Exponential"
+## [1] "Luanyjang Dinka Log Normal"
+## [1] "Luanyjang Dinka Truncated Power Law"
+## [1] "Lusoga Lutenga Exponential"
+## [1] "Lusoga Lutenga Log Normal"
+## [1] "Lusoga Lutenga Truncated Power Law"
+## [1] "Luxembourgish Exponential"
+## [1] "Luxembourgish Log Normal"
+## [1] "Luxembourgish Truncated Power Law"
+## [1] "Lyonnais (Francoprovencal) Exponential"
+## [1] "Lyonnais (Francoprovencal) Log Normal"
+## [1] "Lyonnais (Francoprovencal) Truncated Power Law"
+## [1] "Mah Meri Exponential"
+## [1] "Mah Meri Log Normal"
+## [1] "Mah Meri Truncated Power Law"
+## [1] "Makasar Exponential"
+## [1] "Makasar Log Normal"
+## [1] "Makasar Truncated Power Law"
+## [1] "Malayalam Namboodiri dialect Exponential"
+## [1] "Malayalam Namboodiri dialect Log Normal"
+## [1] "Malayalam Namboodiri dialect Truncated Power Law"
+## [1] "Mambay Exponential"
+## [1] "Mambay Log Normal"
+## [1] "Mambay Truncated Power Law"
+## [1] "Mapudungun Exponential"
+## [1] "Mapudungun Log Normal"
+## [1] "Mapudungun Truncated Power Law"
+## [1] "Mavea Exponential"
+## [1] "Mavea Log Normal"
+## [1] "Mavea Truncated Power Law"
+## [1] "Mennonite Plautdietsch Exponential"
+## [1] "Mennonite Plautdietsch Log Normal"
+## [1] "Mennonite Plautdietsch Truncated Power Law"
+## [1] "Mono Exponential"
+## [1] "Mono Log Normal"
+## [1] "Mono Truncated Power Law"
+## [1] "Mono Lake Northern Paiute Exponential"
+## [1] "Mono Lake Northern Paiute Log Normal"
+## [1] "Mono Lake Northern Paiute Truncated Power Law"
+## [1] "Munji Exponential"
+## [1] "Munji Log Normal"
+## [1] "Munji Truncated Power Law"
+## [1] "Murcian Spanish Exponential"
+## [1] "Murcian Spanish Log Normal"
+## [1] "Murcian Spanish Truncated Power Law"
+## [1] "Nara Exponential"
+## [1] "Nara Log Normal"
+## [1] "Nara Truncated Power Law"
+## [1] "Nen Exponential"
+## [1] "Nen Log Normal"
+## [1] "Nen Truncated Power Law"
+## [1] "Nepali Exponential"
+## [1] "Nepali Log Normal"
+## [1] "Nepali Truncated Power Law"
+## [1] "New Zealand English Exponential"
+## [1] "New Zealand English Log Normal"
+## [1] "New Zealand English Truncated Power Law"
+## [1] "Niuean Exponential"
+## [1] "Niuean Log Normal"
+## [1] "Niuean Truncated Power Law"
+## [1] "Nivacle Exponential"
+## [1] "Nivacle Log Normal"
+## [1] "Nivacle Truncated Power Law"
+## [1] "Northwest Sahaptin Exponential"
+## [1] "Northwest Sahaptin Log Normal"
+## [1] "Northwest Sahaptin Truncated Power Law"
+## [1] "Nuosu Yi Exponential"
+## [1] "Nuosu Yi Log Normal"
+## [1] "Nuosu Yi Truncated Power Law"
+## [1] "Nuuchahnulth Exponential"
+## [1] "Nuuchahnulth Log Normal"
+## [1] "Nuuchahnulth Truncated Power Law"
+## [1] "Palula Exponential"
+## [1] "Palula Log Normal"
+## [1] "Palula Truncated Power Law"
+## [1] "Persian (Farsi) Exponential"
+## [1] "Persian (Farsi) Log Normal"
+## [1] "Persian (Farsi) Truncated Power Law"
+## [1] "Pitjantjatjara Exponential"
+## [1] "Pitjantjatjara Log Normal"
+## [1] "Pitjantjatjara Truncated Power Law"
+## [1] "Polish Exponential"
+## [1] "Polish Log Normal"
+## [1] "Polish Truncated Power Law"
+## [1] "Russian Exponential"
+## [1] "Russian Log Normal"
+## [1] "Russian Truncated Power Law"
+## [1] "Salasaca Quichua Exponential"
+## [1] "Salasaca Quichua Log Normal"
+## [1] "Salasaca Quichua Truncated Power Law"
+## [1] "Sandawe Exponential"
+## [1] "Sandawe Log Normal"
+## [1] "Sandawe Truncated Power Law"
+## [1] "Seri Exponential"
+## [1] "Seri Log Normal"
+## [1] "Seri Truncated Power Law"
+## [1] "Setswana South Africa Exponential"
+## [1] "Setswana South Africa Log Normal"
+## [1] "Setswana South Africa Truncated Power Law"
+## [1] "Shanghai Chinese Exponential"
+## [1] "Shanghai Chinese Log Normal"
+## [1] "Shanghai Chinese Truncated Power Law"
+## [1] "Shilluk Exponential"
+## [1] "Shilluk Log Normal"
+## [1] "Shilluk Truncated Power Law"
+## [1] "Shipibo Exponential"
+## [1] "Shipibo Log Normal"
+## [1] "Shipibo Truncated Power Law"
+## [1] "Shiwilu (Jebero) Exponential"
+## [1] "Shiwilu (Jebero) Log Normal"
+## [1] "Shiwilu (Jebero) Truncated Power Law"
+## [1] "Sindhi Exponential"
+## [1] "Sindhi Log Normal"
+## [1] "Sindhi Truncated Power Law"
+## [1] "Slovak Exponential"
+## [1] "Slovak Log Normal"
+## [1] "Slovak Truncated Power Law"
+## [1] "Slovene Exponential"
+## [1] "Slovene Log Normal"
+## [1] "Slovene Truncated Power Law"
+## [1] "Southeastern Pashayi Exponential"
+## [1] "Southeastern Pashayi Log Normal"
+## [1] "Southeastern Pashayi Truncated Power Law"
+## [1] "Spokane Exponential"
+## [1] "Spokane Log Normal"
+## [1] "Spokane Truncated Power Law"
+## [1] "Standard Austrian German Exponential"
+## [1] "Standard Austrian German Log Normal"
+## [1] "Standard Austrian German Truncated Power Law"
+## [1] "Standard Chinese (Beijing) Exponential"
+## [1] "Standard Chinese (Beijing) Log Normal"
+## [1] "Standard Chinese (Beijing) Truncated Power Law"
+## [1] "Standard Georgian Exponential"
+## [1] "Standard Georgian Log Normal"
+## [1] "Standard Georgian Truncated Power Law"
+## [1] "Standard Malay (Brunei) Exponential"
+## [1] "Standard Malay (Brunei) Log Normal"
+## [1] "Standard Malay (Brunei) Truncated Power Law"
+## [1] "Standard Modern Greek Exponential"
+## [1] "Standard Modern Greek Log Normal"
+## [1] "Standard Modern Greek Truncated Power Law"
+## [1] "Standard Yiddish Exponential"
+## [1] "Standard Yiddish Log Normal"
+## [1] "Standard Yiddish Truncated Power Law"
+## [1] "Sumi (Sema) Exponential"
+## [1] "Sumi (Sema) Log Normal"
+## [1] "Sumi (Sema) Truncated Power Law"
+## [1] "Swedish Exponential"
+## [1] "Swedish Log Normal"
+## [1] "Swedish Truncated Power Law"
+## [1] "Taba Exponential"
+## [1] "Taba Log Normal"
+## [1] "Taba Truncated Power Law"
+## [1] "Tamambo Exponential"
+## [1] "Tamambo Log Normal"
+## [1] "Tamambo Truncated Power Law"
+## [1] "Tamil Exponential"
+## [1] "Tamil Log Normal"
+## [1] "Tamil Truncated Power Law"
+## [1] "Tashlhiyt Berber Exponential"
+## [1] "Tashlhiyt Berber Log Normal"
+## [1] "Tashlhiyt Berber Truncated Power Law"
+## [1] "Tausug (Suluk) Exponential"
+## [1] "Tausug (Suluk) Log Normal"
+## [1] "Tausug (Suluk) Truncated Power Law"
+## [1] "Telugu Exponential"
+## [1] "Telugu Log Normal"
+## [1] "Telugu Truncated Power Law"
+## [1] "Temne Exponential"
+## [1] "Temne Log Normal"
+## [1] "Temne Truncated Power Law"
+## [1] "Tena Quichua Exponential"
+## [1] "Tena Quichua Log Normal"
+## [1] "Tena Quichua Truncated Power Law"
+## [1] "Tera Exponential"
+## [1] "Tera Log Normal"
+## [1] "Tera Truncated Power Law"
+## [1] "Thai Exponential"
+## [1] "Thai Log Normal"
+## [1] "Thai Truncated Power Law"
+## [1] "Tilquiapan Zapotec Exponential"
+## [1] "Tilquiapan Zapotec Log Normal"
+## [1] "Tilquiapan Zapotec Truncated Power Law"
+## [1] "Tukang Besi Exponential"
+## [1] "Tukang Besi Log Normal"
+## [1] "Tukang Besi Truncated Power Law"
+## [1] "Turkish Exponential"
+## [1] "Turkish Log Normal"
+## [1] "Turkish Truncated Power Law"
+## [1] "Tyneside English Exponential"
+## [1] "Tyneside English Log Normal"
+## [1] "Tyneside English Truncated Power Law"
+## [1] "Ukrainian Exponential"
+## [1] "Ukrainian Log Normal"
+## [1] "Ukrainian Truncated Power Law"
+## [1] "Upper Saxon (Chemnitz dialect) Exponential"
+## [1] "Upper Saxon (Chemnitz dialect) Log Normal"
+## [1] "Upper Saxon (Chemnitz dialect) Truncated Power Law"
+## [1] "Upper Sorbian Exponential"
+## [1] "Upper Sorbian Log Normal"
+## [1] "Upper Sorbian Truncated Power Law"
+## [1] "Upper Xumi Exponential"
+## [1] "Upper Xumi Log Normal"
+## [1] "Upper Xumi Truncated Power Law"
+## [1] "Yine Exponential"
+## [1] "Yine Log Normal"
+## [1] "Yine Truncated Power Law"
+## [1] "Zurich German Exponential"
+## [1] "Zurich German Log Normal"
+## [1] "Zurich German Truncated Power Law"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{p <-}\StringTok{ }\KeywordTok{ggplot}\NormalTok{(BFM, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Model)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_bar}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+Best fitting models:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{print}\NormalTok{(}\KeywordTok{summary}\NormalTok{(BFM}\OperatorTok{$}\NormalTok{Model))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           Power Law Truncated Power Law 
+##                 150                   8
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{print}\NormalTok{(}\KeywordTok{summary}\NormalTok{(BFM}\OperatorTok{$}\NormalTok{Model) }\OperatorTok{/}\StringTok{ }\KeywordTok{length}\NormalTok{(BFM}\OperatorTok{$}\NormalTok{Model))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           Power Law Truncated Power Law 
+##          0.94936709          0.05063291
+\end{verbatim}
+
+Size of R:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{print}\NormalTok{(}\KeywordTok{summary}\NormalTok{(BFM}\OperatorTok{$}\NormalTok{R))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+## -2.56400  0.00000  0.00000 -0.09361  0.00000  0.00000
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{print}\NormalTok{(}\KeywordTok{sd}\NormalTok{(BFM}\OperatorTok{$}\NormalTok{R))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.4195675
+\end{verbatim}
+
+
+\end{document}

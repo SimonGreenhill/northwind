@@ -1,0 +1,149 @@
+---
+title: "Results Notebook"
+output: pdf_document
+---
+
+# Zipf
+
+Read data
+
+```{r}
+z <- read.delim('results.dat', header=TRUE)
+head(z)
+```
+
+
+## plot alpha parameter
+
+```{r}
+library(ggplot2)
+
+p <- ggplot(z, aes(x=Alpha)) + geom_histogram() + xlim(0, 6) + theme_classic()
+p <- p + geom_vline(xintercept=1, color="tomato")
+p
+```
+
+Hmm. Not much around expected Zipf alpha of 1.
+
+Summary of Alpha: 
+
+```{r}
+summary(z$Alpha)
+sd(z$Alpha)
+```
+
+
+
+## compare models: Exponential
+
+Negative means preference for the named model.
+
+```{r}
+p <- ggplot(z, aes(x=vsExp.R)) + geom_histogram() + xlim(-10, 10) + theme_classic()
+p <- p + geom_vline(xintercept=0, color="gray")
+p <- p + ggtitle('Exponential')
+p
+```
+
+## compare models: Lognormal
+
+Negative means preference for the named model.
+
+
+```{r}
+p <- ggplot(z, aes(x=vsLN.R)) + geom_histogram() + xlim(-10, 10) + theme_classic()
+p <- p + geom_vline(xintercept=0, color="gray")
+p
+```
+
+## compare models: Truncated Power law
+
+```{r}
+p <- ggplot(z, aes(x=vsTPL.R)) + geom_histogram() + xlim(-10, 10) + theme_classic()
+p <- p + geom_vline(xintercept=0, color="gray")
+p <- p + ggtitle('LogNormal')
+p
+```
+
+
+## Combined plot:
+
+```{r}
+df <- data.frame(Language=z$Language, Model="Exponential", R=z$vsExp.R, P=z$vsExp.P)
+df <- rbind(df, data.frame(
+    Language=z$Language, Model="Log Normal", R=z$vsLN.R, P=z$vsLN.P    
+))
+df <- rbind(df, data.frame(
+    Language=z$Language, Model="Truncated Power Law", R=z$vsTPL.R, P=z$vsTPL.P    
+))
+```
+
+## P-values
+
+```{r}
+p <- ggplot(df, aes(x=P, group=Model, fill=Model))
+p <- p + geom_histogram()
+p <- p + facet_grid(Model~.)
+p <- p + theme_classic()
+p <- p + geom_vline(xintercept=0, color="gray")
+p <- p + theme(legend.position="none")
+p <- p + theme(
+      strip.background = element_rect(colour=NA, fill=NA)
+)
+p
+```
+
+## Likelihood ratio
+
+```{r}
+
+p <- ggplot(df, aes(x=R, group=Model, fill=Model))
+p <- p + geom_histogram() + xlim(-15, 5)
+p <- p + facet_grid(Model~.)
+p <- p + theme_classic()
+p <- p + geom_vline(xintercept=0, color="gray")
+p <- p + theme(legend.position="none")
+p <- p + theme(
+      strip.background = element_rect(colour=NA, fill=NA)
+)
+p
+```
+
+
+# Best fitting model
+
+```{r}
+BFM <- data.frame(Language=c(), Model=c(), R=c())
+for (language in levels(df$Language)) {
+    b <- data.frame(Language=c(language), Model=c('Power Law'), R=c(0))
+    
+    for (model in levels(df$Model)) {
+        print(paste(language, model))
+        m <- df[c(df$Language == language & df$Model == model),]
+        if (m$P <= 0.05 & m$R < b$R) {
+            b <- data.frame(Language=c(language), Model=c(model), R=c(m$R))
+        }
+    }
+    BFM <- rbind(BFM, b)
+}
+
+p <- ggplot(BFM, aes(x=Model)) + geom_bar()
+
+```
+
+Best fitting models:
+```{r}
+print(summary(BFM$Model))
+print(summary(BFM$Model) / length(BFM$Model))
+```
+
+Size of R:
+```{r}
+print(summary(BFM$R))
+print(sd(BFM$R))
+
+```
+
+
+
+

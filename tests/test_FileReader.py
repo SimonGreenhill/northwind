@@ -9,7 +9,8 @@ import warnings
 sys.path.append('../bin')
 
 from tools import FileReader, FileReaderException, Token, MissingToken
-    
+
+
 class Test_FileReader(unittest.TestCase):
     
     data_filename = 'test_data.txt'

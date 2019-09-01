@@ -1,0 +1,174 @@
+Assamese	/y/ The symbol [y] in the transcript appears to be used to represent the palatal
+Assamese	approximant [j]. There is no mention in the text of the symbol [y] and it
+Assamese	doesn't appear to be used as a vowel.
+Australian English	/i/ in transcript, not in inventory. Probably author’s typo.
+Australian English	/u/ in transcript, not in inventory. Second part of diphthong / əʉ/. Author’s typo.
+Azerbaijani	/r/
+Bardi	/oː/ is not in the phoneme inventory (or discussed in the paper) but appears in the transcription.
+Bardi	/ɣ/ appear in the transcription, but are not in the phoneme inventory and I cannot find anywhere in the paper to account for them.
+Bardi	/ç/ appear in the transcription, but are not in the phoneme inventory and I cannot find anywhere in the paper to account for them.
+Basaa	/ǃ/ is in the transcription, but not in the phonemic inventory.
+Basaa	/ŋg/ I suspect that the instances of plain ‘g’ should be preceded by superscript ‘n’ (which in the original article is <ŋ> but I was unable to do a superscript velar nasal – see notes). Instead these instances of ‘g’ are preceded by a normal-size <ŋ>.
+Belgian Limburg dialect of Hamont	/r/ appears in the text. Presumably this is a typo and should be /ʀ/.
+Belgian Limburg dialect of Hamont	/β/ appears in the text. Presumably this is a typo and should be /β̞/.
+Belgian Limburg dialect of Hamont	/e/ in transcript, but not in language. It appears to be a typo. Elsewhere in transcript same word has /ɛ/.
+Belgian Limburg dialect of Hamont	/a/ in transcript, but not part of inventory. Probably author’s typo.
+Belgian Limburg dialect of Hamont	/o/ in transcript, but not in inventory. Probably a typo.
+Belgian Limburg dialect of Hamont	/ɔu/ in transcript, but not discussed. Probably missing length symbols.
+Belgian Limburg dialect of Hamont	/ɛi/ in transcript, but not discussed. Probably missing length symbols.
+Belgian Limburg dialect of Hamont	/h/ in transcript, not discussed in paper.
+Belgian Standard Dutch	/y/ in transcript not in phoneme inventory.
+Belgian Standard Dutch	/o/ in transcript not in phoneme inventory.
+Belgian Standard Dutch	/ə/  Schwa is not discussed in the paper, but appears in the transcript. In the middle of the vowel phoneme inventory, where schwa is usually found, the symbol / øː/ is used, which I would expect to be more front than central. It is not found at all in the transcript. I just wonder if somehow the two are being muddled.
+Belgian Standard Dutch	/h/ is in the transcript, but not explicitly discussed in the paper. I suspect it is a typo. Eg. <het> in one place is transcribed /ɦət/ and in another /hət/. It could be accounted for by the devoicing of fricatives that takes place in Belgian Dutch, but based on the above pair am leaning towards typos.
+Bengali (Bangladeshi Standard)	/ae/ is in transcript, not in inventory. Occurs in two instances of the words [gaeɹ]. Probably missing non-syllabic diacritic off ‘e’ (i.e. should be [ae̯]).
+Bengali (Bangladeshi Standard)	/oe/ is in transcript, not in inventory. Probably missing non-syllabic diacritic off ‘e’ (i.e. should be [oe̯]).
+Béarnais (Gascon)	/ə/ The schwa is in the transcript in the JIPA article. Doesn’t appear to be discussed anywhere in the text.
+British English recieved pronunciation	/ɪː/ is in the transcription, but not discussed in the paper.
+Castilian Spanish	/ʝ/ is not in the phonemic inventory, but occurs in the transcription.
+Castilian Spanish	/j/ in transcript, not in phoneme inventory. Corresponds to [ʝ] in narrow transcript and <y> in orthography.
+Castilian Spanish	/c/ is in broad transcript, but not in inventory. It corresponds to /tʃ/ in the narrow transcript. Doesn’t correspond to orthography, which is <ch>.
+Castilian Spanish	/ʒ/ not in phoneme inventory; not in orthography; corresponds to /ʎ/ in narrow transcription.
+Castilian Spanish	/ʎ/
+Castilian Spanish	/h/ not in phoneme inventory; corresponds to [s] in narrow transcription and <s> in orthographic version.
+Central Arrernte	/e/ in transcript, not in paper. Author’s typo?
+Central Sama	/r/ in transcription, but not in phoneme inventory or discussed in paper. Presumably supposed to be tap [ɾ].
+Chikasaw	/y/ not in phoneme inventory or discussed, but present in transcription.
+Chistabino (Pyrenean Aragonese)	/ɑu/ is not discussed in the paper, but occurs in the transcript.
+Chistabino (Pyrenean Aragonese)	/ð/ is in the transcript, but not in the paper. Typo?
+Chistabino (Pyrenean Aragonese)	/mː/ not mentioned in paper, but in transcript.
+Czech spoken in Bohemia	/iː/ not in phonemic inventory, but in transcription.
+Czech spoken in Bohemia	/i/ is not in phoneme inventory, but appears in transcription – probably a typo on author’s behalf.
+Czech spoken in Moravia	/ɾː/ length symbol belongs to an omitted vowel. Fixed.
+Danish	/ʌː/ in transcription, not in phoneme inventory. Probably author’s typo.
+Dutch Dialect of Maastricht	/r/ Present in transcription, not discussed in paper.
+Dutch dialect of Hasselt	/e/ in transcript, not in paper. Author’s typo – should be a schwa.
+Dutch dialect of Hasselt	/æː/ not discussed in paper, but present in transcript. Probably author’s typos.
+Dutch dialect of Hasselt	/a/ not discussed in paper, but present in transcript. Probably author’s typos.
+Ega	/ʔ/ no mention found in paper, but present in narrow phonetic transcription.
+Ersu	/ə/ appears in the transcript, but not in the phoneme inventory. Probably author's typo, meant to be /ɚ/.
+Ersu	/a˞/ in transcript, not in phoneme inventory.
+Estonian	/nː/ Paper doesn’t specifically mention long nasal consonants in phoneme inventory or in text.
+Estonian	/nʲː/ Paper doesn’t specifically mention long nasal consonants in phoneme inventory or in text.
+Estonian	/mː/ Paper doesn’t specifically mention long nasal consonants in phoneme inventory or in text.
+Estonian	/hː/ Paper discusses long fricatives, but doesn’t list ‘hː’ as one of them.
+Flemish-Brabant dialect of Orsmaal-Gussenhoven	/u/ in transcription, but not in phoneme inventory.
+Flemish-Brabant dialect of Orsmaal-Gussenhoven	/ɐ/ in transcription, but not in phoneme inventory.
+Flemish-Brabant dialect of Orsmaal-Gussenhoven	/y/ in transcription, but not in phoneme inventory.
+Flemish-Brabant dialect of Orsmaal-Gussenhoven	/i/ in transcription, but not in phoneme inventory.
+French	/õ/ occurs once in the transcript, but is not discussed anywhere in the paper. It immediately follows a nasal consonant, so could be a nasalised allophone of /o/. However, I'm reluctant to enter it as such, because of the contrast in other vowels between oral and nasal. I recommend we leave it as an error.
+French	/ɑ/ The author writesː "Some speakers have a contrast between two low vowels [a] and [ɑ]; our speaker has only one low vowel, [a], which is central." p73 This means the [ɑ] that appears in the multiple instances of the same word in the transcript is either a typo or an allophone of /ɑ̃/. I recommend we leave it as an error, as we don't have enough information to make the call.
+French	/iː/ Not discussed in the paper. There are two orthographic instances of the word that it occurs in "ils". The first consists of four sounds, the second just this long vowel, which makes it appear like an abbreviated form of the word. But reluctant to say that it is an allophone of /i/. I recommend leaving it as an error.
+French	All of the missing vowels appear in the transcript, but are not discussed in the paper. They could probably be assigned as allophones to phonemes, fi we wanted to do this.
+German	/r/ is in transcript, but not discussed in paper, and not listed in phoneme inventory.
+Gitksan	/k/ occurs two times in the text. Author’s typo?
+Gitksan	/g/ occurs lots of times. No explanation in the text. Author’s typo?
+Gitksan	/ɪː/
+Goemai	/é/ not in phoneme inventory, but present in transcript.
+Goemai	/ɔ̀/ not in phoneme inventory, but present in transcript.
+Goemai	/ɔ́/ not in phoneme inventory, but present in transcript.
+Goemai	/è/ not in phoneme inventory, but present in transcript.
+Goizueta Basque	/èu/ occurs in transcript, not in phoneme inventory. Author’s typo - ‘u’ is missing a non-phonemic diacritic under it.
+Hanoi Vietnamese	/ə/ not in phoneme inventory, but in transcript.
+Hausa	/ɛ/ not discussed in paper, but present in transcription.
+Hausa	/ɔ/ not discussed in paper, but present in transcription.
+Hindi	/d/ not in phoneme inventory but in transcript. Probably author’s typo.
+Hungarian	/ɔ/ In transcript. Not discussed in paper.
+Ibibio	/r/ in transcript -- presumably "ɾ"
+Ibibio	/t/ in transcript -- presumably t̪
+Ika Igbo	/h/ not in phoneme inventory, but in transcript. Possibly typo on behalf of JIPA author.
+Irish	/ɣˠ/ occurs in the transcript, but not in the phoneme inventory.
+Irish	/nˠ/ probably a typo for n̪ˠ
+Japanese	/t́/ Not in transcript
+Jicarilla Apache	/eː/ not mentioned in text, but present in transcript. Author’s typo?
+Kabiye	/áˠː/ appears in the transcription, but is not listed in the phoneme inventory.
+Kabiye	/àˠː/ appears in the transcription, but is not listed in the phoneme inventory.
+Kabiye	/ɪ̀ˠː/ appears in the transcription, but is not listed in the phoneme inventory.
+Kabiye	/íˠː/ appears in the transcription, but is not listed in the phoneme inventory.
+Kera	/r/ not in phoneme inventory or discussed, but present in transcription. Possibly author has used this symbol instead of the tap symbol in the phoneme inventory.
+Khowar	/ŋ/
+Kunama	/ʔ/ Glottal stops not discussed in paper, but present in transcription.
+Luanyjang Dinka	/ɛ́/ In the JIPA paper it expressly says “the vowel 'ɛ' does not occur in the shortest level of vowel length” p116, but there is an example in the transcription – presumably author’s typo?
+Luanyjang Dinka	/y/ not discussed in paper, but appears in transcription. Author’s typo?
+Lusoga Lutenga	/bʷ/    - The original is missing the “m”. I’m guessing it’s an author error.
+Lusoga Lutenga	/tʰ/    - author error
+Luxembourgish	/ɪ/ [æɪ] occurs four times in the transcription, but is not discussed in the paper.
+Lyonnais (Francoprovencal)	/œ/ 1 In transcription, not discussed in paper. Author’s typo?
+Mambay	/β/ not discussed in paper, but appears in transcript.
+Mambay	/ħ/ is in the transcript, but not discussed in the paper.
+Mambay	/óːː/ not discussed in paper, but present in transcript.
+Mambay	/èːː/ not discussed in paper, but present in transcript.
+Mambay	/w̃/ in transcript, not discussed. Probably a typo.
+Mambay	/m̰/ In transcript. Typo? Laryngealizationː “…it is a vocalic rather than consonantal phenomenon…” p229
+Mambay	/á̰ː/ Not sure what to do with the last vowel in this sequence being long. It doesn’t fit as either a phoneme or allophone anywhere. (In the transcript.)
+Mambay	/àˤː/ ?
+Mavea	/d/ not in phoneme inventory, but appears in transcription. (Author’s typo?)
+Murcian Spanish	/ð/ missing diacritic in transcription, probably author’s typo.
+Murcian Spanish	/w/ not discussed in paper, but present in transcription.
+Nen	/y/ not in phoneme inventory, but present in transcription. Appears it should be palatal approximant /j/.
+Nen	/ɛ/ not in phonemic inventory. Its presence presumably has to do with an epenthetic vowel, but how to represent it in the language file is unclear.
+Nen	/t/ /t̪/ is presented in the phoneme inventory, but in the transcription only the symbol ‘t’ appears. Presumably this ‘t’ represents the dental phoneme.
+Nepali	/ʔ/ glottal stop not discussed in paper, but present in transcription.
+Nepali	/pᵊ/ is not discussed in the paper, but appears in the transcription.
+Nepali	/zᵊ/ is not discussed in the paper, but appears in the transcription.
+New Zealand English	/r/ appears in transcript. Presumably typo and should be /ɹ/.
+Nivacle	/ɨ/
+Sandawe	/ŋ/ In transcription, not discussed in paper. Possibly homorganic nasalisation process?
+Sandawe	/u̥/ occurs in the transcript, but is not described in the paper.
+Seri	/w̃/ It is not clear from the discussion in the paper what the status of [w̃] and the nasalised vowel [ĩ] that follows it is.
+Seri	/ĩ/ It is not clear from the discussion in the paper what the status of [w̃] and the nasalised vowel [ĩ] that follows it is.
+Seri	/a/ occurs in the transcript, not discussed in paper.
+Seri	/ã/
+Setswana South Africa	/ɔ̝̀/
+Setswana South Africa	/è/  — Author Error (with no tack mark underneath).
+Setswana South Africa	/ò/  — Author Error (with no tack mark)
+Setswana South Africa	/é/  - Author Error
+Shilluk	/î́/ typo?
+Shipibo	/d/ [dʐ] not mentioned in paper, probably an allophone of /r/.
+Slovak	/o/ in transcription, but not in phoneme inventory or discussed in paper. Author typos?
+Slovak	/h/ in transcription, but not in phoneme inventory or discussed in paper. Author typos?
+Southeastern Pashayi	/ə/ in transcription, not a phoneme, not discussed.
+Southeastern Pashayi	/β/ in transcription, not a phoneme or discussed. Probably a typo, missing a diacritic.
+Southeastern Pashayi	/u/ in transcription, not a phoneme. Short version of /uː/ is /ʊ/.
+Southeastern Pashayi	/ʔ/ Glottal stop in transcription. Not a phoneme or discussed in paper.
+Spokane	/iːː/ In the transcript, not discussed. (My guess is it's extra long because it is the last word in a list.)
+Spokane	/s'/
+Standard Austrian German	/ɒ̤/ in transcript, not mentioned in the paper.
+Standard Austrian German	/ɒ/ is in the transcript, not mentioned in the paper.
+Standard Austrian German	/æ̃/ is in the transcript, not mentioned in the paper.
+Standard Austrian German	/m̥/ 1 In transcription, not mentioned in paper. Author’s typo?
+Standard Austrian German	/θ/ 1 In transcription. Possibly allophone of /t/, but not specifically mentioned in text.
+Standard Austrian German	/g/ 4 In transcription, not in paper. Author’s typos?
+Standard Austrian German	/ɕ/ 1 In transcription, not mentioned in text.
+Standard Austrian German	/ʝ/ 1 In transcription, not mentioned in paper.
+Standard Austrian German	/b/ 1 In transcription, not mentioned in paper.
+Standard Chinese (Beijing)	/e/ in transcript. Not discussed in paper.
+Standard Georgian	/ɑː/
+Standard Georgian	/a/ 3 instances in the transcript. Not discussed in paper.
+Standard Georgian	/e/ in transcript. Not discussed in paper.
+Standard Georgian	/o/ in transcript. Not discussed in paper.
+Standard Modern Greek	/u̯/ In the transcription. Not discussed in paper. Presumably phonetic process author has marked.
+Standard Yiddish	/ɪʲ/ superscript ʲ not discussed in paper. Probably included to indicate the end of diphthong / ɛɪ/ to distinguish from following vowel. Entered as allophone in phoneme inventory
+Sumi (Sema)	/y/ in transcription, but not in phonemic inventory. Probably author’s typo meant to be palatal approximant.
+Swedish	/è/ not in paper, but present in transcription.
+Swedish	/i/ not in paper, but present in transcription.
+Swedish	/ɑ/ not in paper, but present in transcription.
+Swedish	/ø/ not in paper, but present in transcription.
+Swedish	/o/ not in paper, but present in transcription.
+Swedish	/u/ not in paper, but present in transcription.
+Swedish	Same issue for each – according to phoneme inventory they should be followed by length symbol. Possibly author’s typos. No discussion of length issues.
+Tamil	/ə/ There was no discussion of schwa [ə] in the paper. It is unclear where to place it.
+Tamil	/ð/ appears in transcript, not clear from paper how it should be treated.
+Tamil	/ɪ/ appears in transcript, not discussed in paper.
+Temne	/y/ not in phoneme inventory, but present in transcription. Possibly author’s typo – meant to be palatal approximant.
+Tena Quichua	/e/ I assume / paɾehumanda/ is of Spanish origin. In which case ‘e’ and ‘h’ are loan-sounds. [h] can be assigned as an allophone of /x/, but I’m not sure how to represent [e]. If we give it full phoneme status, it’s misleading because it’s very rare, but if it’s not in the phoneme inventory it just looks like an error.
+Tena Quichua	/ʒ/ Should be with ‘d’ to represent affricate [dʒ] an allophone of /tʃ/.
+Tilquiapan Zapotec	/h/ not in phoneme inventory or discussed in paper. It appears in a word that appears to be an confirmatory exclamation.
+Tilquiapan Zapotec	/x/ is a Spanish loan. Not in phoneme inventory.
+Tilquiapan Zapotec	/q/ in transcription, not discussed in paper or part of phoneme inventory.
+Tukang Besi	/j/ not mentioned in text, but present in transcript. (It looks like the second part of a diphthong.)
+Tukang Besi	/ɔ/ not mentioned in text, but present in transcript.
+Tukang Besi	/ɰ/ not mentioned in text, but present in transcript. Possibly author’s typo.
+Tukang Besi	/ĕ/ not mentioned in text, but present in transcript. Probably allophones of /ɛ/, added in as such. Mark saysː “The front mid vowel  "ɛ" tends to raise when not followed by a consonant…” p41
+Tukang Besi	/e/ not mentioned in text, but present in transcript. Probably allophones of /ɛ/, added in as such. Mark saysː “The front mid vowel  "ɛ" tends to raise when not followed by a consonant…” p41
+Zurich German	/g/ in transcript, not in paper. Probably typo missing diacritic.

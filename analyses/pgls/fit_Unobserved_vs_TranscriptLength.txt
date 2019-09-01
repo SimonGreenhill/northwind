@@ -1,0 +1,27 @@
+
+Call:
+pgls(formula = Unobserved ~ TranscriptLength, data = d, lambda = "ML")
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-34.340  -5.798  -1.024   5.941  20.036 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.187
+   lower bound : 0.000, p = 0.0082552
+   upper bound : 1.000, p = < 2.22e-16
+   95.0% CI   : (0.029, 0.420)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                   Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)      11.9025049  3.0588154  3.8912 0.0001474 ***
+TranscriptLength -0.0011378  0.0042398 -0.2684 0.7887752    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.901 on 156 degrees of freedom
+Multiple R-squared: 0.0004614,	Adjusted R-squared: -0.005946 
+F-statistic: 0.07202 on 1 and 156 DF,  p-value: 0.7888 

@@ -1,0 +1,152 @@
+---
+title: "Correlation Results"
+output: pdf_document
+latex_engine: xelatex 
+---
+
+
+```{r, echo=FALSE}
+library('methods')
+library('knitr')
+library('ggplot2')
+
+cov <- read.delim('statistics.dat', header=TRUE, sep="\t")
+cov$PropAbsent <- (cov$Unobserved / cov$InventoryLength) * 100
+
+get_corlabel <- function(x, y) {
+    r <- cor.test(x, y, method="spearman")
+    if (r$p.value <= 0.05) {
+        sig <- '*'
+    } else {
+        sig <- ''
+    }
+    sprintf(
+        "r=%0.2f, p=%0.2f%s",
+        r$estimate,
+        r$p.value,
+        sig
+    )
+}
+
+```
+
+
+# Do languages with a bigger inventory have more absent?
+
+Languages with more phonemes have a much much higher rate of missing phonemes. 
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(x=Unobserved, y=InventoryLength))
+p <- p + geom_point()
+p <- p + geom_smooth(method="glm")
+p <- p + ggtitle(
+    sprintf("Absent Phonemes vs Inventory Size (%s)",
+        get_corlabel(cov$InventoryLength, cov$Unobserved)
+    )
+)
+p <- p + xlab('Absent Phonemes') + ylab("Inventory Size")
+p <- p + theme_classic()
+
+print(p)
+
+pdf('scatter-absences_vs_inventory_size.pdf')
+print(p)
+x <- dev.off()
+
+cor.test(cov$Unobserved, cov$InventoryLength, method="spearman")
+```
+
+## Faceted by family
+
+```{r, echo=FALSE}
+t <- table(cov$Family)
+families <- names(t[t> 1])
+covs <- cov[cov$Family %in% families,]
+
+p <- ggplot(covs, aes(x=Unobserved, y=InventoryLength))
+p <- p + geom_point()
+p <- p + geom_smooth(method="glm")
+p <- p + facet_wrap(~Family)
+p <- p + xlab('Absent Phonemes') + ylab("Inventory Size")
+p <- p + theme_classic()
+
+print(p)
+
+pdf('scatter-absences_vs_inventory_size-faceted.pdf')
+print(p)
+x <- dev.off()
+```
+
+
+\clearpage
+
+
+# Does coverage get better with a longer transcript?
+
+- Coverage is not really getting much better as transcripts get longer. 
+- Only a very weak and non-significant effect.
+- Note the log scale on y axis as transcript length spans an order of magnitude.
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(x=Unobserved, y=TranscriptLength))
+p <- p + geom_point()
+p <- p + scale_y_log10()
+p <- p + geom_smooth(method="glm")
+p <- p + ggtitle(
+    sprintf("Absent Phonemes vs Transcript Length (%s)",
+        get_corlabel(cov$TranscriptLength, cov$Unobserved)
+    )
+)
+p <- p + xlab('Absent Phonemes') + ylab("Transcript Length")
+p <- p + theme_classic()
+
+print(p)
+
+pdf('scatter-absences_vs_transcript_length.pdf')
+print(p)
+x <- dev.off()
+
+
+cor.test(cov$Unobserved, cov$TranscriptLength, method="spearman")
+
+```
+
+\clearpage
+
+```{r}
+library(RColorBrewer)
+colorCount = length(unique(cov$Family))
+getPalette = colorRampPalette(brewer.pal(9, "Set1"))
+ 
+p <- ggplot(cov, aes(x=Unobserved, y=InventoryLength, color=Family))
+p <- p + geom_jitter()
+p <- p + scale_color_manual(values = getPalette(colorCount))
+p <- p + ggtitle("Absent Phonemes vs Inventory Size")
+p <- p + xlab('Absent Phonemes') + ylab("Inventory Size")
+p <- p + theme_classic()
+p <- p + theme(legend.position="bottom")
+#p <- p + guides(fill=guide_legend(nrow=2))
+
+plot(p)
+
+pdf('scatter-absences_vs_inventory_length-colored.pdf')
+print(p)
+x <- dev.off()
+```
+
+```{r}
+p <- ggplot(cov, aes(x=Unobserved, y=TranscriptLength, color=Family))
+p <- p + geom_jitter()
+p <- p + scale_color_manual(values = getPalette(colorCount))
+p <- p + ggtitle("Absent Phonemes vs Transcript Length")
+p <- p + xlab('Absent Phonemes') + ylab("Transcript Length")
+p <- p + theme_classic()
+p <- p + theme(legend.position="bottom")
+#p <- p + guides(fill=guide_legend(nrow=2))
+
+plot(p) 
+
+pdf('scatter-absences_vs_transcript_length-colored.pdf')
+print(p)
+x <- dev.off()
+```

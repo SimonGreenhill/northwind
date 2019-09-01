@@ -1,0 +1,93 @@
+---
+title: "Error Results"
+output: pdf_document
+latex_engine: xelatex
+---
+
+
+```{r, echo=FALSE}
+library('methods')
+library('knitr')
+library('ggplot2')
+
+cov <- read.delim('statistics.dat', header=TRUE, sep="\t")
+
+get_corlabel <- function(x, y) {
+    r <- cor.test(x, y)
+    if (r$p.value <= 0.05) {
+        sig <- '*'
+    } else {
+        sig <- ''
+    }
+    sprintf(
+        "r=%0.2f, p=%0.2f%s",
+        r$estimate,
+        r$p.value,
+        sig
+    )
+}
+```
+
+# Number of Errors in Transcript
+
+- Where "errors" means phonemes in transcript but not in inventory.
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(Errors))
+p <- p + geom_histogram(binwidth=1)
+p <- p + ggtitle('Proportion of Errors Phonemes')
+p <- p + theme_classic()
+
+print(p)
+
+pdf('histogram-missing_phonemes.pdf')
+print(p)
+x <- dev.off()
+```
+
+\clearpage
+
+## Descriptives:
+
+```{r, echo=FALSE}
+err <- cov[cov$Errors > 0,]
+ok <- cov[cov$Errors == 0,]
+
+cat(sprintf(
+    'How many languages have no errors?: %d', nrow(ok)
+))
+    
+cat(sprintf(
+    "What percent of languages have no errors?: %0.2f%%",
+    nrow(ok) / nrow(cov) * 100
+))
+```
+
+### Of the languages that have errors:
+
+```{r, echo=FALSE}
+cat(sprintf(" - Average number of Errors: %d", median(err$Errors)))
+cat(sprintf(" - Minimum number of Errors: %d", min(err$Errors)))
+cat(sprintf(" - Maximum number of Errors: %d", max(err$Errors)))
+cat(sprintf(" - Standard Deviation: %0.2f", sd(err$Errors)))
+```
+
+\clearpage
+
+## Languages with the most errors:
+
+```{r, echo=FALSE}
+kable(head(cov[order(-cov$Errors),])[c("Language", "Errors", "DistinctErrors")])
+```
+
+
+### Of the languages that have errors:
+
+```{r, echo=FALSE}
+cat(sprintf(" - Average number of DISTINCT Errors: %d", median(err$DistinctErrors)))
+cat(sprintf(" - Minimum number of DISTINCT Errors: %d", min(err$DistinctErrors)))
+cat(sprintf(" - Maximum number of DISTINCT Errors: %d", max(err$DistinctErrors)))
+cat(sprintf(" - Standard Deviation: %0.2f", sd(err$DistinctErrors)))
+```
+
+

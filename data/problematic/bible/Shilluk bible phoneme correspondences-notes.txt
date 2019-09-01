@@ -1,7 +1,0 @@
-EMail from Louise 2016-08-02
-
-I think Shilluk should be discarded from the sample because it underspecifies
-on both length and tone for the vowels. Just looking at consonants would be
-okay. If we do include it, substantial re-writing of the file needs to be done
-to catch the distinctions between the vowels that are present. 
-

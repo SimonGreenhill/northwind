@@ -1,0 +1,86 @@
+---
+title: "Charitable Error Results"
+output: pdf_document
+latex_engine: xelatex
+---
+
+```{r, echo=FALSE}
+library('methods')
+library('knitr')
+library('ggplot2')
+
+overview <- function(var) {
+    cat(sprintf("* %s = %d\n", "N", length(var)))
+    cat(sprintf("* %s = %0.2f\n", "Mean", mean(var)))
+    cat(sprintf("* %s = %0.2f\n", "Median", median(var)))
+    cat(sprintf("* %s = %0.3f\n", "SD", sd(var)))
+    cat(sprintf("* %s = %0.2f-%0.2f\n", "Range", min(var), max(var)))
+}
+
+cov <- read.delim('statistics.dat', header=TRUE, sep="\t")
+
+```
+
+# Converting to Charitable errors:
+
+That is, assume that any phoneme missing is probably one of the errors.
+
+```{r}
+cov$Charitable <- cov$Unobserved - cov$DistinctErrors 
+err <- cov[cov$Charitable > 0,]
+ok <- cov[cov$Charitable <= 0,]
+```
+
+# Number of Absent Phonemes.
+
+- the number of phonemes for each language that are absent from the language's transcription (more absences means poorer coverage).
+
+- Note that a phoneme with allophones is NOT considered missing if at least one of its allophones is present e.g. if we have
+  "a(a:, a)" and "a:" is found but not "a", then this is still considered not missing.
+
+```{r, echo=FALSE}
+p <- ggplot(cov, aes(Charitable))
+p <- p + geom_histogram(binwidth=1)
+p <- p + ggtitle('Number of Absent Phonemes (CHARITABLE)')
+p <- p + theme_classic()
+print(p)
+
+pdf('histogram-CHARITABLE-absent_phonemes.pdf')
+print(p)
+x <- dev.off()
+```
+
+
+
+
+## Summary Statistics
+
+```{r}
+overview(cov$Charitable)
+```
+
+## Languages that are most poorly described by the transcript:
+
+```{r, echo=FALSE}
+kable(
+    head(cov[order(-cov$Charitable),])[c("Language", "Charitable")]
+)
+```
+
+## Languages that are completely described by the transcript:
+
+```{r, echo=FALSE}
+kable(
+    cov[cov$Charitable <= 0,][c("Language", "Charitable", "DistinctErrors")]
+)
+cat(sprintf(
+    "%d of %d languages",   
+    nrow(cov[cov$Charitable==0,]),
+    nrow(cov)
+))
+```
+
+\clearpage
+
+
+

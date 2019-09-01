@@ -7,6 +7,10 @@ Basque (Wester Low Navarrese dialect)
 #ISO Code:
 eus
 
+# Online Bible:
+http://paralleltext.info/data/eus-x-bible-navarrolabourdin/41/001/
+http://paralleltext.info/data/eus-x-bible-Hautin1571/41/001/
+
 # Consonant Inventory:
 p, t, c, k, pʰ, tʰ, kʰ, b,d, ɟ, g, f, s, ʂ, ʃ, h, ts, tʂ, tʃ, m, n, ɲ, l, ʎ, ɾ, ʁ(ʁ, r)
 
@@ -33,4 +37,35 @@ iguskiaɾi aitʰortu behar isan sion bietaik ahulena sela.
 
 # Notes:
 In the JIPA article long vowels were written with a double letter grapheme, here I have
-used the length symbol for consistencey across languages. 
+used the length symbol for consistency across languages. 
+
+
+# Orthography Consonant Phoneme Correspondences:
+<p>=/p/, <t>=/t/, <tt>=/c/, <k>=/k/, <ph>=/pʰ/, <th>=/tʰ/, <b>=/b/, <d>=/d/, <j>-<dd>=/ɟ/,
+<g>=/g/, <f>=/f/, <z>=/s/, <s>=/ʂ/, <x>=/ʃ/, <h>=/h/, <tz>=/ts/, <tx>=/tʂ/, <tx>=/tʃ/,
+<m>=/m/, <n>=/n/, <nn>=/ɲ/, <l>=/l/, <ll>=/ʎ/, <r>=/ɾ/, <rr>=/ʁ/
+
+# Orthography Vowel Phoneme Correspondences:
+
+# Minimal pairs differing by a single phonetic feature:
+/p~t/ /p~c/ /p~k/ /p~pʰ/ /p~b/ /t~c/ /t~k/ /t~tʰ/ /t~d/ /c~k/ /c~ɟ/ /k~kʰ/ 
+/k~g/ /pʰ~tʰ/ /pʰ~kʰ/ /tʰ~kʰ/ /b~d/ /b~ɟ/ /b~g/ /b~m/ /d~g/ /d~n/ /d~l/ /d~ɾ/ 
+/ɟ~g/ /ɟ~ʎ/ /ɟ~ɲ/ /f~s/ /f~ʂ/ /f~ʃ/ /f~h/ /s~ʂ/ /s~ʃ/ /s~h/ /s~ts/ /ʂ~ʃ/ /ʂ~h/ 
+/ʂ~tʂ/ /ʃ~h/ /ʃ~tʃ/ /ts~tʂ/ /ts~tʃ/ /tʂ~tʃ/ /m~n/ /m~ɲ/ /n~ɲ/ /n~l/ /n~ɾ/ /ɲ~ʎ/ 
+/l~ʎ/ /l~ɾ/ /l~ʁ/ /ʎ~ɾ/ /ʎ~ʁ/ /ɾ~ʁ/
+/i~e/ /i~ai/ /i~ei/ /i~oi/ /i~ui/ /e~ei/ /e~eu/ /o~u/ /o~oi/ /u~ui/ /u~au/ 
+/u~eu/ /ai~ei/ /ai~au/ /ei~oi/ /ei~ui/ /ei~eu/ /oi~ui/ 
+
+# Phonologically sensible minimal pairs differing in more than one phonetic feature:
+/pʰ~b/ /pʰ~f/ /tʰ~d/ /kʰ~g/
+/i~u/ /i~a/ /a~u/
+
+# References:
+
+JIPA Illustration
+
+Haulde, José Ignacio. 1991, Basque Phonology. Routledge:London
+
+King, Alan R. 1994. The Basque Language: A Practical Introduction. Univesity of Nevada Press: Reno.
+
+http://www.omniglot.com/writing/basque.htm

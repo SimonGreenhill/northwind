@@ -1,0 +1,6 @@
+simulate.py:30: UserWarning: no hapaxes present -- shifting distribution down
+  warnings.warn("no hapaxes present -- shifting distribution down")
+simulate.py:35: UserWarning: no unseen present -- adding dummy category
+  warnings.warn("no unseen present -- adding dummy category")
+/Users/simon/files/Projects/NorthWind/env/lib/python3.6/site-packages/nltk/probability.py:1369: UserWarning: SimpleGoodTuring did not find a proper best fit line for smoothing probabilities of occurrences. The probability estimates are likely to be unreliable.
+  warnings.warn('SimpleGoodTuring did not find a proper best fit '
