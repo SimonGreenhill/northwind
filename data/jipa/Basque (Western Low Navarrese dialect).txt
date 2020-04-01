@@ -41,7 +41,7 @@ used the length symbol for consistency across languages.
 
 
 # Orthography Consonant Phoneme Correspondences:
-<p>=/p/, <t>=/t/, <tt>=/c/, <k>=/k/, <ph>=/pʰ/, <th>=/tʰ/, <b>=/b/, <d>=/d/, <j>-<dd>=/ɟ/,
+<ph>=/pʰ/, <p>=/p/, <t>=/t/, <tt>=/c/, <k>=/k/, <th>=/tʰ/, <b>=/b/, <d>=/d/, <j>-<dd>=/ɟ/,
 <g>=/g/, <f>=/f/, <z>=/s/, <s>=/ʂ/, <x>=/ʃ/, <h>=/h/, <tz>=/ts/, <tx>=/tʂ/, <tx>=/tʃ/,
 <m>=/m/, <n>=/n/, <nn>=/ɲ/, <l>=/l/, <ll>=/ʎ/, <r>=/ɾ/, <rr>=/ʁ/
 

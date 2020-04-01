@@ -1,13 +1,24 @@
-how many chi-sq tests are significant?
-157 of 158
+LM better for Azerbaijani 
+LM better for Bardi 
+LM better for Bemba 
+LM better for Dari Afghan Persian Informal 
+LM better for Ega 
+LM better for Goizueta Basque 
+LM better for Hebrew 
+LM better for Munji 
+LM better for Standard Austrian German 
+LM better for Tamambo 
+LM better for Tashlhiyt Berber 
 
-which tests are not significant?
-      Language   Length TotalInventory    ChiSig       RSq
-13 Azerbaijani 762.8113             35 0.1501224 0.9197391
 
+how many GAMs fit better than the LM using AIC?
+1167 of 1178 (99.07%)
 
-Minimum: [1] 9.008008e-146
+Minimum: [1] 62.7835
 
-Maximum: [1] 0.1501224
-[1] 0.01282474
+Maximum: [1] 394.5339
+
+Median: [1] 160.3206
+
+SD: [1] 45.31019
 

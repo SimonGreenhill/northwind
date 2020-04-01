@@ -13,6 +13,11 @@ tree <- compute.brlen(tree, method="Grafen")
 # make labels match...
 df <- merge(df, labels, by="Language")
 
+
+print("REMOVE OUTLIERS")
+df <- df[df$Length <= 100000, ]  # removing outliers
+tree <- drop.tip(tree, setdiff(tree$tip.label, df$Label))
+
 cd <- comparative.data(
     phy=multi2di(tree),
     data=df,
@@ -25,13 +30,22 @@ stopifnot(cd$dropped$tips == 0)
 stopifnot(cd$dropped$unmatched.rows == 0)
 
 sink("predicted_length_vs_inventory.txt")
-print("Normal")
+
+
+cat('\n===========================================\n')
+cat("LM:: Estimated Length vs Inventory\n")
+
 m <- lm(Length~TotalInventory, data=df)
 summary(m)
 
-print("LOG")
+
+cat('\n===========================================\n')
+cat("LM:: Log(Estimated Length) vs Inventory\n")
 m <- lm(log(Length)~TotalInventory, data=df)
 summary(m)
+
+cat('\n===========================================\n')
+cat("PGLS:: Estimated Length vs Inventory\n")
 
 fit <- pgls(Length ~ TotalInventory, data=cd, lambda='ML', )
 summary(fit)
@@ -40,12 +54,17 @@ pdf("pgls-length-vs-inventory.pdf")
 plot(fit)
 x <- dev.off()
 
+
+cat('\n===========================================\n')
+cat("PGLS:: Log(Estimated Length) vs Inventory **** \n")
 fit.log <- pgls(log(Length) ~ TotalInventory, data=cd, lambda='ML')
 summary(fit.log)
 pdf("pgls-loglength-vs-inventory.pdf")
 plot(fit.log)
 x <- dev.off()
 
+cat('\n===========================================\n')
+cat("PGLS:: Log(Estimated Length) vs Log(Inventory)\n")
 fit.loglog <- pgls(log(Length) ~ log(TotalInventory), data=cd, lambda='ML')
 summary(fit.loglog)
 pdf("pgls-loglength-vs-loginventory.pdf")

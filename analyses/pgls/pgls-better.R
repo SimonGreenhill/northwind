@@ -34,7 +34,7 @@ sink()
 
 fitAvsLogTL <- pgls(Unobserved ~ log(TranscriptLength), data=d, lambda='ML')
 sink('fit_Unobserved_vs_logTranscriptLength.txt', split=TRUE)
-summary(fitAvsTL)
+summary(fitAvsLogTL)
 sink()
 
 

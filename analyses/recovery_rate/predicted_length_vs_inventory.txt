@@ -1,122 +1,135 @@
-[1] "Normal"
+
+===========================================
+LM:: Estimated Length vs Inventory
 
 Call:
 lm(formula = Length ~ TotalInventory, data = df)
 
 Residuals:
-     Min       1Q   Median       3Q      Max 
--1021957  -209688   -50116    78987  5655094 
+   Min     1Q Median     3Q    Max 
+-18679  -8604  -5337   -299  84964 
 
 Coefficients:
-               Estimate Std. Error t value   Pr(>|t|)    
-(Intercept)     -577729     153892  -3.754   0.000245 ***
-TotalInventory    16797       3462   4.852 0.00000294 ***
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     -4361.6     4540.6  -0.961 0.338388    
+TotalInventory    355.9      104.6   3.403 0.000864 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 637800 on 156 degrees of freedom
-Multiple R-squared:  0.1311,	Adjusted R-squared:  0.1256 
-F-statistic: 23.54 on 1 and 156 DF,  p-value: 0.000002935
+Residual standard error: 18060 on 143 degrees of freedom
+Multiple R-squared:  0.07493,	Adjusted R-squared:  0.06846 
+F-statistic: 11.58 on 1 and 143 DF,  p-value: 0.0008636
 
-[1] "LOG"
+
+===========================================
+LM:: Log(Estimated Length) vs Inventory
 
 Call:
 lm(formula = log(Length) ~ TotalInventory, data = df)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--2.7984 -1.1146 -0.4873  0.5536  5.4452 
+-1.8691 -0.9269 -0.4194  0.6391  3.8835 
 
 Coefficients:
                Estimate Std. Error t value             Pr(>|t|)    
-(Intercept)    5.661567   0.400673  14.130 < 0.0000000000000002 ***
-TotalInventory 0.065838   0.009013   7.305      0.0000000000134 ***
+(Intercept)    6.657513   0.315292  21.115 < 0.0000000000000002 ***
+TotalInventory 0.037087   0.007261   5.108           0.00000102 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 1.661 on 156 degrees of freedom
-Multiple R-squared:  0.2549,	Adjusted R-squared:  0.2501 
-F-statistic: 53.36 on 1 and 156 DF,  p-value: 0.00000000001343
+Residual standard error: 1.254 on 143 degrees of freedom
+Multiple R-squared:  0.1543,	Adjusted R-squared:  0.1484 
+F-statistic: 26.09 on 1 and 143 DF,  p-value: 0.000001024
 
+
+===========================================
+PGLS:: Estimated Length vs Inventory
 
 Call:
 pgls(formula = Length ~ TotalInventory, data = cd, lambda = "ML")
 
 Residuals:
-     Min       1Q   Median       3Q      Max 
--2756060  -186813    -1861   246043  3000910 
+   Min     1Q Median     3Q    Max 
+-41153  -9183    370  10775  60597 
 
 Branch length transformations:
 
 kappa  [Fix]  : 1.000
-lambda [ ML]  : 0.311
-   lower bound : 0.000, p = 0.0089064
+lambda [ ML]  : 0.068
+   lower bound : 0.000, p = 0.072649
    upper bound : 1.000, p = < 0.000000000000000222
-   95.0% CI   : (0.076, 0.531)
+   95.0% CI   : (NA, 0.222)
 delta  [Fix]  : 1.000
 
 Coefficients:
-                Estimate Std. Error t value      Pr(>|t|)    
-(Intercept)    -682228.9   177327.0 -3.8473     0.0001737 ***
-TotalInventory   20328.0     3630.7  5.5990 0.00000009487 ***
+               Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)    -6469.67    4844.47 -1.3355 0.1838423    
+TotalInventory   424.44     107.88  3.9344 0.0001297 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 678500 on 156 degrees of freedom
-Multiple R-squared: 0.1673,	Adjusted R-squared: 0.162 
-F-statistic: 31.35 on 1 and 156 DF,  p-value: 0.00000009487 
+Residual standard error: 18010 on 143 degrees of freedom
+Multiple R-squared: 0.09767,	Adjusted R-squared: 0.09136 
+F-statistic: 15.48 on 1 and 143 DF,  p-value: 0.0001297 
+
+===========================================
+PGLS:: Log(Estimated Length) vs Inventory **** 
 
 Call:
 pgls(formula = log(Length) ~ TotalInventory, data = cd, lambda = "ML")
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--5.5045 -0.7143  0.2402  1.1492  5.5434 
+-2.5033 -0.8575 -0.0582  0.8582  3.4686 
 
 Branch length transformations:
 
 kappa  [Fix]  : 1.000
-lambda [ ML]  : 0.218
-   lower bound : 0.000, p = 0.00017992
+lambda [ ML]  : 0.070
+   lower bound : 0.000, p = 0.09255
    upper bound : 1.000, p = < 0.000000000000000222
-   95.0% CI   : (0.062, 0.459)
+   95.0% CI   : (NA, 0.265)
 delta  [Fix]  : 1.000
 
 Coefficients:
                 Estimate Std. Error t value              Pr(>|t|)    
-(Intercept)    5.2770514  0.4406016 11.9769 < 0.00000000000000022 ***
-TotalInventory 0.0813921  0.0091955  8.8513  0.000000000000001776 ***
+(Intercept)    6.5742085  0.3371835 19.4974 < 0.00000000000000022 ***
+TotalInventory 0.0413958  0.0075056  5.5153          0.0000001583 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 1.668 on 156 degrees of freedom
-Multiple R-squared: 0.3343,	Adjusted R-squared:  0.33 
-F-statistic: 78.35 on 1 and 156 DF,  p-value: 0.000000000000001787 
+Residual standard error: 1.253 on 143 degrees of freedom
+Multiple R-squared: 0.1754,	Adjusted R-squared: 0.1696 
+F-statistic: 30.42 on 1 and 143 DF,  p-value: 0.0000001583 
+
+===========================================
+PGLS:: Log(Estimated Length) vs Log(Inventory)
 
 Call:
 pgls(formula = log(Length) ~ log(TotalInventory), data = cd, 
     lambda = "ML")
 
 Residuals:
-   Min     1Q Median     3Q    Max 
--5.625 -1.008  0.093  1.046  6.025 
+    Min      1Q  Median      3Q     Max 
+-2.5183 -0.8952 -0.1695  0.8518  4.5387 
 
 Branch length transformations:
 
 kappa  [Fix]  : 1.000
-lambda [ ML]  : 0.255
-   lower bound : 0.000, p = 0.00002782
+lambda [ ML]  : 0.091
+   lower bound : 0.000, p = 0.040929
    upper bound : 1.000, p = < 0.000000000000000222
-   95.0% CI   : (0.085, 0.498)
+   95.0% CI   : (0.002, 0.301)
 delta  [Fix]  : 1.000
 
 Coefficients:
-                    Estimate Std. Error t value            Pr(>|t|)    
-(Intercept)         -4.60947    1.59598 -2.8882            0.004426 ** 
-log(TotalInventory)  3.62592    0.43078  8.4172 0.00000000000002331 ***
+                    Estimate Std. Error t value    Pr(>|t|)    
+(Intercept)          1.86772    1.26128  1.4808      0.1409    
+log(TotalInventory)  1.75706    0.34372  5.1119 0.000001005 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 1.724 on 156 degrees of freedom
-Multiple R-squared: 0.3123,	Adjusted R-squared: 0.3079 
-F-statistic: 70.85 on 1 and 156 DF,  p-value: 0.00000000000002333 
+Residual standard error: 1.277 on 143 degrees of freedom
+Multiple R-squared: 0.1545,	Adjusted R-squared: 0.1486 
+F-statistic: 26.13 on 1 and 143 DF,  p-value: 0.000001005 

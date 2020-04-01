@@ -19,11 +19,10 @@ if __name__ == '__main__':
     parser.add_argument("percent", help='percentage', type=float)
     args = parser.parse_args()
         
-    records = get_table('statistics.dat')
+    records = get_table('coverage.dat')
     # OPercent = observed percentage
     # Ppercent = position in transcript as percentage
     records = [r for r in records if float(r.OPercent) == args.percent]
-    print(records)
     observedPc = [float(r.PPercent) for r in records]
     observedPh = [float(r.Position) for r in records]
 
