@@ -1,22 +1,20 @@
-[1] "PhoibleRank_vs_TextRank: "
 
 	Spearman's rank correlation rho
 
-data:  df$Rank and df$R
-S = 609030, p-value < 2.2e-16
+data:  df$AverageFirstObservationPercent and df$Rank
+S = 919820, p-value = 9.371e-13
 alternative hypothesis: true rho is not equal to 0
 sample estimates:
       rho 
-0.7219901 
+0.4598876 
 
-[1] "PhoibleRank_vs_CaptureRate: "
 
 	Spearman's rank correlation rho
 
-data:  df$Rank and df$C
-S = 3037600, p-value = 7.842e-10
+data:  df$AverageFirstObservationPercent and df$Ni
+S = 2638565, p-value < 2.2e-16
 alternative hypothesis: true rho is not equal to 0
 sample estimates:
        rho 
--0.3865915 
+-0.5493485 
 

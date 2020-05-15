@@ -11,6 +11,11 @@ from .FileReader import FileReader
 
 class BibleFileReader(FileReader):
     """FileReader with Bible Addons"""
+    
+    unrecoverable = []
+
+    def __repr__(self):
+        return "BibleFileReader: %s" % self.filename
 
     @property
     def orthography(self):
@@ -62,6 +67,10 @@ class BibleFileReader(FileReader):
                     o = Ortheme(chunk, phoneme_type, inventory=self.inventory)
                 except ValueError:  # pragma: no cover
                     print('Unable to find %s in inventory' % chunk)
+                    
+                if '∅' in chunk:
+                    self.unrecoverable.extend(o.phonemes)
+                
                 out.append(o)
         return out
 
@@ -110,3 +119,10 @@ class BibleFileReader(FileReader):
         out.pop() # remove unnecessary trailing token
         return out
         #return self.parse_transcript(text.lower())
+    
+    def recoverable_phonemes(self):
+        """Phonemes we can recover from the orthography"""
+        return [c for c in self.inventory if c not in self.unrecoverable]
+            
+        
+        

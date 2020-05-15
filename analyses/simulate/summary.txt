@@ -3,798 +3,798 @@ LM :
 1025.805 s.d=51656.756 [256.171-446227.429]
 
 GAM :
-1181.633 s.d=579830.192 [275.235-7126644.273]
+2095.724 s.d=10734129.519 [227.804-134513765.629]
 
 Simulated :
 3278.000 s.d=8059.446 [87.000-145010.000]
 
 ==========================================Amarasi :
 	LM:        548.2028 
-	GAM:       926.6157 
+	GAM:       5416.877 
 	Simulated: 1785.000 s.d=1290.217 [165.000-10864.000]
 
 American English - Southern Michigan :
 	LM:        529.9112 
-	GAM:       590.6523 
+	GAM:       744.4772 
 	Simulated: 1356.500 s.d=738.416 [306.000-5125.000]
 
 Amharic :
 	LM:        5963.288 
-	GAM:       3595.855 
+	GAM:       5373.874 
 	Simulated: 11423.500 s.d=3697.008 [5229.000-27303.000]
 
 Arabic :
 	LM:        962.9678 
-	GAM:       1126.48 
+	GAM:       1148.665 
 	Simulated: 1438.000 s.d=705.536 [294.000-4772.000]
 
 Assamese :
 	LM:        1516.255 
-	GAM:       3223.379 
+	GAM:       374594.5 
 	Simulated: 5352.500 s.d=2580.481 [1106.000-17889.000]
 
 Australian English :
 	LM:        639.5673 
-	GAM:       763.2076 
+	GAM:       1219.222 
 	Simulated: 1747.000 s.d=894.425 [506.000-7786.000]
 
 Azerbaijani :
 	LM:        611.1184 
-	GAM:       610.4113 
+	GAM:       587.4257 
 	Simulated: 1968.500 s.d=1200.665 [420.000-11520.000]
 
 Bardi :
 	LM:        322.5821 
-	GAM:       321.895 
+	GAM:       321.8949 
 	Simulated: 1490.500 s.d=963.007 [312.000-6881.000]
 
 Basaa :
 	LM:        569.7449 
-	GAM:       569.1807 
+	GAM:       780.1528 
 	Simulated: 1554.500 s.d=706.716 [454.000-5740.000]
 
 Basque (Western Low Navarrese dialect) :
 	LM:        1020.35 
-	GAM:       2428.339 
+	GAM:       28631.82 
 	Simulated: 4876.500 s.d=2169.415 [1332.000-16310.000]
 
 Béarnais (Gascon) :
 	LM:        725.9003 
-	GAM:       1252.818 
-	Simulated: 24206.500 s.d=7334.158 [11101.000-60352.000]
+	GAM:       10657.95 
+	Simulated: 1663.500 s.d=740.169 [489.000-5896.000]
 
 Belgian Limburg dialect of Hamont :
 	LM:        1783.674 
-	GAM:       1559.425 
-	Simulated: 1663.500 s.d=740.169 [489.000-5896.000]
+	GAM:       498.7941 
+	Simulated: 2830.500 s.d=1069.743 [1149.000-8636.000]
 
 Belgian Standard Dutch :
 	LM:        887.178 
-	GAM:       845.8929 
-	Simulated: 2830.500 s.d=1069.743 [1149.000-8636.000]
+	GAM:       893.8098 
+	Simulated: 4051.500 s.d=2157.426 [1021.000-18378.000]
 
 Bemba :
 	LM:        458.5041 
-	GAM:       449.5162 
-	Simulated: 4051.500 s.d=2157.426 [1021.000-18378.000]
+	GAM:       456.6609 
+	Simulated: 3881.500 s.d=2527.035 [484.000-16848.000]
 
 Bengali (Bangladeshi Standard) :
 	LM:        291053.5 
-	GAM:       909282.6 
-	Simulated: 3881.500 s.d=2527.035 [484.000-16848.000]
+	GAM:       11853628 
+	Simulated: 24206.500 s.d=7334.158 [11101.000-60352.000]
 
 Brazilian Portuguese :
 	LM:        468.0348 
-	GAM:       586.9477 
+	GAM:       858.2802 
 	Simulated: 946.000 s.d=508.101 [290.000-4455.000]
 
 Breton (Treger dialect) :
 	LM:        405.2569 
-	GAM:       436.2911 
+	GAM:       503.8712 
 	Simulated: 1071.000 s.d=683.674 [234.000-5885.000]
 
 Breton of the Isle of Groix :
 	LM:        891.5896 
-	GAM:       1193.211 
+	GAM:       14550 
 	Simulated: 8113.500 s.d=3475.219 [2050.000-31817.000]
 
 British English recieved pronunciation :
 	LM:        584.8558 
-	GAM:       657.3766 
+	GAM:       1326.069 
 	Simulated: 1689.000 s.d=807.051 [506.000-6441.000]
 
 Brunei Malay :
 	LM:        346.6283 
-	GAM:       420.0016 
+	GAM:       611.738 
 	Simulated: 608.000 s.d=520.340 [87.000-4110.000]
 
 Bukharan Tajik :
 	LM:        621.9914 
-	GAM:       711.4489 
+	GAM:       747.1169 
 	Simulated: 1170.500 s.d=699.399 [211.000-4715.000]
 
 Bulgarian :
 	LM:        499.3103 
-	GAM:       582.3597 
+	GAM:       1203.417 
 	Simulated: 3085.000 s.d=2214.585 [335.000-17534.000]
 
 Burmese :
 	LM:        762.7735 
-	GAM:       843.954 
+	GAM:       3902.929 
 	Simulated: 2268.000 s.d=909.756 [784.000-9347.000]
 
 Castilian Spanish :
 	LM:        1649.209 
-	GAM:       3255.757 
+	GAM:       431842.4 
 	Simulated: 2681.000 s.d=1231.553 [364.000-8266.000]
 
 Catalan :
 	LM:        330.0622 
-	GAM:       391.9483 
+	GAM:       2208.544 
 	Simulated: 5957.000 s.d=3385.191 [727.000-24324.000]
 
 Central Arrernte :
 	LM:        17562.89 
-	GAM:       34767.57 
+	GAM:       134513766 
 	Simulated: 9286.500 s.d=3232.716 [3532.000-30898.000]
 
 Central Sama :
 	LM:        5217.276 
-	GAM:       8872.051 
+	GAM:       7746.124 
 	Simulated: 44902.000 s.d=18098.451 [15139.000-145010.000]
 
 Chicahuaxtla Triqui :
 	LM:        2967.986 
-	GAM:       6301.371 
+	GAM:       1152172 
 	Simulated: 9175.000 s.d=3715.485 [3013.000-29361.000]
 
 Chikasaw :
 	LM:        2636.552 
-	GAM:       3514.384 
+	GAM:       20713.28 
 	Simulated: 5181.500 s.d=2186.938 [1520.000-15665.000]
 
 Chinese (Hong Kong Cantonese) :
 	LM:        4393.231 
-	GAM:       9571.965 
+	GAM:       154286.6 
 	Simulated: 8093.500 s.d=3030.225 [3061.000-21973.000]
 
 Chistabino (Pyrenean Aragonese) :
 	LM:        4783.832 
-	GAM:       5064.186 
+	GAM:       58177.46 
 	Simulated: 11918.500 s.d=5328.175 [3652.000-43897.000]
 
 Cicipu :
 	LM:        127499.3 
-	GAM:       215803.2 
+	GAM:       127381.7 
 	Simulated: 35696.000 s.d=11399.434 [15041.000-109956.000]
 
 Cocos Malay :
 	LM:        480.4508 
-	GAM:       589.1645 
+	GAM:       690.5434 
 	Simulated: 784.000 s.d=480.519 [115.000-4737.000]
 
 Croatian :
 	LM:        846.8747 
-	GAM:       1148.581 
+	GAM:       2434.937 
 	Simulated: 2280.000 s.d=1512.180 [409.000-16183.000]
 
 Cypriot Greek :
 	LM:        704.1019 
-	GAM:       835.1941 
+	GAM:       894.6446 
 	Simulated: 1094.500 s.d=729.106 [208.000-5526.000]
 
 Czech :
 	LM:        639.7264 
-	GAM:       941.5353 
-	Simulated: 2098.000 s.d=1109.422 [488.000-6970.000]
+	GAM:       1631.198 
+	Simulated: 2062.500 s.d=1155.903 [424.000-7428.000]
 
 Czech spoken in Bohemia :
 	LM:        662.8894 
-	GAM:       894.7077 
-	Simulated: 2062.500 s.d=1155.903 [424.000-7428.000]
+	GAM:       1431.078 
+	Simulated: 1551.500 s.d=721.550 [439.000-5397.000]
 
 Czech spoken in Moravia :
 	LM:        710.2389 
-	GAM:       1026.5 
-	Simulated: 1551.500 s.d=721.550 [439.000-5397.000]
+	GAM:       2323.957 
+	Simulated: 2098.000 s.d=1109.422 [488.000-6970.000]
 
 Danish :
 	LM:        822.1815 
-	GAM:       938.855 
+	GAM:       3017.92 
 	Simulated: 1882.000 s.d=854.648 [588.000-6955.000]
 
 Dari Afghan Persian Formal :
 	LM:        541.7519 
-	GAM:       483.7059 
+	GAM:       520.9295 
 	Simulated: 8874.000 s.d=5174.286 [1344.000-39283.000]
 
 Dari Afghan Persian Informal :
 	LM:        542.1214 
-	GAM:       527.6771 
+	GAM:       539.236 
 	Simulated: 4249.500 s.d=2198.914 [839.000-18718.000]
 
 Dutch :
 	LM:        1233.142 
-	GAM:       1788.247 
-	Simulated: 32419.000 s.d=12794.280 [10423.000-96641.000]
+	GAM:       18439.22 
+	Simulated: 4720.500 s.d=2272.795 [1323.000-17577.000]
 
 Dutch dialect of Hasselt :
 	LM:        816.4285 
-	GAM:       677.8605 
+	GAM:       4506.257 
 	Simulated: 5593.500 s.d=2350.315 [1602.000-22263.000]
 
 Dutch Dialect of Maastricht :
 	LM:        690.7004 
-	GAM:       690.1108 
-	Simulated: 4720.500 s.d=2272.795 [1323.000-17577.000]
+	GAM:       1392.737 
+	Simulated: 3286.000 s.d=1478.285 [792.000-10524.000]
 
 Dutch dialect of Weert :
 	LM:        1992.648 
-	GAM:       2748.428 
-	Simulated: 3286.000 s.d=1478.285 [792.000-10524.000]
+	GAM:       5804.266 
+	Simulated: 32419.000 s.d=12794.280 [10423.000-96641.000]
 
 Ega :
 	LM:        1045.278 
-	GAM:       1030.9 
+	GAM:       1041.776 
 	Simulated: 1533.000 s.d=713.127 [478.000-5903.000]
 
 Ersu :
 	LM:        5723.073 
-	GAM:       3573.351 
+	GAM:       17277.37 
 	Simulated: 8248.500 s.d=3045.920 [2700.000-23613.000]
 
 Estonian :
 	LM:        146908.7 
-	GAM:       106922.3 
+	GAM:       21786.42 
 	Simulated: 11969.000 s.d=3537.724 [5268.000-29710.000]
 
 European Portuguese :
 	LM:        901.8013 
-	GAM:       986.7314 
+	GAM:       904.8172 
 	Simulated: 1919.500 s.d=779.892 [627.000-6432.000]
 
 Flemish-Brabant dialect of Orsmaal-Gussenhoven :
 	LM:        2144.095 
-	GAM:       1875.823 
+	GAM:       6770.385 
 	Simulated: 3833.000 s.d=1394.419 [1262.000-9827.000]
 
 French :
 	LM:        348.438 
-	GAM:       382.5034 
+	GAM:       572.6977 
 	Simulated: 1084.000 s.d=576.344 [263.000-5398.000]
 
 Friulian :
 	LM:        1932.336 
-	GAM:       2636.045 
+	GAM:       11170.69 
 	Simulated: 8418.000 s.d=4171.854 [2389.000-37661.000]
 
 Galician :
 	LM:        276.2841 
-	GAM:       289.5877 
+	GAM:       227.8043 
 	Simulated: 1305.500 s.d=1051.854 [214.000-10095.000]
 
 Gayo :
 	LM:        416.1835 
-	GAM:       396.9212 
+	GAM:       508.3803 
 	Simulated: 902.500 s.d=509.993 [164.000-3416.000]
 
 German :
 	LM:        1125.768 
-	GAM:       1502.01 
+	GAM:       1781.646 
 	Simulated: 10519.500 s.d=5111.919 [1980.000-37699.000]
 
 Gitksan :
 	LM:        2198.218 
-	GAM:       2462.841 
+	GAM:       647.0865 
 	Simulated: 2505.000 s.d=1081.578 [849.000-8731.000]
 
 Goemai :
 	LM:        1641.996 
-	GAM:       2172.314 
+	GAM:       1847.759 
 	Simulated: 3934.500 s.d=1918.774 [836.000-16397.000]
 
 Goizueta Basque :
 	LM:        1005.94 
-	GAM:       1004.892 
+	GAM:       2095.917 
 	Simulated: 1427.000 s.d=680.560 [405.000-6367.000]
 
 Greek Thrace Xoraxane Romane :
 	LM:        1252.156 
-	GAM:       1251.087 
+	GAM:       1844.474 
 	Simulated: 1845.000 s.d=833.356 [403.000-6654.000]
 
 Hakka Chinese :
 	LM:        1018.858 
-	GAM:       1174.306 
+	GAM:       2142.713 
 	Simulated: 2126.500 s.d=919.354 [574.000-8081.000]
 
 Hanoi Vietnamese :
 	LM:        759.125 
-	GAM:       889.6455 
+	GAM:       1776.335 
 	Simulated: 6844.000 s.d=4391.163 [953.000-36708.000]
 
 Hausa :
 	LM:        1650.263 
-	GAM:       1648.965 
+	GAM:       4983.994 
 	Simulated: 4140.000 s.d=1962.541 [1158.000-15821.000]
 
 Hebrew :
 	LM:        384.5364 
-	GAM:       384.0635 
+	GAM:       387.4529 
 	Simulated: 1164.000 s.d=791.810 [198.000-6376.000]
 
 Hindi :
 	LM:        446227.4 
-	GAM:       7126644 
+	GAM:       4095.635 
 	Simulated: 16426.500 s.d=4934.635 [8356.000-43640.000]
 
 Hungarian :
 	LM:        3142.439 
-	GAM:       4540.952 
+	GAM:       4932.896 
 	Simulated: 4464.500 s.d=1544.195 [2029.000-11469.000]
 
 Ibibio :
 	LM:        1216.511 
-	GAM:       1342.056 
+	GAM:       10755.34 
 	Simulated: 3773.000 s.d=2041.042 [825.000-16194.000]
 
 Igbo :
 	LM:        1276.559 
-	GAM:       1275.045 
+	GAM:       1006.928 
 	Simulated: 2216.500 s.d=1045.029 [682.000-7349.000]
 
 Ika Igbo :
 	LM:        1315.993 
-	GAM:       1314.172 
+	GAM:       2637.735 
 	Simulated: 3307.500 s.d=1384.349 [684.000-10131.000]
 
 Indonesian :
 	LM:        2507.579 
-	GAM:       4025.36 
+	GAM:       4740.714 
 	Simulated: 3650.500 s.d=1884.245 [635.000-16082.000]
 
 Irish :
 	LM:        805.2752 
-	GAM:       1010.445 
+	GAM:       2021.2 
 	Simulated: 2362.500 s.d=998.323 [651.000-9835.000]
 
 Istanbul Judeo-Spanish :
 	LM:        892.5367 
-	GAM:       981.4301 
+	GAM:       627.9669 
 	Simulated: 1167.500 s.d=603.912 [278.000-3917.000]
 
 Isthmus (Juchitán) Zapotec :
 	LM:        659.9112 
-	GAM:       833.8782 
+	GAM:       1267.443 
 	Simulated: 1289.500 s.d=664.660 [289.000-5357.000]
 
 Italian :
 	LM:        496.7559 
-	GAM:       394.9603 
+	GAM:       407.5134 
 	Simulated: 1630.000 s.d=827.799 [418.000-6521.000]
 
 Itunyoso Trique :
 	LM:        14592.67 
-	GAM:       24590.18 
+	GAM:       133494.5 
 	Simulated: 17930.000 s.d=6266.985 [7316.000-44758.000]
 
 Jamaican Creole :
 	LM:        705.4825 
-	GAM:       800.3645 
+	GAM:       486.133 
 	Simulated: 1092.500 s.d=627.617 [264.000-4717.000]
 
 Japanese :
 	LM:        516.3214 
-	GAM:       632.5812 
+	GAM:       498.8565 
 	Simulated: 1427.500 s.d=1176.182 [112.000-7720.000]
 
 Jicarilla Apache :
 	LM:        3291.199 
-	GAM:       2424.628 
+	GAM:       6817.097 
 	Simulated: 19236.000 s.d=7811.216 [6345.000-57718.000]
 
 Kabiye :
 	LM:        1662.228 
-	GAM:       1995.129 
+	GAM:       6503.429 
 	Simulated: 3556.000 s.d=1460.425 [1122.000-11469.000]
 
 Kalabari Ijo :
 	LM:        14167.42 
-	GAM:       38067.52 
+	GAM:       70144.25 
 	Simulated: 11113.500 s.d=4589.419 [3684.000-38579.000]
 
 Kedayan :
 	LM:        256.1712 
-	GAM:       303.2578 
+	GAM:       445.9123 
 	Simulated: 917.500 s.d=534.807 [171.000-4151.000]
 
 Keo :
 	LM:        690.4449 
-	GAM:       973.135 
+	GAM:       794.8245 
 	Simulated: 1991.500 s.d=1292.019 [352.000-11267.000]
 
 Kera :
 	LM:        2012.703 
-	GAM:       2537.824 
+	GAM:       3824.421 
 	Simulated: 3420.000 s.d=1752.319 [810.000-14700.000]
 
 Khowar :
 	LM:        2553.403 
-	GAM:       2726.03 
+	GAM:       2971.318 
 	Simulated: 2551.500 s.d=1005.181 [835.000-7229.000]
 
 Korean :
 	LM:        1870.09 
-	GAM:       1506.786 
+	GAM:       1273.591 
 	Simulated: 4158.500 s.d=1722.699 [1245.000-13694.000]
 
 Kunama :
 	LM:        7943.277 
-	GAM:       9030.9 
+	GAM:       19638.98 
 	Simulated: 29700.000 s.d=11370.165 [10515.000-105427.000]
 
 Liverpool English :
 	LM:        484.9799 
-	GAM:       591.4207 
+	GAM:       926.4113 
 	Simulated: 1456.500 s.d=639.351 [338.000-5041.000]
 
 Lizu :
 	LM:        881.003 
-	GAM:       590.602 
+	GAM:       1027.574 
 	Simulated: 6177.000 s.d=2707.567 [1468.000-20220.000]
 
 Lower Xumi :
 	LM:        3138.611 
-	GAM:       3135.343 
+	GAM:       9672.591 
 	Simulated: 7861.500 s.d=2945.355 [2381.000-25416.000]
 
 Luanyjang Dinka :
 	LM:        3201.875 
-	GAM:       3199.128 
+	GAM:       3468.993 
 	Simulated: 9534.000 s.d=3330.310 [4055.000-26122.000]
 
 Lusoga Lutenga :
 	LM:        27512.71 
-	GAM:       21883.97 
+	GAM:       26546.69 
 	Simulated: 9546.500 s.d=2884.496 [4384.000-23478.000]
 
 Luxembourgish :
 	LM:        2174.664 
-	GAM:       2171.708 
+	GAM:       12158.31 
 	Simulated: 12073.000 s.d=4793.145 [3591.000-41839.000]
 
 Lyonnais (Francoprovencal) :
 	LM:        522.3559 
-	GAM:       605.4899 
+	GAM:       604.4219 
 	Simulated: 1691.500 s.d=982.509 [385.000-6478.000]
 
 Mah Meri :
 	LM:        3854.989 
-	GAM:       6004.4 
+	GAM:       712796.7 
 	Simulated: 16930.000 s.d=6596.766 [5459.000-52228.000]
 
 Makasar :
 	LM:        937.3464 
-	GAM:       936.033 
+	GAM:       1636.849 
 	Simulated: 5920.000 s.d=2984.349 [1584.000-29950.000]
 
 Malayalam Namboodiri dialect :
 	LM:        25312.56 
-	GAM:       49347.9 
+	GAM:       47866.61 
 	Simulated: 13269.000 s.d=4007.843 [5457.000-32149.000]
 
 Mambay :
 	LM:        8330.444 
-	GAM:       14007.59 
+	GAM:       3739.576 
 	Simulated: 5315.500 s.d=1879.502 [1919.000-14181.000]
 
 Mapudungun :
 	LM:        531.2221 
-	GAM:       646.0351 
+	GAM:       9916.001 
 	Simulated: 1518.500 s.d=806.866 [324.000-5654.000]
 
 Mavea :
 	LM:        2621.187 
-	GAM:       7925.996 
+	GAM:       867840.6 
 	Simulated: 8531.000 s.d=4842.558 [1620.000-34118.000]
 
 Mennonite Plautdietsch :
 	LM:        2892.44 
-	GAM:       4772.742 
+	GAM:       6368.504 
 	Simulated: 5819.500 s.d=2181.393 [1907.000-20954.000]
 
 Mono :
 	LM:        4843.796 
-	GAM:       4833.231 
-	Simulated: 953.000 s.d=471.387 [263.000-3308.000]
+	GAM:       1411.928 
+	Simulated: 10275.500 s.d=4235.358 [3244.000-30785.000]
 
 Mono Lake Northern Paiute :
 	LM:        519.3381 
-	GAM:       523.1557 
-	Simulated: 10275.500 s.d=4235.358 [3244.000-30785.000]
+	GAM:       1155.768 
+	Simulated: 953.000 s.d=471.387 [263.000-3308.000]
 
 Munji :
 	LM:        2144.269 
-	GAM:       2141.729 
+	GAM:       2141.732 
 	Simulated: 14209.000 s.d=6883.587 [3911.000-56801.000]
 
 Murcian Spanish :
 	LM:        899.9487 
-	GAM:       1058.626 
+	GAM:       5181.271 
 	Simulated: 5976.500 s.d=2898.532 [1396.000-19860.000]
 
 Nara :
 	LM:        5124.986 
-	GAM:       5116.666 
+	GAM:       5930.802 
 	Simulated: 7082.000 s.d=2786.662 [2352.000-20161.000]
 
 Nen :
 	LM:        2304.128 
-	GAM:       4672.314 
+	GAM:       36000.56 
 	Simulated: 4890.500 s.d=2431.757 [1101.000-18596.000]
 
 Nepali :
 	LM:        6562.447 
-	GAM:       9744.851 
+	GAM:       316356.1 
 	Simulated: 9722.500 s.d=3456.863 [4351.000-26733.000]
 
 New Zealand English :
 	LM:        983.2327 
-	GAM:       1188.961 
+	GAM:       3525.022 
 	Simulated: 2107.500 s.d=855.424 [703.000-6170.000]
 
 Niuean :
 	LM:        711.7846 
-	GAM:       1029.749 
+	GAM:       1422.965 
 	Simulated: 2130.000 s.d=1461.365 [384.000-9616.000]
 
 Nivacle :
 	LM:        1089.092 
-	GAM:       1805.823 
+	GAM:       4551.321 
 	Simulated: 12310.000 s.d=6492.536 [2460.000-49872.000]
 
 Northwest Sahaptin :
 	LM:        1719.731 
-	GAM:       911.8842 
+	GAM:       973.1472 
 	Simulated: 4697.000 s.d=1926.096 [1320.000-15584.000]
 
 Nuosu Yi :
 	LM:        2800.607 
-	GAM:       2795.618 
+	GAM:       60464.91 
 	Simulated: 3547.500 s.d=1366.082 [1356.000-10473.000]
 
 Nuuchahnulth :
 	LM:        1074.726 
-	GAM:       1072.86 
+	GAM:       845.3287 
 	Simulated: 2102.000 s.d=982.471 [545.000-9360.000]
 
 Palula :
 	LM:        685.2936 
-	GAM:       818.9768 
+	GAM:       764.6183 
 	Simulated: 1387.000 s.d=630.610 [342.000-5005.000]
 
 Persian (Farsi) :
 	LM:        263.6254 
-	GAM:       275.2354 
+	GAM:       275.782 
 	Simulated: 957.000 s.d=615.501 [243.000-4080.000]
 
 Pitjantjatjara :
 	LM:        813.3056 
-	GAM:       982.3211 
+	GAM:       1216.716 
 	Simulated: 2706.500 s.d=1657.697 [392.000-11360.000]
 
 Polish :
 	LM:        471.0976 
-	GAM:       541.9275 
+	GAM:       1395.44 
 	Simulated: 1434.000 s.d=685.948 [352.000-4717.000]
 
 Russian :
 	LM:        733.8548 
-	GAM:       882.2163 
+	GAM:       2018.065 
 	Simulated: 1667.000 s.d=840.473 [506.000-7795.000]
 
 Salasaca Quichua :
 	LM:        1550.841 
-	GAM:       2364.611 
+	GAM:       12281.74 
 	Simulated: 3099.000 s.d=1897.856 [525.000-15403.000]
 
 Sandawe :
 	LM:        6430.546 
-	GAM:       10713.97 
+	GAM:       15163.17 
 	Simulated: 9215.000 s.d=3452.496 [2845.000-29223.000]
 
 Seri :
 	LM:        4384.616 
-	GAM:       6410.333 
+	GAM:       818.0284 
 	Simulated: 2438.000 s.d=1140.798 [710.000-9349.000]
 
 Setswana South Africa :
 	LM:        834.1807 
-	GAM:       775.2983 
+	GAM:       768.6778 
 	Simulated: 1416.000 s.d=687.315 [475.000-6605.000]
 
 Shanghai Chinese :
 	LM:        1198.429 
-	GAM:       1408.966 
+	GAM:       1470.679 
 	Simulated: 5220.500 s.d=2883.296 [955.000-21162.000]
 
 Shilluk :
 	LM:        2388.148 
-	GAM:       3329.398 
+	GAM:       11311.86 
 	Simulated: 6485.000 s.d=2783.649 [1932.000-22414.000]
 
 Shipibo :
 	LM:        525.9501 
-	GAM:       499.5485 
+	GAM:       481.6119 
 	Simulated: 2109.000 s.d=1729.500 [367.000-21489.000]
 
 Shiwilu (Jebero) :
 	LM:        2784.739 
-	GAM:       3756.823 
+	GAM:       10522.33 
 	Simulated: 3270.000 s.d=2136.814 [537.000-15257.000]
 
 Sindhi :
 	LM:        2288.865 
-	GAM:       2037.811 
+	GAM:       2095.532 
 	Simulated: 3138.500 s.d=1075.472 [1139.000-8176.000]
 
 Slovak :
 	LM:        900.5665 
-	GAM:       1149.28 
+	GAM:       1185.319 
 	Simulated: 4295.000 s.d=2061.070 [920.000-13676.000]
 
 Slovene :
 	LM:        534.5916 
-	GAM:       719.2308 
+	GAM:       1150.485 
 	Simulated: 2815.000 s.d=2052.493 [280.000-16473.000]
 
 Southeastern Pashayi :
 	LM:        1308.483 
-	GAM:       1921.55 
+	GAM:       956.6914 
 	Simulated: 1738.500 s.d=662.485 [534.000-5268.000]
 
 Spokane :
 	LM:        581.9465 
-	GAM:       637.0633 
+	GAM:       1723.76 
 	Simulated: 4421.500 s.d=1879.957 [1286.000-13697.000]
 
 Standard Austrian German :
 	LM:        1031.259 
-	GAM:       1030.156 
+	GAM:       1030.241 
 	Simulated: 1919.000 s.d=760.980 [657.000-5937.000]
 
 Standard Chinese (Beijing) :
 	LM:        926.0431 
-	GAM:       878.1345 
+	GAM:       851.94 
 	Simulated: 3571.000 s.d=1644.160 [1061.000-11996.000]
 
 Standard Georgian :
 	LM:        346.8599 
-	GAM:       325.4677 
+	GAM:       325.7448 
 	Simulated: 1166.000 s.d=622.752 [285.000-4355.000]
 
 Standard Malay (Brunei) :
 	LM:        2802.521 
-	GAM:       5924.28 
+	GAM:       379470.5 
 	Simulated: 3332.000 s.d=1745.713 [753.000-12962.000]
 
 Standard Modern Greek :
 	LM:        271.2664 
-	GAM:       285.1377 
+	GAM:       266.6478 
 	Simulated: 961.500 s.d=720.703 [234.000-4988.000]
 
 Standard Yiddish :
 	LM:        3323.532 
-	GAM:       12770.62 
+	GAM:       493434.1 
 	Simulated: 31929.500 s.d=12434.215 [9843.000-112628.000]
 
 Sumi (Sema) :
 	LM:        619.0773 
-	GAM:       384.7489 
+	GAM:       347.6777 
 	Simulated: 4315.500 s.d=1910.932 [843.000-20504.000]
 
 Swedish :
 	LM:        903.7612 
-	GAM:       903.1558 
+	GAM:       1040.748 
 	Simulated: 1727.500 s.d=854.766 [462.000-6862.000]
 
 Taba :
 	LM:        59677.27 
-	GAM:       169236.3 
+	GAM:       343114.7 
 	Simulated: 13561.000 s.d=5511.419 [3643.000-37474.000]
 
 Tamambo :
 	LM:        705.0669 
-	GAM:       742.1011 
+	GAM:       1439.758 
 	Simulated: 5559.000 s.d=3315.285 [906.000-27897.000]
 
 Tamil :
 	LM:        594.2748 
-	GAM:       718.6241 
+	GAM:       804.5197 
 	Simulated: 1017.000 s.d=571.131 [239.000-4309.000]
 
 Tashlhiyt Berber :
 	LM:        23245.71 
-	GAM:       23163.56 
+	GAM:       23163.74 
 	Simulated: 6925.000 s.d=2053.457 [2678.000-15503.000]
 
 Tausug (Suluk) :
 	LM:        341.3163 
-	GAM:       711.5615 
+	GAM:       6774.671 
 	Simulated: 2204.000 s.d=1404.047 [327.000-9945.000]
 
 Telugu :
 	LM:        331600.8 
-	GAM:       1325217 
+	GAM:       1578322 
 	Simulated: 15538.000 s.d=5088.086 [7341.000-42838.000]
 
 Temne :
 	LM:        658.6155 
-	GAM:       670.6674 
+	GAM:       831.6854 
 	Simulated: 1567.000 s.d=1024.024 [216.000-7512.000]
 
 Tena Quichua :
 	LM:        426.2728 
-	GAM:       415.3845 
+	GAM:       786.3055 
 	Simulated: 921.000 s.d=539.560 [228.000-4531.000]
 
 Tera :
 	LM:        7806.845 
-	GAM:       16030.95 
+	GAM:       57893.97 
 	Simulated: 8626.500 s.d=3172.546 [2758.000-24611.000]
 
 Thai :
 	LM:        19076.55 
-	GAM:       40358.74 
+	GAM:       31999.28 
 	Simulated: 8342.500 s.d=3399.451 [2835.000-30375.000]
 
 Tilquiapan Zapotec :
 	LM:        1508.83 
-	GAM:       1942.223 
+	GAM:       3335.37 
 	Simulated: 2636.000 s.d=1308.195 [544.000-9172.000]
 
 Tukang Besi :
 	LM:        1575.693 
-	GAM:       2472.638 
+	GAM:       2462.164 
 	Simulated: 1938.000 s.d=963.959 [390.000-6105.000]
 
 Turkish :
 	LM:        499.1792 
-	GAM:       520.0426 
+	GAM:       1023.807 
 	Simulated: 1526.500 s.d=813.298 [417.000-6319.000]
 
 Tyneside English :
 	LM:        1202.091 
-	GAM:       1656.022 
+	GAM:       2579.044 
 	Simulated: 2554.000 s.d=969.587 [959.000-7756.000]
 
 Ukrainian :
 	LM:        869.7113 
-	GAM:       1062.506 
+	GAM:       3662.547 
 	Simulated: 4847.000 s.d=2749.107 [766.000-21297.000]
 
 Upper Saxon (Chemnitz dialect) :
 	LM:        1122.857 
-	GAM:       1372.544 
+	GAM:       1436.43 
 	Simulated: 1838.500 s.d=770.005 [600.000-7163.000]
 
 Upper Sorbian :
 	LM:        604.8712 
-	GAM:       804.2167 
+	GAM:       1444.933 
 	Simulated: 2128.000 s.d=1385.338 [409.000-10628.000]
 
 Upper Xumi :
 	LM:        2099.947 
-	GAM:       2292.885 
+	GAM:       2319.905 
 	Simulated: 5792.500 s.d=2214.477 [1884.000-18709.000]
 
 Yine :
 	LM:        1837.672 
-	GAM:       4378.512 
+	GAM:       13877.13 
 	Simulated: 9786.000 s.d=5405.823 [1108.000-46550.000]
 
 Zurich German :
 	LM:        2220.275 
-	GAM:       2217.824 
+	GAM:       4172.402 
 	Simulated: 2409.000 s.d=845.176 [909.000-7907.000]
 

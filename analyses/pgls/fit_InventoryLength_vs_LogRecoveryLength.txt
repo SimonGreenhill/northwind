@@ -1,0 +1,96 @@
+
+Approach: LM
+
+Call:
+pgls(formula = log10(RecoveryLength) ~ InventoryLength, data = d.lm, 
+    lambda = "ML")
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.17920 -0.27226 -0.01926  0.27733  1.33124 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.385
+   lower bound : 0.000, p = 0.00000020973
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (0.160, 0.628)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                 Estimate Std. Error t value              Pr(>|t|)    
+(Intercept)     1.8680610  0.1087429  17.179 < 0.00000000000000022 ***
+InventoryLength 0.0344998  0.0021897  15.755 < 0.00000000000000022 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4226 on 156 degrees of freedom
+Multiple R-squared: 0.6141,	Adjusted R-squared: 0.6116 
+F-statistic: 248.2 on 1 and 156 DF,  p-value: < 0.00000000000000022 
+
+===========================================
+
+Approach: GAM
+
+Call:
+pgls(formula = log10(RecoveryLength) ~ InventoryLength, data = d.gam, 
+    lambda = "ML")
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.37762 -0.33307 -0.04717  0.30076  1.77517 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.352
+   lower bound : 0.000, p = 0.0000048009
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (0.133, 0.604)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                 Estimate Std. Error t value              Pr(>|t|)    
+(Intercept)     1.8491531  0.1421308  13.010 < 0.00000000000000022 ***
+InventoryLength 0.0373403  0.0028844  12.946 < 0.00000000000000022 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5481 on 156 degrees of freedom
+Multiple R-squared: 0.5179,	Adjusted R-squared: 0.5148 
+F-statistic: 167.6 on 1 and 156 DF,  p-value: < 0.00000000000000022 
+
+===========================================
+
+Approach: Simulation
+
+Call:
+pgls(formula = log10(RecoveryLength) ~ InventoryLength, data = d.sim, 
+    lambda = "ML")
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.03597 -0.21860 -0.02462  0.15513  0.71994 
+
+Branch length transformations:
+
+kappa  [Fix]  : 1.000
+lambda [ ML]  : 0.048
+   lower bound : 0.000, p = 0.22562
+   upper bound : 1.000, p = < 0.000000000000000222
+   95.0% CI   : (NA, 0.273)
+delta  [Fix]  : 1.000
+
+Coefficients:
+                 Estimate Std. Error t value              Pr(>|t|)    
+(Intercept)     2.8874847  0.0831030 34.7459 < 0.00000000000000022 ***
+InventoryLength 0.0164852  0.0018121  9.0974 0.0000000000000004441 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3255 on 156 degrees of freedom
+Multiple R-squared: 0.3466,	Adjusted R-squared: 0.3424 
+F-statistic: 82.76 on 1 and 156 DF,  p-value: 0.0000000000000004092 
+
+===========================================

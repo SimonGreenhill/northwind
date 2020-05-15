@@ -21,22 +21,25 @@ STOP = 1e8
 
 
 class Simulator(object):
-    def __init__(self, reader):
-        self.reader = reader
-        self.freqdist = FreqDist(reader.transcript)
-        self.tokens = set(reader.inventory) | set(self.freqdist)
+    def __init__(self, tokens, frequencies, debug=DEBUG, stop=STOP):
+        self.freqdist = frequencies
+        self.tokens = tokens | set(self.freqdist)
+        self.DEBUG = debug
+        self.STOP = stop
+        
+        if len(self.freqdist) == 0:
+            raise ValueError("No frequencies given!")
         
         while not self.freqdist.hapaxes():
             warnings.warn("no hapaxes present -- shifting distribution down")
+            min_freq = min(self.freqdist.values()) - 1
             for k in self.freqdist:
-                self.freqdist[k] -= 1
+                self.freqdist[k] -= min_freq
 
+        
         if min(self.freqdist.values()) != 0:
             warnings.warn("no unseen present -- adding dummy category")
             self.tokens.add("<dummy>")
-
-        if DEBUG:
-            import IPython; IPython.embed()
 
         self.sgt = SimpleGoodTuringProbDist(
             self.freqdist, bins=len(self.tokens)
@@ -49,7 +52,7 @@ class Simulator(object):
             self.probabilities[t] = self.sgt.prob(t)
         return self.probabilities
 
-    def dump(self):
+    def dump(self):  # pragma: no cover
         for t in self.tokens:
             print("\t".join([
                 "%30s" % t, '%d' % self.freqdist[t],
@@ -76,10 +79,13 @@ class Simulator(object):
                 seen[char] += 1
                 complete = all(v > 0 for v in seen.values())
                 
+                # if self.DEBUG:
+                #     print(itercount, len(transcript))
+                #
                 if complete:
                     return len(transcript)
                 
-                if itercount >= STOP:
+                if itercount >= self.STOP:
                     raise StopIteration("Abort Abort!")
                 itercount += 1
             
@@ -104,12 +110,14 @@ if __name__ == '__main__':
     
     data = FileReader(args.filename)
     
-    DEBUG = args.debug
+    freqdist = FreqDist(data.transcript)
+    # set tokens to be all the observed tokens AND the ones on the inventory
+    tokens = set(data.inventory) | set(freqdist)
 
     if args.dump:
-        Simulator(data).dump()
+        Simulator(tokens, freqdist, args.debug).dump()
         quit()
 
     for sim in range(1, args.replicates + 1):
-        sys.stdout.write("%s\t%d\t%d\n" % (data.language, sim, Simulator(data).simulate()))
+        sys.stdout.write("%s\t%d\t%d\n" % (data.language, sim, Simulator(tokens, freqdist, debug=args.debug).simulate()))
         sys.stdout.flush()

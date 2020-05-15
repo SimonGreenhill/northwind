@@ -4,8 +4,9 @@ import os
 import sys
 sys.path.append('../../bin')
 import codecs
+import statistics
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 
 # Measure 1
 # Phoneme X, rank R on (phoible or some other) top 100
@@ -26,8 +27,7 @@ from collections import Counter
 # The Phoible data is based on phonemes, so I think we should keep our analysis
 # at the phonemic level as well, rather than the allophonic level. That means,
 # given <n(n, n̪, ɲ, ŋ)>, if you have see [ɲ] five times and [ŋ] 3 times,
-# what you've actually seen is /n/ eight times. Does that work and seem
-# reasonable?
+# what you've actually seen is /n/ eight times.
 
 
 from tools import load_data, Token
@@ -84,6 +84,8 @@ Nt = Counter({p: 0 for p in phoible})
 # Rank P = rank in text (L) by token frequency
 Ranks = Counter({p: 0 for p in phoible})
 
+FirstObservs = defaultdict(list)
+
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='Does something.')
@@ -103,6 +105,8 @@ if __name__ == '__main__':
                 if token in f.transcript:
                     Nt[p] += 1
                     Ranks[p] += f.transcript.count(token)
+                    first_obs = (f.transcript.index(token) / len(f.transcript)) * 100
+                    FirstObservs[p].append(first_obs)
             else:
                 nw_missing[str(token)] += 1
             
@@ -114,13 +118,15 @@ if __name__ == '__main__':
     print("Phonemes in NWS never seen: %d / %d" % (len(nw_missing), nw_seen))
     
     with codecs.open(args.filename, 'w', 'utf8') as handle:
-        handle.write("Phoneme\tRank\tNi\tNt\tC\tR\n")
+        handle.write("Phoneme\tRank\tNi\tNt\tC\tR\tAverageFirstObservationPercent\tFirstObservationSD\n")
         for p in Ni:
             try:
                 C = (Nt[p] / Ni[p])
             except ZeroDivisionError:
                 C = 0
             
+            fo = FirstObservs.get(p, [100, ])  # set to 100 if None
+
             handle.write("\t".join([
                 p,
                 # Rank of P
@@ -133,5 +139,8 @@ if __name__ == '__main__':
                 '%0.3f' % C,
                 # Rank P = rank in text (L) by token frequency
                 '%d' % freqs.get(p, 0),
+                # Average First Observation Percent
+                '%0.4f' % statistics.median(fo),
+                '%0.4f' % statistics.stdev(fo) if len(fo) > 2 else '0.0'
             ]))
             handle.write("\n")

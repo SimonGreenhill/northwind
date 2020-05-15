@@ -4,11 +4,12 @@ library(ggridges)
 library(ggrepel)
 library(dplyr)
 library(patchwork)
+library(viridis)
 
 options(encoding = "UTF-8")
 options(scipen=1000000)
 
-COLORS <- c("darkorange", "steelblue", "slategrey")
+COLORS <- c("steelblue", "darkorange", "slategrey")
 
 
 plot_ridge <- function(full, colors=COLORS, legend=TRUE) {
@@ -47,6 +48,7 @@ plot_ridge <- function(full, colors=COLORS, legend=TRUE) {
     p
 }
 
+
 plot_correlation <- function(data, x, y) {
     r <- cor.test(data[[x]], data[[y]], method="spearman")
     title <- sprintf(
@@ -71,6 +73,9 @@ pred$Replicate <- 0
 pred$Type <- pred$Model
 pred$Length <- pred$RecoveryLength
 
+# filter the GAM results to the correct knots
+pred <- pred[pred$k %in% c(0, 8), ]
+
 stopifnot(nrow(pred[pred$Model == 'LM', ]) == 158)
 stopifnot(nrow(pred[pred$Model == 'GAM', ]) == 158)
 
@@ -85,21 +90,37 @@ df$Language <- labels[df$Language,]$FullLanguage
 
 
 full <- rbind(df, pred[c("Language", "Replicate", "Length", "Type")])
-full$Type <- factor(full$Type, levels=c("GAM", "LM", "Simulated"))
+full$Type <- factor(full$Type, levels=c("LM", "GAM", "Simulated"))
 # set ordering to be by the length under the LM estimate.
 lm.estimates <- full[full$Type == 'LM',]
 olevels <- lm.estimates[order(lm.estimates$Length), 'Language']
 full$Language <- factor(full$Language, levels=rev(olevels))
 
 
+
 # histograms
-p <- ggplot(full, aes(x=Length, fill=Type, group=Type))
-p <- p + geom_histogram()
-p <- p + facet_grid(Type~., scales="free")
-p <- p + theme_classic() + guides(fill = FALSE)
-p <- p + scale_fill_manual(values=COLORS)
-p <- p + ylab("")
-p <- p + scale_x_log10()
+p.lm <- ggplot(full[full$Type=='LM', ], aes(x=Length)) +
+    geom_histogram(fill=COLORS[[1]]) +
+    theme_classic() +
+    ylab("Number") + xlab("") +
+    scale_x_log10(limits=c(10, 100000000)) +
+    ggtitle("a. LM")
+
+p.gam <- ggplot(full[full$Type=='GAM', ], aes(x=Length)) +
+    geom_histogram(fill=COLORS[[2]]) +
+    theme_classic() +
+    ylab("Number") + xlab("") +
+    scale_x_log10(limits=c(10, 100000000)) +
+    ggtitle("b. GAM")
+
+p.sim <- ggplot(full[full$Type=='Simulated', ], aes(x=Length)) +
+    geom_histogram(fill=COLORS[[3]]) +
+    theme_classic() +
+    ylab("Number") + xlab("Number of tokens required for complete recovery") +
+    scale_x_log10(limits=c(10, 100000000)) +
+    ggtitle("c. Simulations")
+
+p <- p.lm / p.gam / p.sim
 
 ggsave('histogram.pdf', p)
 
@@ -116,7 +137,10 @@ ggsave('comparison.png', p, width=8, height=18)
 
 
 # ridge plot
-p <- plot_ridge(full)
+# I do not know *why* scale_color_manual in here is losing the level ordering
+# and messing up the colors, which is why we have the manual ordering here to
+# ensure that GAM is orange like the other plots.
+p <- plot_ridge(full, colors=c(COLORS[[2]], COLORS[[1]], COLORS[[3]]))
 
 # PNG means that we keep the unicode characters in the language labels.
 ggsave('comparison-ridges.png', p, height=20, dpi=300)
@@ -136,6 +160,44 @@ p <- plot_ridge(full[full$Language %in% s2, ], legend=FALSE) +
 ggsave('comparison-ridges-split.png', p, height=10, width=16, dpi=300)
 
 
+# simulation only ridgeplot
+full.sim <- merge(
+    full[full$Type == 'Simulated', ],
+    pred[pred$Model=='LM', c("Language", "TotalInventory")],
+    by = "Language"
+)
+
+full.sim$Language <- factor(
+    full.sim$Language,
+    levels = unique(full.sim$Language[order(full.sim$TotalInventory)])
+)
+
+upper <- quantile(full.sim$Length, probs=c(0.95))
+
+p <- ggplot(full.sim, aes(
+    y = Language, x = Length, color = TotalInventory, fill = TotalInventory
+))
+p <- p + geom_vline(xintercept = median(full.sim$Length))
+p <- p + geom_vline(xintercept = upper)
+p <- p + stat_density_ridges(quantile_lines = FALSE, rel_min_height = 0.05, scale = 0.9)
+p <- p + scale_x_log10(limits = c(50, 100000))
+p <- p + scale_fill_viridis("Phonemes") + scale_color_viridis()
+p <- p + guides(color="none")
+p <- p + theme_classic()
+p <- p + theme(
+    legend.position = c(0, 1),
+    legend.justification = c(0, 1)
+)
+
+# turn off y axis line to cut down chart junk
+p <- p + theme(
+    axis.line.y = element_blank(),
+    axis.ticks.y = element_blank()
+)
+p <- p + ylab("") + xlab("Number of tokens required for full recovery")
+
+# PNG means that we keep the unicode characters in the language labels.
+ggsave('comparison-ridges-simonly.png', p, height = 18, width = 10, dpi = 300)
 
 
 
@@ -249,3 +311,56 @@ p <- p + geom_text_repel(
 )
 p <- p + scale_y_log10()
 p <- p + theme_classic()
+
+# worst case scenario...
+p <- ggplot(full[full$Type=='Simulated', ], aes(x=Length, group=Type, fill=Type))
+p <- p + geom_histogram()
+#p <- p + geom_vline(xintercept=median(full[full$Type=='Simulated', 'Length']))
+#p <- p + geom_vline(xintercept=twosd)
+#p <- p + facet_grid(Type~., scales="free")
+p <- p + scale_fill_manual(values=c("slategray"))
+p <- p + theme_classic()
+p <- p + guides(fill="none")
+p <- p + ylab("Number of Simulations")
+p <- p + xlab("Estimated Amount of Text Needed for Full Recovery")
+p <- p + scale_x_log10()
+
+ggsave("simulated-overall.pdf", p, height=8, width=8)
+
+sink("simulated-overall.log")
+
+cat(paste("Median:", median(full[full$Type=='Simulated', "Length"]), "\n"))
+cat(paste("Min:", min(full[full$Type=='Simulated', "Length"]), "\n"))
+cat(paste("Max:", max(full[full$Type=='Simulated', "Length"]), "\n"))
+cat(paste("SD:", sd(full[full$Type=='Simulated', "Length"]), "\n"))
+
+twosd <- mean(full[full$Type=='Simulated', "Length"]) + 2 * sd(full[full$Type=='Simulated', "Length"])
+
+cat(paste("95%:", twosd, "\n"))
+
+sink()
+
+# worst case scenarios
+# top 10 worst
+f <- full[full$Type == 'Simulated', ]
+f <- f[order(f$Length), ]
+
+head(f, 5)
+
+tail(f, 10)
+
+
+
+# 95 %
+qtiles <- c(0.5, 0.95, 0.99, 1.0)
+print("Qtile LM")
+quantile(full[full$Type == 'LM', 'Length'], probs=qtiles)
+
+print("Qtile GAM")
+quantile(full[full$Type == 'GAM', 'Length'], probs=qtiles)
+
+print("Qtile Simulation")
+quantile(full[full$Type == 'Simulated', 'Length'], probs=qtiles)
+
+print("Qtile OVERALL")
+quantile(full$Length, probs=qtiles)

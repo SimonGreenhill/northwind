@@ -8,10 +8,7 @@ tree <- read.nexus('../../data/glottolog/glottolog.trees')
 tree <- compute.brlen(tree, method="Grafen")
 
 dat <- read.delim('../statistics/statistics.dat', header=TRUE)
-rr <- read.delim('../recovery_rate/predict-gamm.dat', header=TRUE)
 
-dat <- merge(dat, rr)
-dat$LogLength <- log(dat$Length)
 
 d <- comparative.data(
     phy=multi2di(tree),
@@ -36,8 +33,6 @@ fitAvsLogTL <- pgls(Unobserved ~ log(TranscriptLength), data=d, lambda='ML')
 sink('fit_Unobserved_vs_logTranscriptLength.txt', split=TRUE)
 summary(fitAvsLogTL)
 sink()
-
-
 
 p1 <- ggplot(dat, aes(x=InventoryLength, y=Unobserved))
 p1 <- p1 + geom_point()

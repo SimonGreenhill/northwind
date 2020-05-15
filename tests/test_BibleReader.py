@@ -28,7 +28,7 @@ class Test_BibleFileReader(unittest.TestCase):
     
     def test_orthography(self):
         assert 'orthography' in self.reader.data
-        assert len(self.reader.orthography) == 24
+        assert len(self.reader.orthography) == 25
     
     def test_read_orthography_consonant_phoneme_correspondences(self):
         key = "Orthography Consonant Phoneme Correspondences"
@@ -43,22 +43,23 @@ class Test_BibleFileReader(unittest.TestCase):
         key = "Orthography Vowel Phoneme Correspondences"
         expected = unicodedata.normalize(
             "NFC", 
-            "<i> = /ɪ/, <e> = /ë/, <a> = /ɐ̝/, <o> = /ö/, <u> = /ʊ/, <ü> = /ɘ/"
+            "<i> = /ɪ/, <e> = /ë/, <a> = /ɐ̝/, <o> = /ö/, <u> = /ʊ/, <ü> = /ɘ/, <∅> = /ʎ/"
         )
+        print(expected)
         assert self.reader.data[key][0] == expected
         assert len(self.reader.data[key]) == 1
-
     
     def test_read_orthography_vowel(self):
         ov = self.reader.data['orthography_vowels']
-        assert len(ov) == 6
+        assert len(ov) == 7
         assert ov[0] == Ortheme("<i> = /ɪ/", inventory=self.reader.inventory)
         assert ov[1] == Ortheme("<e> = /ë/", inventory=self.reader.inventory)
         assert ov[2] == Ortheme("<a> = /ɐ̝/", inventory=self.reader.inventory)
         assert ov[3] == Ortheme("<o> = /ö/", inventory=self.reader.inventory)
         assert ov[4] == Ortheme("<u> = /ʊ/", inventory=self.reader.inventory)
         assert ov[5] == Ortheme("<ü> = /ɘ/", inventory=self.reader.inventory)
-
+        assert ov[6] == Ortheme("<∅> = /ʎ/", inventory=self.reader.inventory)
+        
     def test_read_orthography_consonant(self):
         oc = self.reader.data['orthography_consonants']
         assert len(oc) == 18, oc
@@ -82,7 +83,7 @@ class Test_BibleFileReader(unittest.TestCase):
         assert oc[17] == Ortheme("<w> = /w/", inventory=self.reader.inventory)
 
     def test_combined_orthography(self):
-        assert len(self.reader.orthography) == (6 + 18)
+        assert len(self.reader.orthography) == (7 + 18)
 
     def test_toIPA(self):
         text = self.reader.toIPA("ptkchtrmnñngfdsrgylwll")
@@ -135,6 +136,11 @@ class Test_BibleFileReader(unittest.TestCase):
 
         #...and in variants
         assert Token('p(p, pʰ, pʷ)') == self.reader.get_variants()['p']
+    
+    def test_recoverable_phonemes(self):
+        assert len(self.reader.unrecoverable) == 1
+        assert len(self.reader.recoverable_phonemes()) == len(self.reader.inventory) - 1
+        assert Token("ʎ") not in self.reader.recoverable_phonemes()
 
 
 if __name__ == '__main__':
