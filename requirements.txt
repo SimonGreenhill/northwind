@@ -17,7 +17,7 @@ latexcodec==1.0.5
 matplotlib==2.1.1
 mpmath==1.0.0
 nltk==3.4.5
-numpy==1.13.3
+numpy==1.22.0
 parso==0.1.0
 pexpect==4.3.0
 pickleshare==0.7.4
